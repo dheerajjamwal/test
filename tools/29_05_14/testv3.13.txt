@@ -1,0 +1,142 @@
+09f2344 drm/i915/bdw: make sure south port interrupts are enabled properly v2
+7ad228b drm/i915: Don't grab crtc mutexes in intel_modeset_gem_init()
+0882dae drm/i915: fix DDI PLLs HW state readout code
+47f9564 MAINTAINERS: Updates for drm/i915
+be505f6 Revert "drm/i915: assume all GM45 Acer laptops use inverted backlight PWM"
+058840c drm/i915/bdw: Flush system agent on gen8 also
+a885b3c drm/i915: Use the correct GMCH_CTRL register for Sandybridge+
+be3d26b drm/i915: get a PC8 reference when enabling the power well
+96b4026 drm/i915: change CRTC assertion on LCPLL disable
+4db080f drm/i915: Fix erroneous dereference of batch_obj inside reset_status
+9ae9ab5 drm/i915: Prevent double unref following alloc failure during execbuffer
+6c719fa drm/i915: don't update the dri1 breadcrumb with modesetting
+ad071ac drm/i915: Repeat eviction search after idling the GPU
+acc240d drm/i915: Fix use-after-free in do_switch
+f742a55 drm/i915: fix pm init ordering
+0d1430a drm/i915: Hold mutex across i915_gem_release
+5ae68b4 drm/i915: Skip clock checks on BDW
+edd5b13 drm/i915: Do not clobber config status after a forced restore of hw state
+0274766 drm/i915: Take modeset locks around intel_modeset_setup_hw_state()
+993fc6e drm/i915: Pin pages whilst allocating for dma-buf vmap()
+0bf2134 drm/i915: MI_PREDICATE_RESULT_2 is HSW only
+22613c9 drm/i915: Make the DERRMR SRM target global GTT
+a121644 drm/i915: use the correct force_wake function at the PC8 code
+32cf0cb drm/i915: Fix pipe CSC post offset calculation
+3b32a35 drm/i915: Simplify DP vs. eDP detection
+5d8a775 drm/i915: Check VBT for eDP ports on VLV
+fec8cba drm/i915: use crtc_htotal in watermark calculations to match fastboot v2
+a415d35 drm/i915: Pin relocations for the duration of constructing the execbuffer
+7c063c7 drm/i915: take mode config lock around crtc disable at suspend
+c51e970 drm/i915: Prefer setting PTE cache age to 3
+76bb80e drm/i915/ddi: set sink to power down mode on dp disable
+f727b49 drm/i915: Fix gen3 self-refresh watermarks
+1021442 drm/i915: Replicate BIOS eDP bpp clamping hack for hsw
+7c6c265 drm/i915: Do not enable package C8 on unsupported hardware
+be1c1fe drm/i915: Hold pc8 lock around toggling pc8.gpu_idle
+1d37b68 drm/i915: encoder->get_config is no longer optional
+7a495cf drm/i915/tv: add ->get_config callback
+ef46e0d drm/i915: restore the early forcewake cleanup
+29c78f6 Partially revert "drm/i915: tune the RC6 threshold for stability"
+b2ea8ef drm/i915: flush cursors harder
+f69e515 i915: Use 120MHz LVDS SSC clock for gen5/gen6/gen7
+596cc11 drm/i915/bdw: PIPE_[BC] I[ME]R moved to powerwell
+3a2ffb6 drm/i915/bdw: Limit GTT to 2GB
+eb0d4b7 drm/i915/bdw: Add comment about gen8 HWS PGA
+230f955 drm/i915/bdw: Free correct number of ppgtt pages
+935e8de drm/i915/bdw: Do gen6 style reset for gen8
+f8e1006 drm/i915/bdw: GEN8 backlight support
+5dd8c4c drm/i915/bdw: Add BDW to ULT macro
+fdbc3b1 drm/i915/dp: set sink to power down mode on dp disable
+1dca220 drm/i915/opregion: fix build error on CONFIG_ACPI=n
+13b3a0a drm/i915: Mask the vblank interrupt on bdw by default
+38d83c9 drm/i915: Wire up cpu fifo underrun reporting support for bdw
+7167d7c drm/i915: Optimize gen8_enable|disable_vblank functions
+0fbe787 drm/i915: Wire up pipe CRC support for bdw
+92d03a8 drm/i915: Wire up PCH interrupts for bdw
+6d766f0 drm/i915: Wire up port A aux channel
+30100f2 drm/i915: Fix up the bdw pipe interrupt enable lists
+c42664c drm/i915: Optimize pipe irq handling on bdw
+40c499f drm/i915/bdw: Take render error interrupt out of the mask
+e76e063 drm/i915/bdw: Add BDW PCH check first
+a298579 drm/i915: Use hsw_crt_get_config on BDW
+a81a507 drm/i915/bdw: Change dp aux timeout to 600us on DDIA
+b42c600 drm/i915/bdw: Enable trickle feed on Broadwell
+4c2e7a5 drm/i915/bdw: WaSingleSubspanDispatchOnAALinesAndPoints
+a75f362 drm/i915/bdw: conservative SBE VUE cache mode
+7f88da0 drm/i915/bdw: Limit SDE poly depth FIFO to 2
+bf66347 drm/i915/bdw: Sampler power bypass disable
+fd392b6 ddrm/i915/bdw: Disable centroid pixel perf optimization
+4afe8d3 drm/i915/bdw: BWGTLB clock gate disable
+fe4ab3c drm/i915/bdw: Implement edp PSR workarounds
+e64c4a1 drm/i915/bdw: Disable semaphores
+6edee7f drm/i915/bdw: Create a separate BDW rps enable
+e3c3357 drm/i915/bdw: Broadwell has a max port clock of 300Mhz on HDMI
+0f161f7 drm/i915/bdw: Don't wait for c0 threads on forcewake
+46c764d drm/i915/bdw: Use HSW formula for ring freq scaling
+ed8546a drm/i915/bdw: Support eDP PSR
+2a114cc drm/i915/bdw: Use The GT mailbox for IPS enable/disable
+416f472 drm/i915/bdw: Add Broadwell display FIFO limits
+77d8d00 drm/i915/bdw: check DPD on port D when setting the DDI buffers
+bafb655 drm/i915/bdw: BDW also has only 2 FDI lanes
+8f93f4f drm/i915/bdw: add support for BDW DP voltage swings and pre-emphasis
+300644c drm/i915/bdw: add BDW DDI buf translations for eDP
+e58623c drm/i915/bdw: Add BDW DDI buffer translation values
+50ed5fb drm/i915/bdw: Implement WaSwitchSolVfFArbitrationPriority
+6bbfa1c drm/i915/bdw: Use pipe CSC on Broadwell
+e39bf98 drm/i915/bdw: get the correct LCPLL frequency on Broadwell
+756f85c drm/i915/bdw: Broadwell has PIPEMISC
+c7670b1 drm/i915/bdw: on Broadwell, the panel fitter is on the pipe
+018f52c drm/i915/bdw: pretend we have LPT LP on Broadwell
+6745a2c drm/i915/bdw: Broadwell also has the "power down well"
+b3dc685 drm/i915/bdw: add Broadwell sprite/plane/cursor checks
+4b30553 drm/i915/bdw: Broadwell has 3 pipes
+4e8058a drm/i915/bdw: add IS_BROADWELL macro
+780f18c drm/i915/bdw: BSD init for gen8 also
+77df677 drm/i915/bdw: ppgtt info in debugfs
+b42218c drm/i915/bdw: Don't muck with gtt_size on Gen8 when PPGTT setup fails
+a5f3d68 drm/i915/bdw: Render ring flushing
+28cf541 drm/i915/bdw: unleash PPGTT
+94e409c drm/i915/bdw: Implement PPGTT enable
+9df15b4 drm/i915/bdw: Implement PPGTT insert
+459108b drm/i915/bdw: Implement PPGTT clear range
+b1fe667 drm/i915/bdw: Initialize the PDEs
+37aca44 drm/i915/bdw: PPGTT init & cleanup
+fbe5d36 drm/i915/bdw: Support BDW caching
+94ec8f6 drm/i915/bdw: Add GTT functions
+d31eb10 drm/i915/bdw: Create gen8_gtt_pte_t
+6334013 drm/i915/bdw: Make gen8_gmch_probe
+d0582ed drm/i915/bdw: Update relevant error state
+9d3203e drm/i915/bdw: debugfs updates
+075b3bb drm/i915/bdw: Update MI_FLUSH_DW
+1c7a062 drm/i915/bdw: dispatch updates (64b related)
+3c94cee drm/i915/bdw: Support 64b relocations
+a123f15 drm/i915/bdw: Add interrupt info to debugfs
+abd58f0 drm/i915/bdw: Implement interrupt changes
+9459d25 drm/i915/bdw: support GMS and GGMS changes
+4e0bbc3 drm/i915/bdw: display stuff
+1020a5c drm/i915/bdw: Clock gating init
+8897644 drm/i915/bdw: HW context support
+31a5336 drm/i915/bdw: Swizzling support
+5ab3133 drm/i915/bdw: Fences on gen8 look just like gen7
+4d4dead drm/i915/bdw: Add device IDs
+8fe6bd2 drm/i915/bdw: Disable PPGTT for now
+43d1b64 drm/i915/bdw: Initialize BDW forcewake vfuncs
+9191526 Merge tag 'drm-intel-fixes-2013-11-07' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+ab2aa47 drm/i915/bdw: Handle forcewake for writes on gen8
+07bf139 drm/i915/vlv: use per-pipe backlight controls v2
+752aa88 drm/i915: make backlight functions take a connector
+91a60f2 drm/i915: move opregion asle request handling to a work queue
+7b5562d drm/i915/vlv: use PIPE_START_VBLANK interrupts on VLV
+3f2c205 drm/i915: Return -ENOENT when a mode object can't be found
+06c5bf8 drm/i915: Make the debugfs structures const
+ad3543e drm/intel: Push get_scanout_position() timestamping into kms driver.
+d298084 drm/i915/bdw: IS_GEN8 definition
+f02586d drm/i915: Make intel_dp_is_edp() less specific
+78eb06c drm/i915: Give names to the VBT child device type bits
+9ca2fe7 drm/i915/vlv: enable HDA display audio for Valleyview2
+48f34e1 drm/i915/dvo: call ->mode_set callback only when the port is running
+7f16e5c Merge tag 'v3.12' into drm-intel-next
+9d1cb91 drm/i915: avoid unclaimed registers when capturing the error state
+2675680 drm/i915: Enable DP port CRC for the "auto" source on g4x/vlv
+8d2f24c drm/i915: scramble reset support for DP port CRC on vlv
+8409360 drm/i915: scramble reset support for DP port CRC on g4x

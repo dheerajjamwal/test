@@ -1,0 +1,277 @@
+8ee661b drm/i915: Undo gtt scratch pte unmapping again	
+0f4706d drm/i915: Disable stolen memory when DMAR is active	
+8259383 Revert "drm/i915: don't touch the VDD when disabling the panel"	
+5c673b6 drm/i915: Don't enable display error interrupts from the start	
+2430262 drm/i915: Fix scanline counter fixup on BDW	
+fcb8182 drm/i915: Add a workaround for HSW scanline counter weirdness	
+24bd9bf drm/i915: Fix PSR programming	
+6375b76 drm/i915: Reject >165MHz modes w/ DVI monitors	
+d9d8208 drm/i915: fix assert_cursor on BDW	
+17b0c1f drm/i915: vlv: reserve GT power context early	
+bcdb72a drm/i915: fix pch pci device enumeration	
+3617dc9 drm/i915: Resolving the memory region conflict for Stolen area	
+b6ab66a drm/i915: use backlight legacy combination mode also for i915gm/i945gm	
+f51a44b drm/i915/dp: add native aux defer retry limit	
+04eada2 drm/i915/dp: increase native aux defer retry timeout	
+f66fab8 drm/i915: Prevent MI_DISPLAY_FLIP straddling two cachelines on IVB	
+753b1ad drm/i915: Add intel_ring_cachline_align()	
+1d2cb9a drm/i915: Pair va_copy with va_end in i915_error_vprintf	
+a2d213d drm/i915: Fix intel_pipe_to_cpu_transcoder for UMS	
+4e6b788 drm/i915: Disable dp aux irq on g4x	
+bdde5c6 drm/i915: demote opregion excessive timeout WARN_ONCE to DRM_INFO_ONCE	
+89258a9 MAINTAINERS: Update drm/i915 git repo	
+2cac613 drm/i915: vlv: fix DP PHY lockup due to invalid PP sequencer setup	
+9f03740 Btrfs: fix infinite path build loops in incremental send	
+ec14ba4 drm/i915: Fix the offset issue for the stolen GEM objects	LTSI
+372fbb8 drm/i915: Decouple GPU error reporting from ring initialisation	
+22accca i915: remove pm_qos request on error	LTSI
+85ba7b7 Revert "drm/i915: Mask reserved bits in display/sprite address registers"	
+232a6ee drm/i915: VLV2 - Fix hotplug detect bits	LTSI
+4318101 drm/i915: Allow reading the TIMESTAMP register on Gen8.	
+74e21ac drm/i915: Repeat evictions whilst pageflip completions are outstanding	
+5dce5b93 drm/i915: Wait for completion of pending flips when starved of fences	
+2e82a72 drm/i915: don't disable DP port after a failed link training	
+5d6a111 drm/i915: don't disable the DP port if the link is lost	
+dc5a436 drm/i915: Eliminate lots of WARNs when there's no backlight present	
+bfbdb42 drm/i915: g4x/vlv: fix dp aux interrupt mask	
+1d62bee drm/i915/ppgtt: Defer request freeing on reset	
+1fb2362 i915: send D1 opregion notification	
+babb190 drm/i915/bdw: remove preliminary_hw_support flag from BDW	
+8664850 drm/i915: Tune down reset_stat output from ERROR to debug	
+fae0ce1 drm/i915: Make semaphore modparam RO	
+f0a9f74 drm/i915: Fix disabled semaphores	
+8b78f0e drm/i915: Clarify relocation errnos	
+c3d19d3 drm/i915: Spelling s/auxilliary/auxiliary/	
+6ab11a2 drm/gem: Always initialize the gem object in object_init	
+095163b drm/i915: Add a kludge for DSL incrementing too late and ISR not working	
+8072bfa drm/radeon: Move the early vblank IRQ fixup to radeon_get_crtc_scanoutpos()	
+c0ae24c drm: Fix vblank timestamping constants for interlaced modes	
+d31faf6 drm/i915: Fix scanoutpos calculations for interlaced modes	
+c326c0a drm/i915: Call drm_calc_timestamping_constants() earlier	
+4b4b923 drm/i915: Kill hwmode save/restore	
+545cdd5 drm: Pass the display mode to drm_calc_timestamping_constants()	
+0d9d349 Merge commit origin/master into drm-intel-next	
+1450991 drm/i915: Use drm_encoder_crtc_ok()	
+cba1c07 drm/i915: Include more information in disabled hotplug interrupt warning	
+8b5565b drm/i915: Only complain about a rogue hotplug IRQ after disabling	
+3432087 drm/i915: Only WARN about a stuck hotplug irq ONCE	
+704cfb8 drm/i915: s/hotplugt_status_gen4/hotplug_status_g4x/	
+49938ac drm/i915: add braces around KHz/MHz macro parameters	
+3f2dc5a drm/i915: Fix 915GM self-refresh enable/disable	
+0fb5822 drm/i915: 830M doesn't have an LVDS port	
+dc9e7dec drm/i915: No panel fitter on 830M or non-mobile gen2/3 platforms	
+669ab5a drm/i915/vlv: Add drpc debugfs support for valleyview	
+e5cbfbf drm/i915: vlv: W/a for hotplug/manual VGA detection	
+404faab drm/i915: vlv: make CRI clock enabling explicit during resume	
+41e6fc4 drm/i915: only apply GAMMA_MODE IPS WA on HSW	
+ba0fbca drm/i915: Introduce new intel_output_name()	
+5a65f35 drm/i915: don't set modes for 2 connectors on the same encoder	
+feb56b9 drm/i915: i830M has watermarks like i855	
+3a77c4c drm/i915: Drop I915_ prefix from HAS_FBC	
+38af609 drm/i915: Don't swap planes on 830M	
+89eff4b drm/i915: fix wrong PLL debug messages.	
+e59150d drm/i915/bdw: don't try to check IPS state on BDW v2	
+576b259 drm/i915: use crtc_htotal when calculating ilk watermarks	
+0637d60 drm/i915: fix fastboot pfit disable hack to update pipe w/h	
+7ca51a3 drm/i915: check modeset state after a pipe_set_base if using fastboot	
+bd60254 drm/i915: Simplify watermark/init_clock_gating setup	
+03dce88 drm/i915: Enable watermarks for BDW	
+a42a571 drm/i915: Fix watermark code for BDW	
+21c3460 drm/i915: Rename gtt_bus_addr to gtt_phys_addr	
+304d695 drm/i915: Flush outstanding requests before allocating new seqno	LTSI
+b38538c drm/i915: remove duplicate MODULE_LICENSE definition	
+6f1cc99 drm/i915: Avoid dereference past end of page array in gen8_ppgtt_insert_entries()	
+cc79714 drm/i915: Avoid dereference past end of page array in gen6_ppgtt_insert_entries()	
+e63fa18 [media] em28xx: only initialize extensions on the main interface	
+c0a7f81 drm/i915: Mention when we enable the Ironlake iommu workarounds	
+3ec2f42 drm/i915: Fix refcount leak and possible NULL pointerdereference.	
+d5c3d79 ACPI / i915: replace open-coded _DSM code with helper functions	
+859ae23 Merge tag 'drm-intel-next-2013-12-13' of git://people.freedesktop.org/~danvet/drm-intel into drm-next	
+d8ccba8 drm/i915: grab a pages pin count for preallocate stolen	
+e9f0d76 drm: Kill DRM_IRQ_ARGS	
+6b27f7f drm/dp: Use AUX constants from specification	
+da32cc9 Merge tag 'drm-intel-next-2013-11-29' of git://people.freedesktop.org/~danvet/drm-intel into drm-next	
+820c198 drm/i915: s/haswell_update_wm/ilk_update_wm/	
+d0f8e45 drm/i915: remove unused WM defines	
+954911e drm/i915: simplify platform specific code in hsw_write_wm_values	
+8368f01 Revert "drm/i915/sprite: Always enable the scaler on IronLake"	
+1bd09ec drm/i915: Avoid underruns when disabling sprites	
+efb31d1 drm/i915: Don't disable primary when color keying is used	
+8553c18 drm/i915: Try to fix the messy IVB sprite scaling workaround	
+96f90c5 drm/i915: Move ILK/SNB/IVB over to the HSW WM code	
+017636c drm/i915: Disable LP1+ watermarks safely in init	
+ce0e071 drm/i915: Linetime watermarks are a HSW feature	
+6c8b6c2 drm/i915: Disable FBC WM on ILK, and disable LP2+ when FBC is enabled	
+0ba22e2 drm/i915: Don't merge LP1+ watermarks on ILK/SNB/IVB when multiple pipes are enabled	
+facd619 drm/i915: Fix LP1+ watermark disabling ILK	
+6cef2b8a drm/i915: Fix LP1 sprite watermarks for ILK/SNB	
+7b39a0b drm/i915: Avoid computing invalid WM levels when sprites/scaling is enabled	
+a68d68e drm/i915: Add ILK/SNB/IVB WM latency field support	
+ac9545f drm/i915: Add IVB DDB partitioning control	
+243eaf3 drm/i915: kick firmware fbs even when i915 fbdev is disabled	
+691bb71 drm/i915: Use IS_VALLEYVIEW() to test the is_valleyview flag	
+a08acaf drm/i915: Use symbolic names for booleans in i915_semaphore_is_enabled	
+52ed232 drm/i915: Don't emit mbox updates without semaphores	
+0e79284 drm/i915: Reorder/respace MI instruction definition	
+5382f5f drm/i915/vlv: split DPIO init and reset	
+f42bb70 drm/i915/vlv: add early DPIO init v3	
+a57750f drm/i915: only build i915_debugfs.c when CONFIG_DEBUG_FS is enabled	
+f3c5fe9 drm/i915: fix return value check of debugfs_create_file()	
+f00076d drm/i915: parse backlight modulation frequency from the BIOS VBT	
+df4547d drm/i915: add runtime PM support on Haswell	
+48018a5 drm/i915: release the GTT mmaps when going into D3	
+16a3d6e drm/i915: cancel the hangcheck before runtime suspend	
+ab57fff drm/i915/bdw: Implement ff workarounds	
+63801f2 drm/i915/bdw: Force all Data Cache Data Port access to be Non-Coherent	
+a3564d2 drm/i915/bdw: Don't use forcewake needlessly	
+9705887 drm/i915: Clear out old GT FIFO errors in intel_uncore_early_sanitize()	
+168c3f2 drm/i915: dont call irq_put when irq test is on	
+993495a drm/i915: Rework the FBC interval/stall stuff a bit	
+fd70d52 drm/i915: Enable FBC for all mobile gen2 and gen3 platforms	
+159f987 drm/i915: FBC_CONTROL2 is gen4 only	
+42a430f drm/i915: Gen2 FBC1 CFB pitch wants 32B units	
+566b734 drm/i915: split intel_ddi_pll_mode_set in 2 pieces	
+47e9766 drm/i915: Fix timeout with missed interrupts in __wait_seqno	
+f9dcb0d drm/i915: touch VGA MSR after we enable the power well	
+d5e8fdc drm/i915: extract hsw_power_well_post_{enable, disable}	
+b664607 drm/i915: remove i915_disable_vga_mem declaration	
+f6da284 drm/i915: Parametrize the dphy and other spec specific parameters	
+a4a593b drm/i915: Remove redundant DSI PLL enabling	
+1dbd7cb drm/i915: Reorganize the DSI enable/disable sequence	
+8e1eed5 drm/i915: Try harder to get best m, n, p values with minimal error	
+44d4c6e drm/i915: Compute dsi_clk from pixel clock	
+e9fe51c drm/i915: Use FLISDSI interface for band gap reset	
+b9f5e07 drm/i915: Add more dev ops for MIPI sub encoder	
+9c33371 drm/i915: Decrease gen2 vco frequency minimum to 908 MHz	
+e91e941 drm/i915: Fix 66 MHz LVDS SSC freq for gen2	
+c7721d3 drm/i915: Increase gen2 vco frequency limit to 1512 MHz	
+91dbe5f drm/i915: Change N divider minimum from 3 to 2 for gen2	
+b1c560d drm/i915: Extract p2 divider correctly for gen2 LVDS dual channel	
+3dda20a drm/i915: Record BB_ADDR for every ring	
+0476190 drm/i915: Use 32bit read for BB_ADDR	
+90791a5 drm/i915: fix VDD override off wait	
+dff392d drm/i915: don't touch the VDD when disabling the panel	
+9b33600 drm/i915: don't enable VDD just to enable the panel	
+8771a7f drm/i915: add runtime PM support on Haswell	
+1f2d453 drm/i915: disable interrupts when enabling PC8	
+6806e63 drm/i915: do not assert DE_PCH_EVENT_IVB enabled	
+e9cb81a drm/i915: get a runtime PM reference when the panel VDD is on	
+c8c8fb3 drm/i915: add some runtime PM get/put calls	
+f65c916 drm/i915: add runtime put/get calls at the basic places	
+cd2e9e9 drm/i915: do adapter power state notification at runtime PM	
+8a18745 drm/i915: add initial Runtime PM functions	
+7125ecb8 drm/i915: WARN if !HAS_PC8 when enabling/disabling PC8	
+8212d56 drm/i915: Move VLV PHY CRI clock enable into intel_init_dpio()	
+fff6386 drm/i915: Don't cast away const from infoframe buffer	
+ec9ed19 drm/i915: Make downclock deduction common for all panels	
+c461562 drm/i915: Remove duplicate intel_uncore_forcewake_reset.	
+f7698ba Merge tag 'v3.13-rc3' into drm-intel-next-queued	
+27d50c8 ACPI / i915: Fix incorrect <acpi/acpi.h> inclusions via <linux/acpi_io.h>	
+ce58c32 drm/i915: Do hw quiescing first during unload	
+d299cce drm/i915: check context reset stats before relocations	
+70903c3 drm/i915: Fix ordering of unbind vs unpin pages	
+5135d64 drm/i915/vlv: Update Wait for FIFO and wait for 20 free entries. v3	
+1f1c2e2 drm/i915: Swap primary planes on gen2 for FBC	
+4004546 drm/i915: Reorganize FBC function pointer initializaition	
+c5a44aa drm/i915: Fix FBC1 plane checks for gen2	
+82f3449 drm/i915: Fix bogus FBC1 defines	
+0d96530 drm/i915: Add REG_WRITE_FOOTER	
+54c136d drm/i915: Add a timing breadcrumb to panel waits	
+e445123 drm/i915: use __packed instead of __attribute__((packed))	
+ed5ca77 drm/i915: Avoid div-by-zero in clock calculation funcs	
+7e11f9f drm/i915: Remove if 0'ed static arrays	
+e1b2273 drm/i915: Fix copy/paste DP vs eDP error in comment	
+aad730d ALSA: hda - Always do delayed probes for HD-audio devices	
+5be19d9 drm/i915/lvds: don't restore hw state in the lid notifier for pch platforms	
+be46ffd drm/i915: Fix port name in vlv_wait_port_ready() timeout warning	
+c19de8e drm/i915: Return a drm_mode_status enum in the mode_valid vfuncs	
+ddf9c53 drm/i915: add intel_display_power_enabled_sw() for use in atomic ctx	
+48e9212 drm/i915: drop DRM_ERROR in intel_fbdev init	
+6b88f29 drm/i915/vlv: use parallel context restore when coming out of RC6	
+2f0aa30 drm/i915/vlv: use a lower RC6 timeout on VLV	
+84fcb46 drm/i915/sdvo: Fix up debug output to not split lines	
+5bc0e85 drm/i915: make sparse happy for the new vlv mmio read function	
+084054f drm/i915: drop the right force-wake engine in the vlv mmio funcs	
+46520e2 drm/i915: Fix GT wake FIFO free entries for VLV	
+90f256b drm/i915: Report all GTFIFODBG errors	
+43709ba drm/i915: Enabling DebugFS for valleyview forcewake counts	
+940aece drm/i915/vlv: Valleyview support for forcewake Individual power wells.	
+c8d9a59 drm/i915: Add power well arguments to force wake routines.	
+947fdaa drm/i915: Do not attempt to re-enable an unconnected primary plane	
+1da5158 drm/i915: add a debugfs entry for power domain info	
+1c2256d drm/i915: add a default always-on power well	
+f7243ac drm/i915: don't do BDW/HSW specific powerdomains init on other platforms	
+f9e711e drm/i915: protect HSW power well check with IS_HASWELL in redisable_vga	
+190be11 drm/i915: use IS_HASWELL/BROADWELL instead of HAS_POWER_WELL	
+6f3ef5d drm/i915: add always-on power wells instead of special casing them	
+c1ca727 drm/i915: support for multiple power wells	
+fbeeaa2 drm/i915: add audio power domain	
+8b4f49e drm/i915: split fb allocation and initialization v2	
+67e5871 drm/i915: Drop forcewake w/a for missed interrupts/seqno on Sandybridge	
+5ed1678 drm/i915: Move the gtt mm takedown to cleanup	
+5ce0972 drm/i915: Missed dropped VMA conversion	
+2f88542 drm/i915: Remove defunct ctx switch comments	
+17601cb drm/i915: Removed unused vm args	
+2f9fe5f drm/i915: Demote drop_caches_set print	
+ad52546 drm/i915: Disallow dynamic ppgtt param modification	
+686e1f6 drm/i915: Add a few missed bits to the mm	
+d595bd4 drm/i915: Fix BDW PPGTT error path	
+d629336 drm/i915: Don't set the fence number in DPFC_CTL on SNB	
+b33ecdd drm/i915: Fix module unloading with DRM_I915_UMS=n	
+6605782 i915, fbdev: Fix Kconfig typo	
+432f334 i915, debugfs: Fix uninitialized warning	
+4ea67bc drm/i915: Enable pipe gamma for sprites	
+b19870e drm/i915: Use plane_name() in gen7_enable_fbc()	
+cbaef0f drm/i915: Set has_fbc=true for all SNB+, except VLV	
+37c1d94 drm/i915: Emit SRM after the MSG_FBC_REND_STATE LRI	
+9688eca drm/i915: Limit FBC flush to post batch flush	
+f671d11 drm/i915: remove intel_uncore_clear_errors	
+0694001 drm/i915: reuse WRPLL when possible	
+4aeebd7 drm/i915: dp aux irq support for g4x/vlv	
+c09cd6e Merge branch 'backlight-rework' into drm-intel-next-queued	
+96ab4c7 Merge branch 'bdw-fixes' into backlight-rework	
+7eb1c49 drm/i915: Reject opening of pipe crc files for invalid pipes	
+b378360 drm/i915: Use for_each_pipe in intel_display_crc_init	
+565ee38 drm/i915: do not save/restore backlight registers in KMS	
+58cad07 drm/i915: nuke get max backlight functions	
+bc0bb9f drm/i915: remove QUIRK_NO_PCH_PWM_ENABLE	
+b35684b drm/i915: do full backlight setup at enable time	
+636baeb drm/i915: gather backlight information at setup	
+b30324a drm/i915: Deprecated UMS support	
+3bb6ce6 drm/i915: Kill legeacy AGP for gen3 kms	
+ea8eea7 drm/i915: Make AGP=n work even on gen3	
+661df04 drm/i915: check i915_get_reset_stats_ioctl args	
+c445b3b drm/i915: debug print on backlight register	
+f91c15e drm/i915: use the initialized backlight max value instead of reading it	
+3bd712e drm/i915: move backlight level setting in enable/disable to hooks	
+ab51c86 drm/i915: vlv does not have pipe field in backlight registers	
+b329b32 drm/i915: fix gen2-gen3 backlight set	
+b53c8c3 drm/i915: drop duplicate ggtt vma list add in setup_global_gtt	
+7bd688c drm/i915: handle backlight through chip specific functions	
+c91c9f3 drm/i915: make asle notifications update backlight on all connectors	
+58c6877 drm/i915: make backlight info per-connector	
+db31af1 drm/i915: clean up backlight conditional build	
+b635991 drm/i915: add i915_get_reset_stats_ioctl	
+2ac0f45 drm/i915: add i915_reset_count	
+f2d91a2 drm/i915: tune reset dmesg output a bit	
+e4607fc drm/i915/vlv: Make the vlv_dpio_read/vlv_dpio_write more PHY centric	
+00fe639 drm/i915: Make AGP support optional	
+ab3c759 drm/i915/vlv: Rename VLV DPIO register to be more structure to match configdb document.	
+9191526 Merge tag 'drm-intel-fixes-2013-11-07' of git://people.freedesktop.org/~danvet/drm-intel into drm-next	
+1272e7b drm/i915: Use clamp_t() when limiting cur_delay	
+4c79156 drm/i915: Kill vlv_update_rps_cur_delay()	
+6917c7b drm/i915: Initialise min/max frequencies before updating RPS registers	
+c5bd2bf drm/i915/vlv: For i915_cur_delayinfo, the max frequency reporting wrong value.	
+57e22f4 drm/i915: Use frame counter for intel_wait_for_vblank() on CTG	
+edc08d0 drm/i915: Fix gen3/4 vblank counter wraparound	
+2325991 drm/i915/vlv: Workaround a punit issue in DDR data rate for 1333.	
+8245be3 drm/i915: Require HW contexts (when possible)	
+2ec3815 drm/i915: Pass dev_priv to vlv_gpu_freq() and vlv_freq_opcode()	
+07ab118 drm/i915: Improve vlv_gpu_freq() and vlv_freq_opcode()	
+c164f83 drm/i915: Sanitize prepare_pipes after valleyview_modeset_global_pipes()	
+f64a28a drm/i915/vlv: fixup DDR freq detection per Punit spec	
+586f49d drm/i915/vlv: split CCK and DDR freq usage	
+30a970c drm/i915/vlv: modeset_global_* for VLV v7	
+85b1d7b drm/i915: move VLV DDR freq fetch into init_clock_gating	
+f341915 drm/i915: add bunit read/write routines	
+c77ba21 drm/i915/ns2501: Rip out the reenable hack	

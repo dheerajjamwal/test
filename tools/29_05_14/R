@@ -1,0 +1,1 @@
+ Commit  == 216ddd6 imx-drm: imx-dp: when disabling the DP foreground channel, wait until the DP background channel is finished before disabling the IDMAC channel and Commit lenght is 5 

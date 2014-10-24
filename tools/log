@@ -1,0 +1,1158 @@
+Master File == Test1 , Minor File == Test2
+
+Checking Both The files for changes 
+.
+
+Value command is echo " Commit  == 8ee661b drm/i915: Undo gtt scratch pte unmapping again and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 55ae26b Merge tag 'drm-intel-fixes-2014-03-19' of git://anongit.freedesktop.org/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 0f4706d drm/i915: Disable stolen memory when DMAR is active and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 8259383 Revert "drm/i915: don't touch the VDD when disabling the panel" and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == 2182127 Merge tag 'drm-intel-fixes-2014-03-17' of git://anongit.freedesktop.org/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 5c673b6 drm/i915: Don't enable display error interrupts from the start and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 2430262 drm/i915: Fix scanline counter fixup on BDW and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == fcb8182 drm/i915: Add a workaround for HSW scanline counter weirdness and Commit lenght is 23 " >>  Result.
+
+Value command is echo " Commit  == 24bd9bf drm/i915: Fix PSR programming and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 6d7c2a6 Merge tag 'drm-intel-fixes-2014-03-04' of ssh://git.freedesktop.org/git/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 6375b76 drm/i915: Reject >165MHz modes w/ DVI monitors and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == d9d8208 drm/i915: fix assert_cursor on BDW and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 17b0c1f drm/i915: vlv: reserve GT power context early and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == bcdb72a drm/i915: fix pch pci device enumeration and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == 3617dc9 drm/i915: Resolving the memory region conflict for Stolen area and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == b6ab66a drm/i915: use backlight legacy combination mode also for i915gm/i945gm and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 42738c2 Merge tag 'drm-intel-fixes-2014-02-14' of ssh://git.freedesktop.org/git/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == f51a44b drm/i915/dp: add native aux defer retry limit and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == 04eada2 drm/i915/dp: increase native aux defer retry timeout and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == da89486 Merge tag 'drm-intel-fixes-2014-02-11' of ssh://git.freedesktop.org/git/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == f66fab8 drm/i915: Prevent MI_DISPLAY_FLIP straddling two cachelines on IVB and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 753b1ad drm/i915: Add intel_ring_cachline_align() and Commit lenght is 24 " >>  Result.
+
+Value command is echo " Commit  == 1d2cb9a drm/i915: Pair va_copy with va_end in i915_error_vprintf and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == a2d213d drm/i915: Fix intel_pipe_to_cpu_transcoder for UMS and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 379dd27 Merge tag 'drm-intel-fixes-2014-02-06' of ssh://git.freedesktop.org/git/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 4e6b788 drm/i915: Disable dp aux irq on g4x and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == bdde5c6 drm/i915: demote opregion excessive timeout WARN_ONCE to DRM_INFO_ONCE and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 89258a9 MAINTAINERS: Update drm/i915 git repo and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 2cac613 drm/i915: vlv: fix DP PHY lockup due to invalid PP sequencer setup and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 9f03740 Btrfs: fix infinite path build loops in incremental send and Commit lenght is 519 " >>  Result.
+
+Value command is echo " Commit  == 45ab1e0 Merge tag 'drm/for-3.14-rc1-20140123' of git://anongit.freedesktop.org/tegra/linux into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 821b4db Merge tag 'drm-intel-fixes-2014-01-28' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 372fbb8 drm/i915: Decouple GPU error reporting from ring initialisation and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 85ba7b7 Revert "drm/i915: Mask reserved bits in display/sprite address registers" and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == 4318101 drm/i915: Allow reading the TIMESTAMP register on Gen8. and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 74e21ac drm/i915: Repeat evictions whilst pageflip completions are outstanding and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 5dce5b93 drm/i915: Wait for completion of pending flips when starved of fences and Commit lenght is 37 " >>  Result.
+
+Value command is echo " Commit  == 2e82a72 drm/i915: don't disable DP port after a failed link training and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 5d6a111 drm/i915: don't disable the DP port if the link is lost and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == dc5a436 drm/i915: Eliminate lots of WARNs when there's no backlight present and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == bfbdb42 drm/i915: g4x/vlv: fix dp aux interrupt mask and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 1d62bee drm/i915/ppgtt: Defer request freeing on reset and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 1fb2362 i915: send D1 opregion notification and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == babb190 drm/i915/bdw: remove preliminary_hw_support flag from BDW and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 8664850 drm/i915: Tune down reset_stat output from ERROR to debug and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == fae0ce1 drm/i915: Make semaphore modparam RO and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == f0a9f74 drm/i915: Fix disabled semaphores and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 8b78f0e drm/i915: Clarify relocation errnos and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == c3d19d3 drm/i915: Spelling s/auxilliary/auxiliary/ and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 6ab11a2 drm/gem: Always initialize the gem object in object_init and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 095163b drm/i915: Add a kludge for DSL incrementing too late and ISR not working and Commit lenght is 40 " >>  Result.
+
+Value command is echo " Commit  == 8072bfa drm/radeon: Move the early vblank IRQ fixup to radeon_get_crtc_scanoutpos() and Commit lenght is 26 " >>  Result.
+
+Value command is echo " Commit  == c0ae24c drm: Fix vblank timestamping constants for interlaced modes and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == d31faf6 drm/i915: Fix scanoutpos calculations for interlaced modes and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == c326c0a drm/i915: Call drm_calc_timestamping_constants() earlier and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 4b4b923 drm/i915: Kill hwmode save/restore and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 545cdd5 drm: Pass the display mode to drm_calc_timestamping_constants() and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 0d9d349 Merge commit origin/master into drm-intel-next and Commit lenght is 22 " >>  Result.
+
+Value command is echo " Commit  == 1450991 drm/i915: Use drm_encoder_crtc_ok() and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == c0eeb85 Merge tag 'drm-intel-fixes-2014-01-13' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 09f2344 drm/i915/bdw: make sure south port interrupts are enabled properly v2 and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == cba1c07 drm/i915: Include more information in disabled hotplug interrupt warning and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 8b5565b drm/i915: Only complain about a rogue hotplug IRQ after disabling and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 3432087 drm/i915: Only WARN about a stuck hotplug irq ONCE and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 704cfb8 drm/i915: s/hotplugt_status_gen4/hotplug_status_g4x/ and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 49938ac drm/i915: add braces around KHz/MHz macro parameters and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 3f2dc5a drm/i915: Fix 915GM self-refresh enable/disable and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 0fb5822 drm/i915: 830M doesn't have an LVDS port and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == dc9e7dec drm/i915: No panel fitter on 830M or non-mobile gen2/3 platforms and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 669ab5a drm/i915/vlv: Add drpc debugfs support for valleyview and Commit lenght is 51 " >>  Result.
+
+Value command is echo " Commit  == e5cbfbf drm/i915: vlv: W/a for hotplug/manual VGA detection and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == 404faab drm/i915: vlv: make CRI clock enabling explicit during resume and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 41e6fc4 drm/i915: only apply GAMMA_MODE IPS WA on HSW and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == ba0fbca drm/i915: Introduce new intel_output_name() and Commit lenght is 25 " >>  Result.
+
+Value command is echo " Commit  == 5a65f35 drm/i915: don't set modes for 2 connectors on the same encoder and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == feb56b9 drm/i915: i830M has watermarks like i855 and Commit lenght is 20 " >>  Result.
+
+Value command is echo " Commit  == 3a77c4c drm/i915: Drop I915_ prefix from HAS_FBC and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 38af609 drm/i915: Don't swap planes on 830M and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 89eff4b drm/i915: fix wrong PLL debug messages. and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == e59150d drm/i915/bdw: don't try to check IPS state on BDW v2 and Commit lenght is 14 " >>  Result.
+
+Value command is echo " Commit  == 576b259 drm/i915: use crtc_htotal when calculating ilk watermarks and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == a3f28ef Merge tag 'drm-intel-fixes-2014-01-08' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 0637d60 drm/i915: fix fastboot pfit disable hack to update pipe w/h and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 7ca51a3 drm/i915: check modeset state after a pipe_set_base if using fastboot and Commit lenght is 11 " >>  Result.
+
+Value command is echo " Commit  == bd60254 drm/i915: Simplify watermark/init_clock_gating setup and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == 03dce88 drm/i915: Enable watermarks for BDW and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == a42a571 drm/i915: Fix watermark code for BDW and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 21c3460 drm/i915: Rename gtt_bus_addr to gtt_phys_addr and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 38cc1da drm/i915: avoid unclaimed registers when capturing the error state and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == b38538c drm/i915: remove duplicate MODULE_LICENSE definition and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 47f9564 MAINTAINERS: Updates for drm/i915 and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 6f1cc99 drm/i915: Avoid dereference past end of page array in gen8_ppgtt_insert_entries() and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == cc79714 drm/i915: Avoid dereference past end of page array in gen6_ppgtt_insert_entries() and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == e63fa18 [media] em28xx: only initialize extensions on the main interface and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == c0a7f81 drm/i915: Mention when we enable the Ironlake iommu workarounds and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == be505f6 Revert "drm/i915: assume all GM45 Acer laptops use inverted backlight PWM" and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 058840c drm/i915/bdw: Flush system agent on gen8 also and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 3ec2f42 drm/i915: Fix refcount leak and possible NULL pointerdereference. and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == d5c3d79 ACPI / i915: replace open-coded _DSM code with helper functions and Commit lenght is 31 " >>  Result.
+
+Value command is echo " Commit  == 859ae23 Merge tag 'drm-intel-next-2013-12-13' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 418cb50 Merge tag 'drm-intel-fixes-2013-12-18' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == d8ccba8 drm/i915: grab a pages pin count for preallocate stolen and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == e9f0d76 drm: Kill DRM_IRQ_ARGS and Commit lenght is 48 " >>  Result.
+
+Value command is echo " Commit  == 6b27f7f drm/dp: Use AUX constants from specification and Commit lenght is 77 " >>  Result.
+
+Value command is echo " Commit  == da32cc9 Merge tag 'drm-intel-next-2013-11-29' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 820c198 drm/i915: s/haswell_update_wm/ilk_update_wm/ and Commit lenght is 47 " >>  Result.
+
+Value command is echo " Commit  == d0f8e45 drm/i915: remove unused WM defines and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 954911e drm/i915: simplify platform specific code in hsw_write_wm_values and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 8368f01 Revert "drm/i915/sprite: Always enable the scaler on IronLake" and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 1bd09ec drm/i915: Avoid underruns when disabling sprites and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == efb31d1 drm/i915: Don't disable primary when color keying is used and Commit lenght is 11 " >>  Result.
+
+Value command is echo " Commit  == 8553c18 drm/i915: Try to fix the messy IVB sprite scaling workaround and Commit lenght is 49 " >>  Result.
+
+Value command is echo " Commit  == 96f90c5 drm/i915: Move ILK/SNB/IVB over to the HSW WM code and Commit lenght is 14 " >>  Result.
+
+Value command is echo " Commit  == 017636c drm/i915: Disable LP1+ watermarks safely in init and Commit lenght is 20 " >>  Result.
+
+Value command is echo " Commit  == ce0e071 drm/i915: Linetime watermarks are a HSW feature and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 6c8b6c2 drm/i915: Disable FBC WM on ILK, and disable LP2+ when FBC is enabled and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == 0ba22e2 drm/i915: Don't merge LP1+ watermarks on ILK/SNB/IVB when multiple pipes are enabled and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == facd619 drm/i915: Fix LP1+ watermark disabling ILK and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 6cef2b8a drm/i915: Fix LP1 sprite watermarks for ILK/SNB and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 7b39a0b drm/i915: Avoid computing invalid WM levels when sprites/scaling is enabled and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == a68d68e drm/i915: Add ILK/SNB/IVB WM latency field support and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == ac9545f drm/i915: Add IVB DDB partitioning control and Commit lenght is 26 " >>  Result.
+
+Value command is echo " Commit  == 243eaf3 drm/i915: kick firmware fbs even when i915 fbdev is disabled and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 691bb71 drm/i915: Use IS_VALLEYVIEW() to test the is_valleyview flag and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == a08acaf drm/i915: Use symbolic names for booleans in i915_semaphore_is_enabled and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 52ed232 drm/i915: Don't emit mbox updates without semaphores and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 0e79284 drm/i915: Reorder/respace MI instruction definition and Commit lenght is 27 " >>  Result.
+
+Value command is echo " Commit  == 5382f5f drm/i915/vlv: split DPIO init and reset and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == f42bb70 drm/i915/vlv: add early DPIO init v3 and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == a57750f drm/i915: only build i915_debugfs.c when CONFIG_DEBUG_FS is enabled and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == f3c5fe9 drm/i915: fix return value check of debugfs_create_file() and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == f00076d drm/i915: parse backlight modulation frequency from the BIOS VBT and Commit lenght is 53 " >>  Result.
+
+Value command is echo " Commit  == df4547d drm/i915: add runtime PM support on Haswell and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 48018a5 drm/i915: release the GTT mmaps when going into D3 and Commit lenght is 22 " >>  Result.
+
+Value command is echo " Commit  == 16a3d6e drm/i915: cancel the hangcheck before runtime suspend and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == be3d26b drm/i915: get a PC8 reference when enabling the power well and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == 96b4026 drm/i915: change CRTC assertion on LCPLL disable and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == ab57fff drm/i915/bdw: Implement ff workarounds and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == 63801f2 drm/i915/bdw: Force all Data Cache Data Port access to be Non-Coherent and Commit lenght is 14 " >>  Result.
+
+Value command is echo " Commit  == a3564d2 drm/i915/bdw: Don't use forcewake needlessly and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 9705887 drm/i915: Clear out old GT FIFO errors in intel_uncore_early_sanitize() and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 168c3f2 drm/i915: dont call irq_put when irq test is on and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 993495a drm/i915: Rework the FBC interval/stall stuff a bit and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == fd70d52 drm/i915: Enable FBC for all mobile gen2 and gen3 platforms and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 159f987 drm/i915: FBC_CONTROL2 is gen4 only and Commit lenght is 11 " >>  Result.
+
+Value command is echo " Commit  == 42a430f drm/i915: Gen2 FBC1 CFB pitch wants 32B units and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 566b734 drm/i915: split intel_ddi_pll_mode_set in 2 pieces and Commit lenght is 97 " >>  Result.
+
+Value command is echo " Commit  == 47e9766 drm/i915: Fix timeout with missed interrupts in __wait_seqno and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == f9dcb0d drm/i915: touch VGA MSR after we enable the power well and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == d5e8fdc drm/i915: extract hsw_power_well_post_{enable, disable} and Commit lenght is 45 " >>  Result.
+
+Value command is echo " Commit  == b664607 drm/i915: remove i915_disable_vga_mem declaration and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 4db080f drm/i915: Fix erroneous dereference of batch_obj inside reset_status and Commit lenght is 25 " >>  Result.
+
+Value command is echo " Commit  == 9ae9ab5 drm/i915: Prevent double unref following alloc failure during execbuffer and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 25945b6 Merge tag 'drm-intel-fixes-2013-12-11' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == f6da284 drm/i915: Parametrize the dphy and other spec specific parameters and Commit lenght is 30 " >>  Result.
+
+Value command is echo " Commit  == a4a593b drm/i915: Remove redundant DSI PLL enabling and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 1dbd7cb drm/i915: Reorganize the DSI enable/disable sequence and Commit lenght is 81 " >>  Result.
+
+Value command is echo " Commit  == 8e1eed5 drm/i915: Try harder to get best m, n, p values with minimal error and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 44d4c6e drm/i915: Compute dsi_clk from pixel clock and Commit lenght is 32 " >>  Result.
+
+Value command is echo " Commit  == e9fe51c drm/i915: Use FLISDSI interface for band gap reset and Commit lenght is 29 " >>  Result.
+
+Value command is echo " Commit  == b9f5e07 drm/i915: Add more dev ops for MIPI sub encoder and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 9c33371 drm/i915: Decrease gen2 vco frequency minimum to 908 MHz and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == e91e941 drm/i915: Fix 66 MHz LVDS SSC freq for gen2 and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == c7721d3 drm/i915: Increase gen2 vco frequency limit to 1512 MHz and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 91dbe5f drm/i915: Change N divider minimum from 3 to 2 for gen2 and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == b1c560d drm/i915: Extract p2 divider correctly for gen2 LVDS dual channel and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 3dda20a drm/i915: Record BB_ADDR for every ring and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == 0476190 drm/i915: Use 32bit read for BB_ADDR and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 90791a5 drm/i915: fix VDD override off wait and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == dff392d drm/i915: don't touch the VDD when disabling the panel and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 9b33600 drm/i915: don't enable VDD just to enable the panel and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 8771a7f drm/i915: add runtime PM support on Haswell and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 1f2d453 drm/i915: disable interrupts when enabling PC8 and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == 6806e63 drm/i915: do not assert DE_PCH_EVENT_IVB enabled and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == e9cb81a drm/i915: get a runtime PM reference when the panel VDD is on and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == c8c8fb3 drm/i915: add some runtime PM get/put calls and Commit lenght is 75 " >>  Result.
+
+Value command is echo " Commit  == f65c916 drm/i915: add runtime put/get calls at the basic places and Commit lenght is 29 " >>  Result.
+
+Value command is echo " Commit  == cd2e9e9 drm/i915: do adapter power state notification at runtime PM and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 8a18745 drm/i915: add initial Runtime PM functions and Commit lenght is 123 " >>  Result.
+
+Value command is echo " Commit  == d62292c drm/i915: get a PC8 reference when enabling the power well and Commit lenght is 14 " >>  Result.
+
+Value command is echo " Commit  == 7125ecb8 drm/i915: WARN if !HAS_PC8 when enabling/disabling PC8 and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 8212d56 drm/i915: Move VLV PHY CRI clock enable into intel_init_dpio() and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == fff6386 drm/i915: Don't cast away const from infoframe buffer and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == ec9ed19 drm/i915: Make downclock deduction common for all panels and Commit lenght is 81 " >>  Result.
+
+Value command is echo " Commit  == ad071ac drm/i915: Repeat eviction search after idling the GPU and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == c461562 drm/i915: Remove duplicate intel_uncore_forcewake_reset. and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == f7698ba Merge tag 'v3.13-rc3' into drm-intel-next-queued and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 27d50c8 ACPI / i915: Fix incorrect <acpi/acpi.h> inclusions via <linux/acpi_io.h> and Commit lenght is 33 " >>  Result.
+
+Value command is echo " Commit  == 798183c drm/i915: change CRTC assertion on LCPLL disable and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == acc240d drm/i915: Fix use-after-free in do_switch and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == f742a55 drm/i915: fix pm init ordering and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == ce58c32 drm/i915: Do hw quiescing first during unload and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 1ec2c7f Merge tag 'drm-intel-fixes-2013-12-02' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == d299cce drm/i915: check context reset stats before relocations and Commit lenght is 26 " >>  Result.
+
+Value command is echo " Commit  == 70903c3 drm/i915: Fix ordering of unbind vs unpin pages and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 5135d64 drm/i915/vlv: Update Wait for FIFO and wait for 20 free entries. v3 and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 1f1c2e2 drm/i915: Swap primary planes on gen2 for FBC and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == 4004546 drm/i915: Reorganize FBC function pointer initializaition and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == c5a44aa drm/i915: Fix FBC1 plane checks for gen2 and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 82f3449 drm/i915: Fix bogus FBC1 defines and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 0d96530 drm/i915: Add REG_WRITE_FOOTER and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == 5ae68b4 drm/i915: Skip clock checks on BDW and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == edd5b13 drm/i915: Do not clobber config status after a forced restore of hw state and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 54c136d drm/i915: Add a timing breadcrumb to panel waits and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == e445123 drm/i915: use __packed instead of __attribute__((packed)) and Commit lenght is 51 " >>  Result.
+
+Value command is echo " Commit  == ed5ca77 drm/i915: Avoid div-by-zero in clock calculation funcs and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 7e11f9f drm/i915: Remove if 0'ed static arrays and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == e1b2273 drm/i915: Fix copy/paste DP vs eDP error in comment and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == aad730d ALSA: hda - Always do delayed probes for HD-audio devices and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 5be19d9 drm/i915/lvds: don't restore hw state in the lid notifier for pch platforms and Commit lenght is 14 " >>  Result.
+
+Value command is echo " Commit  == 80c6463 power_supply: Fix Oops from NULL pointer dereference from wakeup_source_activate and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 993fc6e drm/i915: Pin pages whilst allocating for dma-buf vmap() and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == be46ffd drm/i915: Fix port name in vlv_wait_port_ready() timeout warning and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 0bf2134 drm/i915: MI_PREDICATE_RESULT_2 is HSW only and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 22613c9 drm/i915: Make the DERRMR SRM target global GTT and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == a121644 drm/i915: use the correct force_wake function at the PC8 code and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == c19de8e drm/i915: Return a drm_mode_status enum in the mode_valid vfuncs and Commit lenght is 26 " >>  Result.
+
+Value command is echo " Commit  == ddf9c53 drm/i915: add intel_display_power_enabled_sw() for use in atomic ctx and Commit lenght is 34 " >>  Result.
+
+Value command is echo " Commit  == 48e9212 drm/i915: drop DRM_ERROR in intel_fbdev init and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 3b32a35 drm/i915: Simplify DP vs. eDP detection and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 5d8a775 drm/i915: Check VBT for eDP ports on VLV and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 6b88f29 drm/i915/vlv: use parallel context restore when coming out of RC6 and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 2f0aa30 drm/i915/vlv: use a lower RC6 timeout on VLV and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 84fcb46 drm/i915/sdvo: Fix up debug output to not split lines and Commit lenght is 38 " >>  Result.
+
+Value command is echo " Commit  == 5bc0e85 drm/i915: make sparse happy for the new vlv mmio read function and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 084054f drm/i915: drop the right force-wake engine in the vlv mmio funcs and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 46520e2 drm/i915: Fix GT wake FIFO free entries for VLV and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 90f256b drm/i915: Report all GTFIFODBG errors and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 43709ba drm/i915: Enabling DebugFS for valleyview forcewake counts and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == 940aece drm/i915/vlv: Valleyview support for forcewake Individual power wells. and Commit lenght is 179 " >>  Result.
+
+Value command is echo " Commit  == c8d9a59 drm/i915: Add power well arguments to force wake routines. and Commit lenght is 62 " >>  Result.
+
+Value command is echo " Commit  == fec8cba drm/i915: use crtc_htotal in watermark calculations to match fastboot v2 and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 947fdaa drm/i915: Do not attempt to re-enable an unconnected primary plane and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == a415d35 drm/i915: Pin relocations for the duration of constructing the execbuffer and Commit lenght is 33 " >>  Result.
+
+Value command is echo " Commit  == 1da5158 drm/i915: add a debugfs entry for power domain info and Commit lenght is 89 " >>  Result.
+
+Value command is echo " Commit  == 1c2256d drm/i915: add a default always-on power well and Commit lenght is 19 " >>  Result.
+
+Value command is echo " Commit  == f7243ac drm/i915: don't do BDW/HSW specific powerdomains init on other platforms and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == f9e711e drm/i915: protect HSW power well check with IS_HASWELL in redisable_vga and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 190be11 drm/i915: use IS_HASWELL/BROADWELL instead of HAS_POWER_WELL and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 6f3ef5d drm/i915: add always-on power wells instead of special casing them and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == c1ca727 drm/i915: support for multiple power wells and Commit lenght is 110 " >>  Result.
+
+Value command is echo " Commit  == fbeeaa2 drm/i915: add audio power domain and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 7c063c7 drm/i915: take mode config lock around crtc disable at suspend and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 8b4f49e drm/i915: split fb allocation and initialization v2 and Commit lenght is 47 " >>  Result.
+
+Value command is echo " Commit  == 67e5871 drm/i915: Drop forcewake w/a for missed interrupts/seqno on Sandybridge and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 5ed1678 drm/i915: Move the gtt mm takedown to cleanup and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 5ce0972 drm/i915: Missed dropped VMA conversion and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 2f88542 drm/i915: Remove defunct ctx switch comments and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 17601cb drm/i915: Removed unused vm args and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 2f9fe5f drm/i915: Demote drop_caches_set print and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == ad52546 drm/i915: Disallow dynamic ppgtt param modification and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 686e1f6 drm/i915: Add a few missed bits to the mm and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == d595bd4 drm/i915: Fix BDW PPGTT error path and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == c51e970 drm/i915: Prefer setting PTE cache age to 3 and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == d629336 drm/i915: Don't set the fence number in DPFC_CTL on SNB and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == b33ecdd drm/i915: Fix module unloading with DRM_I915_UMS=n and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 6605782 i915, fbdev: Fix Kconfig typo and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 432f334 i915, debugfs: Fix uninitialized warning and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 76bb80e drm/i915/ddi: set sink to power down mode on dp disable and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == cf96967 Merge tag 'drm-intel-fixes-2013-11-20' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 3458122 drm/i915: Hold pc8 lock around toggling pc8.gpu_idle and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 4ea67bc drm/i915: Enable pipe gamma for sprites and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == b19870e drm/i915: Use plane_name() in gen7_enable_fbc() and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == cbaef0f drm/i915: Set has_fbc=true for all SNB+, except VLV and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 37c1d94 drm/i915: Emit SRM after the MSG_FBC_REND_STATE LRI and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 9688eca drm/i915: Limit FBC flush to post batch flush and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == f727b49 drm/i915: Fix gen3 self-refresh watermarks and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 1021442 drm/i915: Replicate BIOS eDP bpp clamping hack for hsw and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 7c6c265 drm/i915: Do not enable package C8 on unsupported hardware and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == be1c1fe drm/i915: Hold pc8 lock around toggling pc8.gpu_idle and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 1d37b68 drm/i915: encoder->get_config is no longer optional and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 7a495cf drm/i915/tv: add ->get_config callback and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == f671d11 drm/i915: remove intel_uncore_clear_errors and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 0694001 drm/i915: reuse WRPLL when possible and Commit lenght is 23 " >>  Result.
+
+Value command is echo " Commit  == 4aeebd7 drm/i915: dp aux irq support for g4x/vlv and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == ef46e0d drm/i915: restore the early forcewake cleanup and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 29c78f6 Partially revert "drm/i915: tune the RC6 threshold for stability" and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == f69e515 i915: Use 120MHz LVDS SSC clock for gen5/gen6/gen7 and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 7eb1c49 drm/i915: Reject opening of pipe crc files for invalid pipes and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == b378360 drm/i915: Use for_each_pipe in intel_display_crc_init and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 565ee38 drm/i915: do not save/restore backlight registers in KMS and Commit lenght is 30 " >>  Result.
+
+Value command is echo " Commit  == 58cad07 drm/i915: nuke get max backlight functions and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == bc0bb9f drm/i915: remove QUIRK_NO_PCH_PWM_ENABLE and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == b35684b drm/i915: do full backlight setup at enable time and Commit lenght is 94 " >>  Result.
+
+Value command is echo " Commit  == 596cc11 drm/i915/bdw: PIPE_[BC] I[ME]R moved to powerwell and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 3a2ffb6 drm/i915/bdw: Limit GTT to 2GB and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == eb0d4b7 drm/i915/bdw: Add comment about gen8 HWS PGA and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 230f955 drm/i915/bdw: Free correct number of ppgtt pages and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 935e8de drm/i915/bdw: Do gen6 style reset for gen8 and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == f8e1006 drm/i915/bdw: GEN8 backlight support and Commit lenght is 24 " >>  Result.
+
+Value command is echo " Commit  == 5dd8c4c drm/i915/bdw: Add BDW to ULT macro and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == fdbc3b1 drm/i915/dp: set sink to power down mode on dp disable and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 636baeb drm/i915: gather backlight information at setup and Commit lenght is 60 " >>  Result.
+
+Value command is echo " Commit  == b30324a drm/i915: Deprecated UMS support and Commit lenght is 27 " >>  Result.
+
+Value command is echo " Commit  == 3bb6ce6 drm/i915: Kill legeacy AGP for gen3 kms and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == ea8eea7 drm/i915: Make AGP=n work even on gen3 and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == b95b491 Merge tag 'drm-intel-fixes-2013-11-12' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 661df04 drm/i915: check i915_get_reset_stats_ioctl args and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == c445b3b drm/i915: debug print on backlight register and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == f91c15e drm/i915: use the initialized backlight max value instead of reading it and Commit lenght is 25 " >>  Result.
+
+Value command is echo " Commit  == 3bd712e drm/i915: move backlight level setting in enable/disable to hooks and Commit lenght is 37 " >>  Result.
+
+Value command is echo " Commit  == ab51c86 drm/i915: vlv does not have pipe field in backlight registers and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == b329b32 drm/i915: fix gen2-gen3 backlight set and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == b53c8c3 drm/i915: drop duplicate ggtt vma list add in setup_global_gtt and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 7bd688c drm/i915: handle backlight through chip specific functions and Commit lenght is 451 " >>  Result.
+
+Value command is echo " Commit  == c91c9f3 drm/i915: make asle notifications update backlight on all connectors and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 58c6877 drm/i915: make backlight info per-connector and Commit lenght is 66 " >>  Result.
+
+Value command is echo " Commit  == db31af1 drm/i915: clean up backlight conditional build and Commit lenght is 45 " >>  Result.
+
+Value command is echo " Commit  == b635991 drm/i915: add i915_get_reset_stats_ioctl and Commit lenght is 60 " >>  Result.
+
+Value command is echo " Commit  == 2ac0f45 drm/i915: add i915_reset_count and Commit lenght is 25 " >>  Result.
+
+Value command is echo " Commit  == f2d91a2 drm/i915: tune reset dmesg output a bit and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == e4607fc drm/i915/vlv: Make the vlv_dpio_read/vlv_dpio_write more PHY centric and Commit lenght is 49 " >>  Result.
+
+Value command is echo " Commit  == ab0169b Merge tag 'bdw-stage1-2013-11-08-v2' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == bad9781 Merge tag 'v3.12-rc5' into stable/for-linus-3.13 and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 1dca220 drm/i915/opregion: fix build error on CONFIG_ACPI=n and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 00fe639 drm/i915: Make AGP support optional and Commit lenght is 39 " >>  Result.
+
+Value command is echo " Commit  == 13b3a0a drm/i915: Mask the vblank interrupt on bdw by default and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 38d83c9 drm/i915: Wire up cpu fifo underrun reporting support for bdw and Commit lenght is 28 " >>  Result.
+
+Value command is echo " Commit  == 7167d7c drm/i915: Optimize gen8_enable|disable_vblank functions and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 0fbe787 drm/i915: Wire up pipe CRC support for bdw and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 92d03a8 drm/i915: Wire up PCH interrupts for bdw and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == 6d766f0 drm/i915: Wire up port A aux channel and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 30100f2 drm/i915: Fix up the bdw pipe interrupt enable lists and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == c42664c drm/i915: Optimize pipe irq handling on bdw and Commit lenght is 22 " >>  Result.
+
+Value command is echo " Commit  == 40c499f drm/i915/bdw: Take render error interrupt out of the mask and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == e76e063 drm/i915/bdw: Add BDW PCH check first and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == a298579 drm/i915: Use hsw_crt_get_config on BDW and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == a81a507 drm/i915/bdw: Change dp aux timeout to 600us on DDIA and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == b42c600 drm/i915/bdw: Enable trickle feed on Broadwell and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 4c2e7a5 drm/i915/bdw: WaSingleSubspanDispatchOnAALinesAndPoints and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == a75f362 drm/i915/bdw: conservative SBE VUE cache mode and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 7f88da0 drm/i915/bdw: Limit SDE poly depth FIFO to 2 and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == bf66347 drm/i915/bdw: Sampler power bypass disable and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == fd392b6 ddrm/i915/bdw: Disable centroid pixel perf optimization and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 4afe8d3 drm/i915/bdw: BWGTLB clock gate disable and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == fe4ab3c drm/i915/bdw: Implement edp PSR workarounds and Commit lenght is 20 " >>  Result.
+
+Value command is echo " Commit  == e64c4a1 drm/i915/bdw: Disable semaphores and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 6edee7f drm/i915/bdw: Create a separate BDW rps enable and Commit lenght is 76 " >>  Result.
+
+Value command is echo " Commit  == e3c3357 drm/i915/bdw: Broadwell has a max port clock of 300Mhz on HDMI and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 0f161f7 drm/i915/bdw: Don't wait for c0 threads on forcewake and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 46c764d drm/i915/bdw: Use HSW formula for ring freq scaling and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == ed8546a drm/i915/bdw: Support eDP PSR and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 2a114cc drm/i915/bdw: Use The GT mailbox for IPS enable/disable and Commit lenght is 31 " >>  Result.
+
+Value command is echo " Commit  == 416f472 drm/i915/bdw: Add Broadwell display FIFO limits and Commit lenght is 27 " >>  Result.
+
+Value command is echo " Commit  == 77d8d00 drm/i915/bdw: check DPD on port D when setting the DDI buffers and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == bafb655 drm/i915/bdw: BDW also has only 2 FDI lanes and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 8f93f4f drm/i915/bdw: add support for BDW DP voltage swings and pre-emphasis and Commit lenght is 65 " >>  Result.
+
+Value command is echo " Commit  == 300644c drm/i915/bdw: add BDW DDI buf translations for eDP and Commit lenght is 33 " >>  Result.
+
+Value command is echo " Commit  == e58623c drm/i915/bdw: Add BDW DDI buffer translation values and Commit lenght is 49 " >>  Result.
+
+Value command is echo " Commit  == 50ed5fb drm/i915/bdw: Implement WaSwitchSolVfFArbitrationPriority and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 6bbfa1c drm/i915/bdw: Use pipe CSC on Broadwell and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == e39bf98 drm/i915/bdw: get the correct LCPLL frequency on Broadwell and Commit lenght is 23 " >>  Result.
+
+Value command is echo " Commit  == 756f85c drm/i915/bdw: Broadwell has PIPEMISC and Commit lenght is 45 " >>  Result.
+
+Value command is echo " Commit  == c7670b1 drm/i915/bdw: on Broadwell, the panel fitter is on the pipe and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 018f52c drm/i915/bdw: pretend we have LPT LP on Broadwell and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 6745a2c drm/i915/bdw: Broadwell also has the "power down well" and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == b3dc685 drm/i915/bdw: add Broadwell sprite/plane/cursor checks and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 4b30553 drm/i915/bdw: Broadwell has 3 pipes and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 4e8058a drm/i915/bdw: add IS_BROADWELL macro and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 780f18c drm/i915/bdw: BSD init for gen8 also and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 77df677 drm/i915/bdw: ppgtt info in debugfs and Commit lenght is 43 " >>  Result.
+
+Value command is echo " Commit  == b42218c drm/i915/bdw: Don't muck with gtt_size on Gen8 when PPGTT setup fails and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == a5f3d68 drm/i915/bdw: Render ring flushing and Commit lenght is 43 " >>  Result.
+
+Value command is echo " Commit  == 28cf541 drm/i915/bdw: unleash PPGTT and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 94e409c drm/i915/bdw: Implement PPGTT enable and Commit lenght is 55 " >>  Result.
+
+Value command is echo " Commit  == 9df15b4 drm/i915/bdw: Implement PPGTT insert and Commit lenght is 33 " >>  Result.
+
+Value command is echo " Commit  == 459108b drm/i915/bdw: Implement PPGTT clear range and Commit lenght is 42 " >>  Result.
+
+Value command is echo " Commit  == b1fe667 drm/i915/bdw: Initialize the PDEs and Commit lenght is 28 " >>  Result.
+
+Value command is echo " Commit  == 37aca44 drm/i915/bdw: PPGTT init & cleanup and Commit lenght is 139 " >>  Result.
+
+Value command is echo " Commit  == fbe5d36 drm/i915/bdw: Support BDW caching and Commit lenght is 48 " >>  Result.
+
+Value command is echo " Commit  == 94ec8f6 drm/i915/bdw: Add GTT functions and Commit lenght is 87 " >>  Result.
+
+Value command is echo " Commit  == d31eb10 drm/i915/bdw: Create gen8_gtt_pte_t and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 6334013 drm/i915/bdw: Make gen8_gmch_probe and Commit lenght is 69 " >>  Result.
+
+Value command is echo " Commit  == d0582ed drm/i915/bdw: Update relevant error state and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 9d3203e drm/i915/bdw: debugfs updates and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 075b3bb drm/i915/bdw: Update MI_FLUSH_DW and Commit lenght is 19 " >>  Result.
+
+Value command is echo " Commit  == 1c7a062 drm/i915/bdw: dispatch updates (64b related) and Commit lenght is 34 " >>  Result.
+
+Value command is echo " Commit  == 3c94cee drm/i915/bdw: Support 64b relocations and Commit lenght is 32 " >>  Result.
+
+Value command is echo " Commit  == a123f15 drm/i915/bdw: Add interrupt info to debugfs and Commit lenght is 49 " >>  Result.
+
+Value command is echo " Commit  == abd58f0 drm/i915/bdw: Implement interrupt changes and Commit lenght is 482 " >>  Result.
+
+Value command is echo " Commit  == 9459d25 drm/i915/bdw: support GMS and GGMS changes and Commit lenght is 45 " >>  Result.
+
+Value command is echo " Commit  == 4e0bbc3 drm/i915/bdw: display stuff and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 1020a5c drm/i915/bdw: Clock gating init and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == 8897644 drm/i915/bdw: HW context support and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 31a5336 drm/i915/bdw: Swizzling support and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 5ab3133 drm/i915/bdw: Fences on gen8 look just like gen7 and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 4d4dead drm/i915/bdw: Add device IDs and Commit lenght is 48 " >>  Result.
+
+Value command is echo " Commit  == 8fe6bd2 drm/i915/bdw: Disable PPGTT for now and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 43d1b64 drm/i915/bdw: Initialize BDW forcewake vfuncs and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == ab3c759 drm/i915/vlv: Rename VLV DPIO register to be more structure to match configdb document. and Commit lenght is 177 " >>  Result.
+
+Value command is echo " Commit  == 9191526 Merge tag 'drm-intel-fixes-2013-11-07' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 45 " >>  Result.
+
+Value command is echo " Commit  == ab2aa47 drm/i915/bdw: Handle forcewake for writes on gen8 and Commit lenght is 53 " >>  Result.
+
+Value command is echo " Commit  == 1272e7b drm/i915: Use clamp_t() when limiting cur_delay and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 4c79156 drm/i915: Kill vlv_update_rps_cur_delay() and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 6917c7b drm/i915: Initialise min/max frequencies before updating RPS registers and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == c5bd2bf drm/i915/vlv: For i915_cur_delayinfo, the max frequency reporting wrong value. and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 57e22f4 drm/i915: Use frame counter for intel_wait_for_vblank() on CTG and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == edc08d0 drm/i915: Fix gen3/4 vblank counter wraparound and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 2325991 drm/i915/vlv: Workaround a punit issue in DDR data rate for 1333. and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 8245be3 drm/i915: Require HW contexts (when possible) and Commit lenght is 36 " >>  Result.
+
+Value command is echo " Commit  == 07bf139 drm/i915/vlv: use per-pipe backlight controls v2 and Commit lenght is 106 " >>  Result.
+
+Value command is echo " Commit  == 2ec3815 drm/i915: Pass dev_priv to vlv_gpu_freq() and vlv_freq_opcode() and Commit lenght is 35 " >>  Result.
+
+Value command is echo " Commit  == 07ab118 drm/i915: Improve vlv_gpu_freq() and vlv_freq_opcode() and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == 752aa88 drm/i915: make backlight functions take a connector and Commit lenght is 129 " >>  Result.
+
+Value command is echo " Commit  == 91a60f2 drm/i915: move opregion asle request handling to a work queue and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == c164f83 drm/i915: Sanitize prepare_pipes after valleyview_modeset_global_pipes() and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 7b5562d drm/i915/vlv: use PIPE_START_VBLANK interrupts on VLV and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 3f2c205 drm/i915: Return -ENOENT when a mode object can't be found and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 06c5bf8 drm/i915: Make the debugfs structures const and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == ad3543e drm/intel: Push get_scanout_position() timestamping into kms driver. and Commit lenght is 44 " >>  Result.
+
+Value command is echo " Commit  == f64a28a drm/i915/vlv: fixup DDR freq detection per Punit spec and Commit lenght is 11 " >>  Result.
+
+Value command is echo " Commit  == 586f49d drm/i915/vlv: split CCK and DDR freq usage and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 30a970c drm/i915/vlv: modeset_global_* for VLV v7 and Commit lenght is 201 " >>  Result.
+
+Value command is echo " Commit  == 85b1d7b drm/i915: move VLV DDR freq fetch into init_clock_gating and Commit lenght is 19 " >>  Result.
+
+Value command is echo " Commit  == f341915 drm/i915: add bunit read/write routines and Commit lenght is 22 " >>  Result.
+
+Value command is echo " Commit  == d298084 drm/i915/bdw: IS_GEN8 definition and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == f02586d drm/i915: Make intel_dp_is_edp() less specific and Commit lenght is 22 " >>  Result.
+
+Value command is echo " Commit  == 78eb06c drm/i915: Give names to the VBT child device type bits and Commit lenght is 23 " >>  Result.
+
+Value command is echo " Commit  == 9ca2fe7 drm/i915/vlv: enable HDA display audio for Valleyview2 and Commit lenght is 40 " >>  Result.
+
+Value command is echo " Commit  == c77ba21 drm/i915/ns2501: Rip out the reenable hack and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 48f34e1 drm/i915/dvo: call ->mode_set callback only when the port is running and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == 7f16e5c Merge tag 'v3.12' into drm-intel-next and Commit lenght is 28 " >>  Result.
+
+Value command is echo " Commit  == 9d1cb91 drm/i915: avoid unclaimed registers when capturing the error state and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 2675680 drm/i915: Enable DP port CRC for the "auto" source on g4x/vlv and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 8d2f24c drm/i915: scramble reset support for DP port CRC on vlv and Commit lenght is 47 " >>  Result.
+
+Value command is echo " Commit  == 8409360 drm/i915: scramble reset support for DP port CRC on g4x and Commit lenght is 62 " >>  Result.
+
+Value command is echo " Commit  == 0baab4f i915: fix compiler warning and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 9f08ef5 drm/i915: use the correct register when turning VDD off and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 1ad577a drm/i915: add back checking for i915_disable_power_well and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 93d1f99 drm/i915/vlv: Fix typo in the DPIO register define. and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == b0665d5 drm/i915: reduce eDP VDD message verbose and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 8a5e6aeb drm/i915: turn the eDP VDD on for any i2c transactions and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 40da17c drm/i915: refactor ilk display interrupt handling and Commit lenght is 28 " >>  Result.
+
+Value command is echo " Commit  == 3b6c42e drm/i915: use enum pipe consistently in i915_irq.c and Commit lenght is 23 " >>  Result.
+
+Value command is echo " Commit  == 94e39e2 drm/i915: Capture batchbuffer state upon GPU hang and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == f4adcd2 drm/i915: handle faked missed interrupts as simulated hangs, too and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 2f2632f Merge tag 'drm-intel-fixes-2013-10-29' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == ddb642f drm/i915: rename i915_init_power_well to init_power_domains_init and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == 22cba0c iwlwifi: mvm: BT Coex fix NULL pointer dereference and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 1fbc0d7 drm/i915: Fix the PPT fdi lane bifurcate state handling on ivb and Commit lenght is 49 " >>  Result.
+
+Value command is echo " Commit  == 92e76c8 drm/i915: Clamp cursor coordinates to int16_t range and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == c6cd2ee drm/i915/dp: workaround BIOS eDP bpp clamping issue and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == b4ed448 drm/i915: remove device field from struct power_well and Commit lenght is 22 " >>  Result.
+
+Value command is echo " Commit  == baa7070 drm/i915: use power get/put instead of set for power on after init and Commit lenght is 34 " >>  Result.
+
+Value command is echo " Commit  == 83c00f5 drm/i915: prepare for multiple power wells and Commit lenght is 44 " >>  Result.
+
+Value command is echo " Commit  == 8c7b72f drm/i915: Remove WaFbcDisableDpfcClockGating on HSW and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == a74b0c4 drm/i915: Remove WaFbcDisableDpfcClockGating on IVB and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 153b4b9 drm/i915: Convert straggling MCHBAR registers and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == be51e4a Merge tag 'drm-intel-next-2013-10-18' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 92ec118 sched/wait: Fix build breakage and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 3bcec5f Merge tag 'drm-intel-fixes-2013-10-21' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == d538bbd drm/i915: Use a spin lock to protect the pipe crc struct and Commit lenght is 61 " >>  Result.
+
+Value command is echo " Commit  == c459787 drm/i915: Move the pipe CRC stuff to other pipe data and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 6efdf35 drm/i915: enable only the needed power domains during modeset and Commit lenght is 44 " >>  Result.
+
+Value command is echo " Commit  == 4f07412 drm/i915: factor out modeset_update_power_wells and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 959cbc1 drm/i915: change power_well->lock to be mutex and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == bddc764 drm/i915: factor out is_always_on_domain and Commit lenght is 40 " >>  Result.
+
+Value command is echo " Commit  == f52e353 drm/i915: make the intel_display_power_domain enum compact and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 277de95 drm/i915: bikeshed the pipe CRC irq functions a bit and Commit lenght is 38 " >>  Result.
+
+Value command is echo " Commit  == 7ac0129 drm/i915: Wire up CRC for vlv and Commit lenght is 26 " >>  Result.
+
+Value command is echo " Commit  == 52f843f drm/i915: Wire up gen2 CRC support and Commit lenght is 24 " >>  Result.
+
+Value command is echo " Commit  == 4b79ebf drm/i915: Wire up CRC support for gen3/4 and Commit lenght is 43 " >>  Result.
+
+Value command is echo " Commit  == 3d099a0 drm/i915: Add new CRC sources and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == b073aea drm/i915: Fix PIPE_CRC_CTL for vlv and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 379ef82 drm/i915: Enable CRC interrupts on pre-gen5/vlv and Commit lenght is 21 " >>  Result.
+
+Value command is echo " Commit  == 4356d58 drm/i915: Wire up CRC interrupts for pre-gen5/vlv and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == b4437a4 drm/i915: CRC source selection #defines for gmch/vlv chips and Commit lenght is 23 " >>  Result.
+
+Value command is echo " Commit  == 0b5c5ed drm/i915: Adjust CRC capture for pre-gen5/vlv and Commit lenght is 36 " >>  Result.
+
+Value command is echo " Commit  == 1cf84bb drm/i915: Whitespace alignment fix for block header in display error state and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == de45eaf drm/i915: fix open-coded DIV_ROUND_UP and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == dc39fff drm/i915: Print RC6 info less often and Commit lenght is 45 " >>  Result.
+
+Value command is echo " Commit  == 6da7f10 drm/i915/dp: don't mention eDP bpp clamping if it doesn't affect bpp and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == 828c790 drm/i915: Disable GGTT PTEs on GEN6+ suspend and Commit lenght is 82 " >>  Result.
+
+Value command is echo " Commit  == b35b380 drm/i915: Make PTE valid encoding optional and Commit lenght is 24 " >>  Result.
+
+Value command is echo " Commit  == 3c9d87e drm/i915: remove dead code in ironlake_crtc_mode_set and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 5a69b89 drm/i915: crc support for hsw and Commit lenght is 30 " >>  Result.
+
+Value command is echo " Commit  == e309a99 drm/i915: fix CRC debugfs setup and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == bcf17ab drm/i915: wait one vblank when disabling CRCs and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 8bc5e95 drm/i915: use ->get_vblank_counter for the crc frame counter and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == 5b3a856 drm/i915: wire up CRC interrupt for ilk/snb and Commit lenght is 88 " >>  Result.
+
+Value command is echo " Commit  == 5a6b5c8 drm/i915: add CRC #defines for ilk/snb and Commit lenght is 36 " >>  Result.
+
+Value command is echo " Commit  == eba94eb drm/i915: extract display_pipe_crc_update and Commit lenght is 24 " >>  Result.
+
+Value command is echo " Commit  == 131a56d drm/i915: don't Oops in debugfs for I915_FBDEV=n and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 1a91510 drm/i915: set HDMI pixel clock in audio configuration and Commit lenght is 57 " >>  Result.
+
+Value command is echo " Commit  == 3442705 drm/i915: pass mode to ELD write vfuncs and Commit lenght is 11 " >>  Result.
+
+Value command is echo " Commit  == c75b505 cpufreq: Add dummy cpufreq_cpu_get/put for CONFIG_CPU_FREQ=n and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 53155c0 drm/i915: check gem bo size when creating framebuffers and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == aa5f802 drm/i915: Use unsigned long for obj->user_pin_count and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 80075d4 drm/i915: prevent tiling changes on framebuffer backing storage and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == dd4916c drm/i915: grab dev->struct_mutex around framebuffer_init and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 533df0f drm/i915: vlv: fix VGA hotplug after modeset and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 585a94b drm/i915: preserve dispaly init order on ByT and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == 6f2bcce drm/i915: Use pipe_name() instead of the pipe number and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 45c5f20 drm/i915: Disable all GEM timers and work on unload and Commit lenght is 27 " >>  Result.
+
+Value command is echo " Commit  == 9514ac6 drm/i915: Move some hdmi enable function name to vlv specific. and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == e8dfcf7 drm/i915: constify harder and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == f8c168f drm/i915: static inline for dummy crc functions and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == d8882ac drm/i915: Enable pipe CRCs and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == be5c7a9 drm/i915: Only one open() allowed on pipe CRC result files and Commit lenght is 19 " >>  Result.
+
+Value command is echo " Commit  == 0714442 drm/i915: Implement blocking read for pipe CRC files and Commit lenght is 159 " >>  Result.
+
+Value command is echo " Commit  == 497666d drm/i915: Move drm_add_fake_info_node() higher in the file and Commit lenght is 27 " >>  Result.
+
+Value command is echo " Commit  == 7cd6ccf drm/i915: Add log messages when CRCs collection is started/stopped and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 0c912c7 drm/i915: Warn if we receive an interrupt after freeing the buffer and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == bd9db02 drm/i915: Rename i915_pipe_crc_ctl to i915_display_crc_ctl and Commit lenght is 22 " >>  Result.
+
+Value command is echo " Commit  == b94dec8 drm/i915: Generalize the CRC command format for future work and Commit lenght is 44 " >>  Result.
+
+Value command is echo " Commit  == e5f75ac drm/i915: Dynamically allocate the CRC circular buffer and Commit lenght is 15 " >>  Result.
+
+Value command is echo " Commit  == 4b58436 drm/i915: Empty the circular buffer when asked for a new source and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == ae676fc drm/i915: Enforce going back to none before changing CRC source and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == cc3da17 drm/i915: Make switching to the same CRC source a no-op and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == ac2300d drm/i915: Sample the frame counter instead of a timestamp for CRCs and Commit lenght is 8 " >>  Result.
+
+Value command is echo " Commit  == b2c88f5 drm/i915: Keep the CRC values into a circular buffer and Commit lenght is 32 " >>  Result.
+
+Value command is echo " Commit  == 926321d drm/i915: Add a control file for pipe CRCs and Commit lenght is 226 " >>  Result.
+
+Value command is echo " Commit  == 8bf1e9f drm/i915: Expose latest 200 CRC value for pipe through debugfs and Commit lenght is 122 " >>  Result.
+
+Value command is echo " Commit  == 73ae478 drm/i915: Replace has_bsd/blt/vebox with a mask and Commit lenght is 30 " >>  Result.
+
+Value command is echo " Commit  == 71b76d0 drm/i915: cleanup context fini and Commit lenght is 14 " >>  Result.
+
+Value command is echo " Commit  == 3d57e5b drm/i915: Do a fuller init after reset and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == 5915a3d backlight: introduce backlight_device_registered and Commit lenght is 37 " >>  Result.
+
+Value command is echo " Commit  == 14c8d11 drm/i915: abstract the conversion of device->minor out to a macro and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == cd66407 drm/i915: disable LVDS clock gating on CPT v2 and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == ebff5fa9 Revert "i915: Update VGA arbiter support for newer devices" and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == e1264eb Revert "drm/i915: Delay disabling of VGA memory until vgacon->fbcon handoff is done" and Commit lenght is 14 " >>  Result.
+
+Value command is echo " Commit  == d9973b4 drm/i915: Fix type mismatch and accounting in i915_gem_shrink and Commit lenght is 16 " >>  Result.
+
+Value command is echo " Commit  == 967ad7f Merge remote-tracking branch 'airlied/drm-next' into drm-intel-next and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 12444d5 Merge tag 'drm-intel-fixes-2013-10-07' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 0cc4b69 drm/i915: Mask LPSP to get PSR working even with Power Well in use by audio. and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == f3fc488 drm/i915/hsw: Disable L3 caching of atomic memory operations. and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == 29d274b x86/simplefb: Mark framebuffer mem-resources as IORESOURCE_BUSY to avoid bootup warning and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 671952a drm/i915: fix rps.vlv_work initialization and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 4821ff1 Merge tag 'drm-intel-next-2013-09-21-merged' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 36dec40 Merge tag 'drm-intel-fixes-2013-09-26' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == d322704 drm/i915: Fix up usage of SHRINK_STOP and Commit lenght is 5 " >>  Result.
+
+Value command is echo " Commit  == b599c89 Merge tag 'v3.12-rc2' into drm-intel-next and Commit lenght is 63 " >>  Result.
+
+Value command is echo " Commit  == 2a3ca14 i915: intel_acpi: convert acpi_get_handle() to acpi_has_method() and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 8e1f80c Merge tag 'drm-intel-fixes-2013-09-19' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 7e60353 drm/msm: drop unnecessary set_need_resched() and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == d2aebe3 drm/udl: rip out set_need_resched and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 3ba5eeb mm/memory-failure.c: fix bug triggered by unpoisoning empty zero page and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 81e49f8 i915: bail out earlier when shrinker cannot acquire mutex and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 7dc19d5 drivers: convert shrinkers to new count/scan API and Commit lenght is 245 " >>  Result.
+
+Value command is echo " Commit  == 3942c07 fs: bump inode and dentry counters to long and Commit lenght is 34 " >>  Result.
+
+Value command is echo " Commit  == 4801685 Merge tag 'drm-intel-fixes-2013-09-06' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == efa27f9 Merge tag 'drm-intel-next-2013-08-23' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 9 " >>  Result.
+
+Value command is echo " Commit  == 1dcff83 Merge tag 'drm-intel-fixes-2013-08-30' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 1c9a341 ALSA: hda - Simplify CONFIG_SND_HDA_I915 condition and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 4dd17ee Merge tag 'drm-intel-fixes-2013-08-23' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 3ef80a8 drm: WARN when removing unallocated node and Commit lenght is 4 " >>  Result.
+
+Value command is echo " Commit  == d48de1c [media] gspca-ov534: don't call sd_start() from sd_init() and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 9712def Merge tag 'drm-intel-next-2013-08-09' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 3 " >>  Result.
+
+Value command is echo " Commit  == 0faa4a8 drm/vmwgfx: remove ->firstopen callback and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == 3387ed8 Merge tag 'drm-intel-fixes-2013-08-15' of git://people.freedesktop.org/~danvet/drm-intel and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 1dda8d0 Merge remote-tracking branch 'pfdo/drm-rcar-for-v3.12' into drm-next and Commit lenght is 6 " >>  Result.
+
+Value command is echo " Commit  == 072017b net: sctp: Add rudimentary infrastructure to account for control chunks and Commit lenght is 70 " >>  Result.
+
+Value command is echo " Commit  == e42f581 Merge tag 'drm-intel-fixes-2013-08-08' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 32c913e Merge tag 'drm-intel-next-2013-07-26-fixed' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 13 " >>  Result.
+
+Value command is echo " Commit  == df0960a fbdev: simplefb: mark as fw and allocate apertures and Commit lenght is 10 " >>  Result.
+
+Value command is echo " Commit  == 0f74665 Merge tag 'pm+acpi-3.11-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 8e5c2b7 Revert "ACPI / video / i915: No ACPI backlight if firmware expects Windows 8" and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == bf903e4 Merge tag 'drm-intel-fixes-2013-07-25' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 058ca4a Merge tag 'drm-intel-fixes-2013-07-22' of git://people.freedesktop.org/~danvet/drm-intel into drm-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 25f397a drm/crtc-helper: explicit DPMS on after modeset and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == ea45ea7 Merge tag 'acpi-video-3.11' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == e13af9a Merge tag 'drm-intel-next-2013-07-12' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == 8157ee2 Merge tag 'v3.10' into drm-intel-fixes and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 8c5bd7a ACPI / video / i915: No ACPI backlight if firmware expects Windows 8 and Commit lenght is 111 " >>  Result.
+
+Value command is echo " Commit  == 6bd2cab Merge tag 'drm-intel-fixes-2013-07-11' of git://people.freedesktop.org/~danvet/drm-intel and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 69163ea drm/mm: kill color_search_free/get_block and Commit lenght is 2 " >>  Result.
+
+Value command is echo " Commit  == d0aaa28 Merge tag 'drm-intel-fixes-2013-07-03' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == 02c030a drm/doc: Remove outdated note about i915 driver not behaving properly and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 2841926 Merge tag 'drm-intel-next-2013-06-18' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 12 " >>  Result.
+
+Value command is echo " Commit  == 4300a0f Merge tag 'v3.10-rc7' into drm-next and Commit lenght is 18 " >>  Result.
+
+Value command is echo " Commit  == 372835a drm/crtc-helper: explicit DPMS on after modeset and Commit lenght is 17 " >>  Result.
+
+Value command is echo " Commit  == e58de88 drm/crtc-helpers: Enforce sane set_config api and Commit lenght is 7 " >>  Result.
+
+Value command is echo " Commit  == e6dfcc5 Merge tag 'drm-intel-next-2013-06-01' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 1 " >>  Result.
+
+Value command is echo " Commit  == 99a2008 ALSA: hda - Add power-welll support for haswell HDA and Commit lenght is 184 " >>  Result.
+
+Value command is echo " Commit  == e81f3d8 Merge tag 'drm-intel-next-2013-05-20-merged' of git://people.freedesktop.org/~danvet/drm-intel into drm-next and Commit lenght is 0 " >>  Result.
+
+Value command is echo " Commit  == e1b73cb Merge tag 'v3.10-rc2' into drm-intel-next-queued and Commit lenght is 12 " >>  ResultNumber of PATCHES == 576
+
+Check Results File for Details

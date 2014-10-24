@@ -1,0 +1,1820 @@
+84e12d9 Merge tag 'staging-3.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+a3fe964 imx-drm: imx-tve: correct DDC property name to 'ddc-i2c-bus'
+2b4c366 drm/tegra: restrict plane loops to legacy planes
+b931242 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+1c23662 imx-drm: imx-drm-core: skip components whose parent device is disabled
+c509bdc imx-drm: imx-drm-core: fix imx_drm_encoder_get_mux_id
+c044330 drm: bochs: drop unused struct fields
+b8ccd70 drm: bochs: add power management support
+2f1e800 drm: cirrus: add power management support
+8d75454 drm: Split out drm_probe_helper.c from drm_crtc_helper.c
+b841aed drm/omap: remove warn from debugfs
+2ec8e37 drm/omap: fix output enable/disable sequence
+e9f37d3 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+f4d1b02 drm: gem-cma: Fix warnings due to improper printk formats
+c683f42 drm: Prefer noninterlace cmdline mode unless explicitly specified
+62347f9 drm: Add support for two-ended allocation, v3
+2844ea3 Merge branch 'primary-plane' of git://people.freedesktop.org/~robclark/linux into drm-next
+bfe8b57 drm: Specify a bit more the DRM_CAP_CURSOR_{WIDTH, HEIGHT} caps
+681e7ec drm: Allow userspace to ask for universal plane list (v2)
+780f598 drm: Remove unused drm_crtc->fb
+f4510a2 drm: Replace crtc fb with primary plane fb (v3)
+e13161a drm: Add drm_crtc_init_with_planes() (v2)
+9922ab5 drm: Add plane type property (v2)
+dc415ff drm: Add drm_universal_plane_init()
+c103d1c drm: Add primary plane helpers (v3)
+af93629 drm: Make drm_crtc_check_viewport non-static
+e27dde3 drm: Add support for multiple plane types (v2)
+efbc20a drm/i915: don't read pp_ctrl_reg if we're suspended
+4dedde7 Merge tag 'pm+acpi-3.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+c32fc9c Merge tag 'vmwgfx-next-2014-03-28' of git://people.freedesktop.org/~thomash/linux into drm-next
+4beb6d9 drm: Add a function to get the ioctl flags
+c996fd0 drm: Protect the master management with a drm_device::master_mutex v3
+a12cd00 drm: Remove the minor master list
+4368305 drm: Improve on minor type helpers v3
+ac05dbc drm: Make control nodes master-less v3
+c266735 drm: Break out ioctl permission check to a separate function v2
+09f308f drm: Have the crtc code only reference master from legacy nodes v2
+0ed0298 drm: Remove the ', ' after the function name in debug logs
+1287aa9 drm: Remove the prefix argument of drm_ut_debug_printk()
+1288c19 drm: drm_ut_debug_printk() isn't called with NULL anywmore
+a73d4e9 drm: Pull the test on drm_debug in the logging macros
+8fa6a9e drm: Remove the now unused DRM_LOG* macros
+38821e6 staging: imx-drm: Replace DRM_LOG_KMS() by DRM_DEBUG_KMS()
+98a4823 drm: Remove the unused (and unusable) DRM_LOG_MODE()
+1414b76 drm: Refresh the explanation of debug categories
+08edb33 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+94a81ca Merge branches 'acpi-battery' and 'acpi-video'
+a386c00 ACPI / gpu / drm: Stop selecting VIDEO_OUTPUT_CONTROL
+256a38b staging:imx-drm: Fix line over 80 characters.
+e5e1b16 staging: imx-drm: imx-ldb.c Fix line over 80 characters.
+5a08c07 Merge branch 'topic/core-stuff' of git://git.freedesktop.org/git/drm-intel into drm-next
+d1583c9 Merge branch 'drm-next' of git://people.freedesktop.org/~dvdhrm/linux into drm-next
+978c605 Merge branch 'drm-docs' of ssh://people.freedesktop.org/~danvet/drm into drm-next
+27410e8 drm: Fix use-after-free in the shadow-attache exit code
+c94adc4 drm: Fix use-after-free in the shadow-attache exit code
+409bbf1 drm: Check if the allocation has succeeded before dereferencing newmode
+e40d641 Merge branch 'drm-minor' of git://people.freedesktop.org/~dvdhrm/linux into drm-next
+0d63988 drm: make minors independent of global lock
+7d86cf1 drm: inline drm_minor_get_id()
+1abbc43 drm: coding-style fixes in minor handling
+5817878 drm: remove redundant minor->device field
+cb0f932 drm: remove unneeded #ifdef CONFIG_DEBUGFS
+afcdbc8 drm: rename drm_unplug/get_minor() to drm_minor_register/unregister()
+bd9dfa9 drm: move drm_put_minor() to drm_minor_free()
+05b701f drm: allocate minors early
+1616c52 drm: add minor-lookup/release helpers
+099d1c2 drm: provide device-refcount
+cb8a239 drm: turn DRM_MINOR_* into enum
+b9a0d15 drm: remove unused DRM_MINOR_UNASSIGNED
+f4aede2 drm: skip redundant minor-lookup in open path
+45e212d drm: group dev-lifetime related members
+44d847b drm: init TTM dev_mapping in ttm_bo_device_init()
+6796cb1 drm: use anon-inode instead of relying on cdevs
+31bbe16 drm: add pseudo filesystem for shared inodes
+c8e32cc drm: kerneldoc polish for drm_crtc.c
+3fcc42e drm: kerneldoc polish for drm_crtc_helper.c
+00d762c drm: drop error code for drm_helper_resume_force_mode
+9fd9378 drm: remove return value from drm_helper_mode_fill_fb_struct
+fa54143 drm: remove drm_display_mode->private_size
+f5aabb9 drm: polish function kerneldoc for drm_modes.[hc]
+5531000 drm: extract drm_modes.h for drm_crtc.h functions
+8bd441b drm: move drm_mode related functions into drm_modes.c
+e1f8ebd drm/doc: No more drm perf counters
+3bf7706 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+6a63171 staging: imx-drm: Update TODO
+62e3879 imx-drm: imx-tve: Fix DDC I2C bus property
+b5d4590 imx-drm: imx-hdmi: Fix DDC I2C bus property
+7322e45 staging: imx-drm: Document imx-hdmi device tree bindings
+408eb4f5 staging: imx-drm: Document updated imx-drm device tree bindings
+77ac9a0 drm: fix bochs kconfig dependencies
+98dd3b2 imx-drm: imx-ldb: Use snprintf()
+b6d8115 imx-drm: ipu-dmfc: Remove unneeded 'dmfc' check
+fdffa6f imx-drm: imx-drm-core: Staticize imx_drm_find_crtc()
+1858973 imx-drm: ipuv3-plane: Use %pad to print 'dma_addr_t'
+39dcf4f imx-drm: parallel-display: Check 'mode' pointer first
+9f9b036 imx-drm: imx-ldb: Check 'mode' pointer first
+628f435 imx-drm: parallel-display: Add drm_panel support
+1f15b69 imx-drm: ipu-dc: Use usleep_range instead of msleep
+7f4392a imx-drm: Move IPU_PIX_FMT_GBR24 definition into imx-ipu-v3.h
+6ba6b7c Merge tag 'drm/dp-aux-for-3.15-rc1' of git://anongit.freedesktop.org/tegra/linux into drm-next
+d94905e imx-drm: imx-hdmi: add hotplug support to HDMI component
+3e68439 imx-drm: imx-drm-core: add core hotplug connector support
+e7d6231 imx-drm: imx-drm-core: various cleanups
+b85f2b5 imx-drm: imx-drm-core: move allocation of imxdrm device to driver load function
+ccec7f6 imx-drm: imx-drm-core: kill off mutex
+06c6b82 imx-drm: imx-drm-core: get rid of drm_mode_group_init_legacy_group()
+8d71de6 imx-drm: imx-drm-core: remove imx_drm_connector and imx_drm_encoder code
+1b3f767 imx-drm: initialise drm components directly
+8a51a33 imx-drm: imx-drm-core: provide common connector and encoder cleanup functions
+9e2d410 imx-drm: imx-drm-core: provide helper function to parse possible crtcs
+32266b4 imx-drm: use supplied drm_device where possible
+1df8b53 imx-drm: remove imx-fb.c
+8acba02 imx-drm: remove separate imx-fbdev
+e355e7d imx-drm: delay publishing sysfs connector entries
+17b5001 imx-drm: convert to componentised device support
+f2d66aa imx-drm: simplify setup of panel format
+baa68c4 imx-drm: provide common connector mode validation function
+887eceac imx-drm: imx-drm-core: use array instead of list for CRTCs
+e76171b imx-drm: imx-drm-core: sanitise imx_drm_encoder_get_mux_id()
+cf83eb2 imx-drm: update and fix imx6 DT descriptions for v3 HDMI driver
+04cec1a imx-drm: add imx6 DT configuration for HDMI
+0721fee imx-drm: ipu-v3: more clocking fixes
+370b181 imx-drm: ipu-v3: don't use clk_round_rate() before clk_set_rate()
+24013ea imx-drm: ipu-v3: more inteligent DI clock selection
+4067838 imx-drm: imx-hdmi: fix CTS/N setup at init time
+bebdf66 imx-drm: imx-hdmi: clean up setting of vp_conf
+812bc61 imx-drm: imx-hdmi: provide register modification function
+c082f9d imx-drm: imx-hdmi: clean up setting CSC registers
+3e46f15 imx-drm: imx-hdmi: convert HDMI clock settings to tabular form
+960dfc4 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+560591f Merge branch 'drm-fixes-3.14' of git://people.freedesktop.org/~agd5f/linux into drm-fixes
+6354647 Merge branch 'pci/list-for-each-entry' into next
+8716ed4 drm: add DRM_CAPs for cursor size
+2b1278c firmware: give a protection when map page failed
+59c1ad3b drm: Use list_for_each_entry() for bus traversal
+b6ae3c7 drm/i915: don't reference null pointer at i915_sink_crc
+b728fab drm/i2c: tda998x: change probe message origin
+2f1046f drm: export cmdline and preferred mode functions from fb helper
+ac1bb36 drm: expose subpixel order name routine v3
+379dd27 Merge tag 'drm-intel-fixes-2014-02-06' of ssh://git.freedesktop.org/git/drm-intel into drm-next
+ba92b22 imx-drm: imx-hdmi: Remove parentheses from returns
+5a819ed staging: imx-drm: Fix build error
+ec9557d imx-drm: imx-drm-core: merge imx_drm_crtc_register() into imx_drm_add_crtc()
+020a9ea imx-drm: imx-drm-core: avoid going the long route round for drm_device
+b5ea149 imx-drm: imx-drm-core: use the crtc drm device for vblank
+48b8f63 drm: add DRM_INFO_ONCE() to print a one-time DRM_INFO() message
+9b0cd30 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+45ab1e0 Merge tag 'drm/for-3.14-rc1-20140123' of git://anongit.freedesktop.org/tegra/linux into drm-next
+f4b4718 drm: ast,cirrus,mgag200: use drm_can_sleep
+bed86f1 DRM: armada: fix missing DRM_KMS_FB_HELPER select
+a25eebb drm: dp helper: Add DP test sink CRC definition.
+22accca i915: remove pm_qos request on error
+f5395ba Merge branch 'drm-vbl-timestamp' of git://gitorious.org/vsyrjala/linux into drm-next
+2b76a67 Merge branch 'topic/core-stuff' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+de4fe30 Merge tag 'staging-3.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+0993f1d drm: Make the connector mode_valid() vfunc return a drm_mode_status enum
+abca9e4 drm: Pass 'flags' from the caller to .get_scanout_position()
+c0ae24c drm: Fix vblank timestamping constants for interlaced modes
+3c184f6 drm: Change {pixel,line,frame}dur_ns from s64 to int
+77666b7 drm: Use crtc_clock in drm_calc_timestamping_constants()
+0dae35a drm: Simplify the math in drm_calc_timestamping_constants()
+21b2156 drm: Improve drm_calc_timestamping_constants() documentation
+7da903e drm: Pass the display mode to drm_calc_vbltimestamp_from_scanoutpos()
+545cdd5 drm: Pass the display mode to drm_calc_timestamping_constants()
+145830d Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+3d88736 drm: Move drm_encoder_crtc_ok() to core
+db5f7a6 drm: provide a helper for the encoder possible_crtcs mask
+abce1ec Revert "drm: copy mode type in drm_mode_connector_list_update()"
+b04a590 drm: store the gem vma offset manager in a typed pointer
+075c457 imx-drm: parallel-display: honor 'native-mode' property when selecting video mode from DT
+7fc6cb2 staging: imx-drm: imx-tve: Fix a sparse warning
+1aba038 Merge tag 'staging-3.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+d016da5 drm: use memdup_user() as a cleanup
+99c09e7 drm: remove dev->vma_count
+5952fba drm: Kill file_priv->ioctl_count tracking
+43d1337 drm: rip out dev->ioctl_count tracking
+4cda878 drm: Kill DRM_SUSER
+85b2331 drm: Kill DRM_*MEMORYBARRIER
+1d6ac18 drm: Kill DRM_COPY_(TO|FROM)_USER
+57ed0f7 drm: Kill DRM_WAKUP and DRM_INIT_WAITQUEUE
+e9f0d76 drm: Kill DRM_IRQ_ARGS
+bfd8303 drm: Kill DRM_HZ
+d2e546b drm: rip out DRM_AGP_MEM and DRM_AGP_KERN
+8a5a800 drm: remove global_mutex locking around agp_init
+4efafeb drm: kill the ->agp_destroy callback
+d6e4b28 drm: inline drm_agp_destroy
+2c695fa drm: remove agp_init() bus callback
+d990675 drm: rip out drm_core_has_AGP
+8da79cc drm: ->agp_init can't fail
+24986ee drm: kill DRIVER_REQUIRE_AGP
+fd6040e imx-drm: imx-drm-core: improve safety of imx_drm_add_crtc()
+9fe73d4 imx-drm: imx-drm-core: make imx_drm_crtc_register() safer
+942325c imx-drm: imx-drm-core: use defined constant for number of CRTCs.
+bd5121b imx-drm: imx-tve: don't call sleeping functions beneath enable_lock spinlock
+4ae078d imx-drm: ipu-v3: fix potential CRTC device registration race
+8007875 imx-drm: imx-drm-core: fix DRM cleanup paths
+8283204 imx-drm: imx-drm-core: fix error cleanup path for imx_drm_add_crtc()
+b3f2333 drm: restrict the device list for shadow attached drivers
+e2577d4 drm: rip out drm_platform_exit
+c0c72a8 drm: shmob_drm: Check clk_prepare_enable() return value
+35eecf0 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+66ee52e drm: Implement dummies for debugfs helpers
+73e9efd drm: Push dirtyfb ioctl kms locking down to drivers
+ee61c73 drm: Don't reference objects in the flink name idr
+520edd1 drm: do not steal the display if we have a master
+fffb906 drm: Don't split up debug output
+5d13d42 drm: add DRM_ERROR_RATELIMITED
+aead40e drm: Add panel support
+068a002 drm: Add MIPI DSI bus support
+0f58411 drm: don't double-free on driver load error
+78fd822 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+9aaf880 imx-drm: Add mx6 hdmi transmitter support
+89570ee drm: fix the addition of the side-by-side (half) flag for extra 3D modes
+c6b78bc drm: fix typos in comment in /gpu/drm/exynos
+0b0f7f1 Merge tag 'staging-3.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+9c74360 staging: imx-drm: Fix modular build of DRM_IMX_IPUV3
+ded5107 Merge branch 'drm-next-3.13' of git://people.freedesktop.org/~agd5f/linux into drm-fixes
+cd1177f2 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+71473db drm: radeon: ni_dpm: Fix unused variable warning when CONFIG_ACPI=n
+a348335 drm: check for !kdev in drm_unplug_minor()
+049ffa8 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+d5aabbc Merge tag 'boards-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/arm/arm-soc
+49f4a9c staging: imx-drm: remove unnecessary braces
+5354cb6 staging: imx-drm: Fix warning for static const char * array in imx-ldb.c
+8d01e1e drm: shmob_drm: Convert to clk_prepare/unprepare
+0b1e73e Merge tag 'staging-3.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+8f6599d drm: delay minor destruction to drm_dev_free()
+f67e946 drm: remove minor-id during unplug
+865fb47 drm: cleanup debugfs in drm_unplug_minor()
+a99ee45 drm: make drm_get_minor() static
+4ac387f drm: simplify drm_put_minor()
+f73aca5 drm: call drm_unplug_minor() from drm_put_minor()
+02ee4e9 drm: eliminate bit-copy restoration of crtc
+48b1f5d drm: do not set crtc enabled field twice
+7e99acd drm: fix error recovery path in drm_crtc_helper_set_mode
+fbce406 drm: restore crtc origin if mode_set_base fails
+bec2eac drm: eliminate old_fb from drm_crtc_helper_set_config
+fc50a89 drm: remove redundant if statement
+39868bd drm: Compact booleans within struct drm_file
+1020dc6 drm: Do not drop root privileges for a fancier younger process
+3cf70da drm: add drm_set_preferred_mode
+23c453a drm: Pretty print pixel format in drm_fb_get_bpp_depth() and format_check()
+37c4e70 drm: Return -ENOENT when a framebuffer can't be found
+f27657f drm: Consistently return -ENOENT when a mode object can't be found
+e1e7853 drm: Pass pointers to virt_to_page()
+bc212b9 drm: Do not include page offset in argument to virt_to_page()
+1dda680 drm: delete unconsumed pending event list in drm_events_release
+36f73b2 drm: Make drm_debugfs_list const
+ff9befe drm: Remove drm_debugfs_node and drm_debugfs_list
+7d74795 drm: Constify struct drm_info_list * arguments
+0a5a549 drm: shmobile: Add dependency on BACKLIGHT_CLASS_DEVICE
+8f6fce0 drm: Push latency sensitive bits of vblank scanoutpos timestamping into kms drivers.
+862cc8b drm: Remove preempt_disable() from vblank timestamping code.
+f28c38a drm: Fix typo in debug message
+a6ad623 drm: Track the proper DPMS mode of connectors
+b8cab70 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+3d3b78c drm: allow DRM_IOCTL_VERSION on render-nodes
+f0ac9be imx-drm: ipuv3-crtc: Invert IPU DI0 clock polarity
+89bc5be staging: imx-drm: use true and false for bool variables
+be51e4a Merge tag 'drm-intel-next-2013-10-18' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+3fbd643 drm: copy mode type in drm_mode_connector_list_update()
+b8206d3 drm: return if changed in drm_helper_hpd_irq_event()
+74afee7 drm: fix a small spelling
+b403b73 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+bc5bd37 drm: Pad drm_mode_get_connector to 64-bit boundary
+b062672 drm: Prevent overwriting from userspace underallocating core ioctl structs
+fbf4602 drm: add support for additional stereo 3D modes
+5b5bbc2 Merge tag 'omap-for-v3.13/board-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into next/boards
+bd3665c staging: drm/imx: Enable DRM PRIME support
+c35d6a3 imx-drm: imx-drm-core: Fix circular locking dependency
+92b6f89f drm: Add separate Kconfig option for fbdev helpers
+0111be4 drm: Kill drm perf counter leftovers
+ffbab09b drm: Remove pci_vendor and pci_device from struct drm_device
+fc6ff19 drm: Kill ctx_count from struct drm_device
+6b8837d drm: Kill unused stuff from struct drm_device
+4423843 drm: Make irq_enabled bool
+5380e92 drm: Collect per-crtc vblank stuff to a struct
+bf507d90 drm: Make vblank_enabled bool
+54edf9a drm: Make vblank_inmodeset unsigned
+ba0bf12 drm: Make vblank_disable_allowed bool
+1eee814 drm: Fix comment referring to the long gone ->probe() connector vfunc
+9066f83 drm: Try loading builtin EDIDs first
+c3a4973 drm: move device unregistration into drm_dev_unregister()
+0dc8fe5 drm: introduce drm_dev_free() to fix error paths
+1c8887d drm: move drm_lastclose() to drm_fops.c
+c22f0ac drm: merge device setup into drm_dev_register()
+1bb7253 drm: add drm_dev_alloc() helper
+16eb5f4 drm: kill ->gem_init_object() and friends
+493a863 ARM: dts: imx51-babbage: Make DVI and WVGA panel functional
+7dfebab ARM: OMAP2+: drm: Don't build device for DMM
+395c994 drm: nouveau: Don't use i2c_client->driver
+3ee81b7 drm: encoder_slave: Don't use i2c_client->driver
+5848ad4 drm: Reject stereo modes with an unknown layout
+fc4833c drm: Revert "drm: Reject modes with more than 1 stereo flags set"
+f7e121b drm: Code stereo layouts as an enum rather than a bit field
+a0c1bbb drm: Check the fb size against the adjusted v/hdisplay for stereo modes
+c11e928 drm: Factor out common CRTC viewport checking code
+448cce2 drm: Implement timings adjustments for frame packing
+bde2dcf drm: Introduce a crtc_clock for struct drm_display_mode
+65427b1 drm: Remove synth_clock from struct drm_display_mode
+99b314a drm: Remove clock_index from struct drm_display_mode
+560a067 drm: Make exposing stereo modes a per-connector opt-in
+2713021 drm: Carry over the stereo flags when adding the alternate mode
+f2ecf2e drm: Make drm_match_cea_mode() return the underlying 2D VIC for 3d modes
+4eed4a0 drm: Set the relevant infoframe field when scanning out a 3D mode
+a3ff6d5 drm: Reject modes with more than 1 stereo flags set
+1deee8d drm: Extract add_hdmi_mode() out of do_hdmi_vsdb_modes()
+61d8e32 drm: Add a STEREO_3D capability to the SET_CLIENT_CAP ioctl
+4aa17cf drm: Add HDMI stereo 3D flags to struct drm_mode_modeinfo
+1c0814f drm: Add a SET_CLIENT_CAP ioctl
+a99b57d drm: Move the GET_CAP macros next to the corresponding ioctl structure
+aec347a drm/i915: Delay the release of the forcewake by a jiffie
+51bbd27 drm: Remove unused variables in drm_fb_helper_hotplug_event()
+86aed67 drm: Remove unused variable in drm_pick_crtcs()
+bd89bcb drm: Remove unused variable in drm_fb_helper_pan_display()
+36dccc8 drm: Remove unused variable in drm_prime_sg_to_page_addr_arrays()
+5a6b088 drm: Remove unused variable in drm_global_item_ref()
+28d3137 staging: imx-drm: Remove redundant of_match_ptr
+31795c4 Merge tag 'staging-3.12-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+d78b140 staging: imx-drm: imx-ldb: Staticize of_get_data_mapping()
+099326d staging: imx-drm: Fix probe failure
+d8524ae Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+c21eb21 Revert "drm: mark context support as a legacy subsystem"
+a09e9a7 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+a1bfacf drm/exynos: Add fallback option to get non physically contiguous memory for fb
+b892327 drm: add MIPI DSI encoder and connector types
+645416f drm/i915: fix hpd work vs. flush_work in the pageflip code deadlock
+101b96f drm: fix DRM_IOCTL_MODE_GETFB handle-leak
+3b336ec drm: Add drm_bridge
+62f2104 drm: Advertise async page flip ability through GETCAP ioctl
+9bba0c4 drm: Add DRM_MODE_PAGE_FLIP_ASYNC flag definition
+ed8d197 drm: Pass page flip ioctl flags to driver
+807ac202 drm: Remove the dithering_mode_property field
+1793126 drm: implement experimental render nodes
+83dd000 drm: Add a helper to forge HDMI vendor infoframes
+a5ad3dc video/hdmi: Don't let the user of this API create invalid infoframes
+3f2f653 drm: Add support for alternate clocks of 4k modes
+d4e4a31 drm: Don't export drm_find_cea_extension() any more
+13bb9cc drm: allow open of dynamic off devices.
+acb4652 drm: verify vma access in TTM+GEM drivers
+3abdb33 drm: Remove IS_IRONLAKE_D()
+3ef80a8 drm: WARN when removing unallocated node
+66cc8b6 drm: Make drm_get_platform_dev() static
+15f3b9d drm: Remove unused PCI ids
+2c9c52e drm: Make drm_fb_cma_describe() static
+a03eb83 drm: Remove 2 unused defines
+86f422d drm: Make drm_mode_remove() static
+67587e8 drm: Remove drm_mode_list_concat()
+ddecb10 drm: Remove drm_mode_create_dithering_property()
+f51607a drm: Remove stale prototypes
+ce9c1ce imx-drm: ipuv3-crtc: Add MODULE_ALIAS()
+b2da05f imx-drm: parallel-display: Add MODULE_ALIAS()
+52db752 imx-drm: imx-tve: Add MODULE_ALIAS()
+bc62738 imx-drm: imx-ldb: Add MODULE_ALIAS()
+85d0b78 imx-drm: ipu-di: Check the return value from clk_prepare_enable()
+f336ab7 drm: move dev data clearing from drm_setup to lastclose
+cb6458f drm: remove procfs code, take 2
+7d14bb6b drm: don't call ->firstopen for KMS drivers
+24f4003 drm: fix minor number range calculation
+90254ac drm: fix locking in gem debugfs/procfs file
+6eb9278 drm: remove the dma_ioctl special-case
+2818564 drm: rip out drm_core_has_MTRR checks
+c1d6798 drm: use common drm_gem_dmabuf_release in i915/exynos drivers
+b21e3af drm: use ida to allocate connector ids
+cabaafc drm: add flip-work helper
+b17df86 drm: Remove drm_mode_validate_clocks
+d79cdc8 drm: no-op out GET_STATS ioctl
+719524d drm: hollow-out GET_CLIENT ioctl
+fac3eaf drm: remove a bunch of unused #defines from drmP.h
+74867e3 drm: rip out a few unused DRIVER flags
+687fbb2 drm: rip out DRIVER_FB_DMA and related code
+b0e898a drm: remove FASYNC support
+7c51013 drm: mark context support as a legacy subsystem
+8d38c4b drm: disallow legacy dma ioctls for modesetting drivers
+e2e99a8 drm: mark dma setup/teardown as legacy systems
+8e194bb drm: disallow legacy sg ioctls for modesetting drivers
+3d914e8 drm: hide legacy sg cleanup better from common code
+45886af drm: kill dev->driver->set_version
+cc6a36f drm: DRM should depend on HAS_DMA
+89911e5 Staging: imx-drm: imx-tve.c Fixed 80 character line coding style issue
+6a93316 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+00fd78e drm: provide agp dummies for CONFIG_AGP=n
+1574763 drm: Set aspect ratio fields in the AVI infoframe even for non CEA modes
+bf02db9 drm: Handle the DBLCLK flag in the common infoframe helper
+03a7a18 drm: Don't generate invalid AVI infoframes for CEA modes
+e91abf8 drm: Don't pass negative delta to ktime_sub_ns()
+08fcd72 drm: don't push static constants on stack for %*ph
+baa7094 drm: const'ify ioctls table (v2)
+7fc65eb drm: Apply kref_put_mutex() optimisations to drm_gem_object_unreference_unlocked()
+64cb7ce staging: imx-drm: add missing MFD_SYSCON dependency for LDB
+64ccccf Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+f34f516 Merge branch 'drm-fixes-3.11' of git://people.freedesktop.org/~agd5f/linux
+a838834 drm: fix 64 bit drm fixed point helpers
+10f2268 imx-drm: ipu-common: Add MODULE_ALIAS
+62645a2 imx-drm: ipu-common: Check the return value from clk_prepare_enable()
+be798b2 imx-drm: ipu-common: Simplify the error path
+7c3836a imx-drm: imx-tve: Remove unneeded check for platform_get_resource()
+1c05418 imx-drm: TODO: Remove LVDS support from missing features list.
+5d78bf8 imx-drm: imx-tve: Provide __acquires/__releases annotation
+6fe9a89 imx-drm: ipu-dp: Introduce IPUV3_NUM_FLOWS
+ded15b5 imx-drm: ipu-dp: Remove unneeded braces
+55b31cf imx-drm: ipu-dp: Check the return value of devm_kzalloc()
+ea8d158 imx-drm: imx-drm-core: Export imx_drm_encoder_get_mux_id
+fe3078f drm: add unified vma offset manager
+4599934 staging: imx-drm: Fix typo in staging/imx-drm
+85d9cb4 drm: remove drm_order
+bd0c0ce drm: move drm_getsarea into drm_bufs.c
+23367ff drm: rip out dev->last_checked
+1d8d29c drm: fold in drm_sg_alloc into the ioctl
+494f38e drm: kill dev->buf_readers and dev->buf_writers
+c7e00b6 drm: kill dev->ctx_start and dev->lck_start
+c78d753 drm: kill dev->interrupt_flag and dev->dma_flag
+a17800c drm: remove dev->last_switch
+3dadef6 drm: kill dev->context_wait
+492d774 drm: remove drm_modctx ioctl and use drm_noop instead
+cef1d00 drm/radeon: fix combios tables on older cards
+25f397a drm/crtc-helper: explicit DPMS on after modeset
+181d1b9 drm/i915: fix up gt init sequence fallout
+52604b1 drm: Added SDP and VSC structures for handling PSR for eDP
+a01c34f radeon kms: do not flush uninitialized hotplug work
+496fd15b drm: avoid warning in drm_load_edid_firmware()
+2e17c5a Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+338710e drm: Change create block to reserve node
+b3a070c drm: pre allocate node for create_block
+7c397cd drm: add mmap function to prime helpers
+04274cd drm: fix print format of sequence in trace point
+df9b6a9 drm: fix error routines in drm_open_helper
+fe2ef78 drm: add assertion for checking null edid to drm_edid_block_valid
+cf4b91f drm: Convert drm class driver from legacy pm ops to dev_pm_ops
+2c54b13 drm/mm: fix debug table BUG
+77ef8bb drm: make drm_mm_init() return void
+8a5729a drm/i915: Fix reason for per-chip disabling of FBC
+1625e7e drm/i915: make compact dma scatter lists creation work with SWIOTLB backend.
+7922e2d drm: io_remap_pfn_range() sets VM_IO...
+d482e5f Revert "drm: kms_helper: don't lose hotplug event"
+02b6298 drm: Improve manual IRQ installation documentation
+2e07fb2 drm/gem: fix not to assign error value to gem name
+210a0b9 drm: add some additional fixed point helpers (v3)
+4c813d4 drm: add hotspot support for cursors.
+53ef160 drm: drm_stub: Fixing return value if driver master_set call failed
+4300a0f Merge tag 'v3.10-rc7' into drm-next
+160954b drm: kms_helper: don't lose hotplug event
+4bf8e19 drm: Renesas R-Car Display Unit DRM driver
+5cef29a drm: fix fb leak in setcrtc
+cc85e12 drm: check that ->set_config properly updates the fb
+372835a drm/crtc-helper: explicit DPMS on after modeset
+426729d drm/i915: make compact dma scatter lists creation work with SWIOTLB backend.
+1f941ae staging: drm/imx: ipuv3-crtc: immediately update crtc->fb in ipu_page_flip
+dc28aa0 gpu:drm:tilcdc: get preferred_bpp value from DT
+000d73f staging: imx_drm: imx_ldb: fix 18 bit format
+fb85ac4 drm: Drop all the stub gamma_get, gamma_set, load_lut functions from drivers
+778ad90 drm: Remove some unused stuff from drm_plane
+35f2c3a drm: Add kernel-doc for plane functions
+9125e61 drm: Add drm_plane_force_disable()
+ad6f5c3 drm: Improve drm_crtc documentation
+9bc3cd5 drm: Sort connector modes based on vrefresh
+990256a drm: Add probed modes in probe order
+72e45e9 drm: Preserve the list head in drm_mode_copy
+8d06cd0 drm: Cocci spatch "memdup.spatch"
+edee06b Merge branch 'drm/next' of git://linuxtv.org/pinchartl/fbdev into drm-next
+d20d317 drm: Constify the pretty-print functions
+6ba6d03 drm: Print pretty names for pixel formats
+ca793f7 drm: move pinning/unpinning to buffer attach
+102d6db drm: add unpin function to prime helpers
+fa45f2c staging: imx-drm: Add MODULE_DEVICE_TABLE to parallel display
+6ea31c5 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+71d7282 drm: GEM CMA: Add DRM PRIME support
+ebaf9e0 drm: GEM CMA: Split object mapping into GEM mapping and CMA mapping
+a5ed894 drm: GEM CMA: Split object creation into object alloc and DMA memory alloc
+a38911a i915/drm: Add private api for power well usage
+b7ea85a drm: fix a use-after-free when GPU acceleration disabled
+0dd99f1 drm: Don't leak phys_wc "handles" to userspace
+03dae7c drm: Remove mtrr_add and mtrr_del fallback hack for non-MTRR systems
+ff47eaf drm: Update drm_addmap and drm_mmap to use PAT WC instead of MTRRs
+388c289 Merge tag 'staging-3.10-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+0397353 drm: Fix drm_rect documentation
+c7b0cf3 staging: imx-drm: imx-tve: Check the return value of 'regulator_enable()'
+3dc0a00 imx-drm: parallel-display: Let device core handle pinctrl
+15f29f7 imx-drm: imx-tve: Let device core handle pinctrl
+849d345 drivers/gpu/host1x/drm: don't check resource with devm_ioremap_resource
+ec50f2a Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+9b43b56 staging: imx-drm: use devm_ioremap_resource()
+fcce768 staging/drm: imx: add missing dependencies
+fea0f9f Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+9564335 drm: remove unused wrapper macros
+b2dfcae drm: Only print a debug message when the polled connector has changed
+ed7951d drm: Make the HPD status updates debug logs more readable
+b9434d0 drm: Use names of ioctls in debug traces
+7b97936 drm: Remove pointless '-' characters from drm_fb_helper documentation
+54afc12 drm: Add kernel-doc for drm_fb_helper_funcs->initial_config
+d1fd3dd drm: refactor call to request_module
+ebbd97a drm: Don't prune modes loudly when a connector is disconnected
+97fbfbf drm: Add missing break in the command line mode parsing code
+f3c58ce Merge branch 'for-linux-next' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+a9b054e drm: don't check modeset locks in panic handler
+20b4fb4 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+8bc742e drm: proc: Use remove_proc_subtree()
+b63e6aa drm: proc: Use minor->index to label things, not PDE->name
+ce089b5 drm: Constify drm_proc_list[]
+011c228 drm: prime: fix refcounting on the dmabuf import error path
+0894c96 drm: Add drm_rect_equals()
+e7272df drm: Add drm_rect_debug_print()
+4954c42 drm: Add drm_rect_calc_{hscale, vscale}() utility functions
+3512f97 drm: Add struct drm_rect and assorted utility functions
+3a359f0 drm/mm: fix dump table BUG
+c55b6b3 drm: Kill user_modes list and the associated ioctls
+ea9cbb0 drm: Silence some sparse warnings
+7d05336 drm: Make drm_ioctls const
+caaa035 drivers, drm: fix qxl build error when debugfs is disabled
+8b1f3dc Merge branch 'exynos-drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-next
+0f6f959 exynos/drm: hdmi: cleanup for hdmi common device registration
+cade241 drm/nouveau/drm: adding support for backlight control of GT525M (NVC0)
+142c21b drm/nouveau/drm: bump the driver version to 1.1.1 to report new features
+897a6e2 drm/nouveau/drm: fix crash in vram manager debug callback
+8cc3f23 drm: Add drm_mode_equal_no_clocks()
+67af116 drm: Remove explicit vrefresh initialization from DRM_MODE()
+d502899 drm: export drm_vm_open_locked
+0a39715 Merge branch 'drm-next-3.10-2' of git://people.freedesktop.org/~agd5f/linux into drm-next
+fe21416 drm: add drm_edid_to_eld helper extracting SADs from EDID (v2)
+f9df7ea3 Merge tag 'drm/tegra/for-3.10' of git://anongit.freedesktop.org/tegra/linux into drm-next
+de2ba66 gpu: host1x: drm: Add memory manager and fb
+c89c0ea gpu: host1x: drm: Rename host1x to host1x_drm
+ce83adf drm: Perform a full mode set when the pixel format changed
+909d9cd drm: Don't allow page flip to change pixel format
+9f7bc6a Merge branch 'gma500-next' of git://github.com/patjak/drm-gma500 into drm-next
+e4fda9f drm: Perform ioctl command validation on the stored kernel values
+025df77 drm: use vma_pages() to replace (vm_end - vm_start) >> PAGE_SHIFT
+87d24fc drm: Destroy property blobs at mode config cleanup time
+9131d3d drm: cleanup: use drm_framebuffer_reference instead of a kref_get
+715f59c drm: Misc comment cleanup
+8091ee5 drm: Add 1600x1200 (UXGA) screen resolution to the built-in EDIDs
+f64122c drm: add new QXL driver. (v1.4)
+399403c Merge tag 'drm-intel-next-2013-03-23' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+afb12ed staging: imx-drm: Make IPU KMS parse display-timings
+bd709bd Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+a8ec3a6 drm: correctly restore mappings if drm_open fails
+1caa590 Merge branch 'drm-intel-fixes' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+8abbbaf drm: don't unlock in the addfb error paths
+11e17a0 drm: add initial_config function to fb helper
+6cadd88 staging: imx-drm: ipu-common: Fix sparse warnings
+b444686 imx_drm: ipu_v3: fix invalid free of devm_* allocated data
+dca25cb drm: modify pages_to_sg prime helper to create optimized SG table
+f5ddf69 drm: handle compact dma scatter lists in drm_clflush_sg()
+c031175 driver: gpu: drm: i915: remove cast for kzalloc return value
+886e03b Merge tag 'staging-3.9-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+bc6a541 drivers: gpu: drm: gma500: Replaced calls kzalloc & memcpy with kmemdup
+47b1be5 staging: imx/drm: request irq only after adding the crtc
+af2841c Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+13bcf01 drm: Documentation typo fixes
+2e92881 drm: convert to idr_alloc()
+4d53233 drm: don't use idr_remove_all()
+fffddfd Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+28ee461 Merge branch 'drm/hdmi-for-3.9' of git://anongit.freedesktop.org/tegra/linux into drm-next
+a3b1097 Merge branch 'drm/tegra-for-3.9' of git://anongit.freedesktop.org/tegra/linux into drm-next
+8cf1e98 drm: Add consistency check for page-flipping
+5e30859 drm: Add EDID helper documentation
+10a8512 drm: Add HDMI infoframe helpers
+595887e drm: Add some missing forward declarations
+a6b2183 drm: Move mode tables to drm_edid.c
+18316c8 drm: Remove duplicate drm_mode_cea_vic()
+06991c2 Merge tag 'driver-core-3.9-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
+ca18e14 Merge branch 'tilcdc-next' of git://people.freedesktop.org/~robclark/linux into drm-next
+23fc09e drm/nouveau/drm: store full dcb gpio function data in connector
+b81e059 Merge branch 'drm-intel-fixes' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+d84f031 drm: Use C8 instead of RGB332 when determining the format from depth/bpp
+c51a6bc drm: Fill depth/bits_per_pixel for C8 format
+35f8bad drm: Don't set the plane->fb to NULL on successfull set_plane
+196e077 drm: don't add inferred modes for monitors that don't support them
+8fcb6c4 drm/cma-helper: fixup compilation
+8e26875 Merge branch 'omapdrm-next' of git://people.freedesktop.org/~robclark/linux into drm-next
+a7c47d6 drm: i2c encoder helper wrappers
+21a245d drm: small fix in drm_send_vblank_event()
+6e488c0 drm: Don't set the plane->fb to NULL on successfull set_plane
+50fdaae drm/cma-helper: fixup compilation
+dfe96dd omapdrm: simplify locking in the fb debugfs file
+16ef3df omapdrm: only take crtc->mutex in crtc callbacks
+a4462f2 staging/omapdrm: Use kmemdup rather than duplicating its implementation
+7ea76eb Merge tag 'omapdss-for-3.8-rc8' of git://gitorious.org/linux-omap-dss2/linux
+3314fdf Merge branch 'drm-fb-helper' of git://people.freedesktop.org/~danvet/drm into drm-next
+f934ec8c drm: shut up invalid edid messages
+3e2b756 drm: fix compile failure by including <linux/swiotlb.h>
+91e83ff omapdrm: fix the dependency to omapdss
+6aed8ec drm: review locking for drm_fb_helper_restore_fbdev_mode
+db3985e Revert "drm: Add EDID_QUIRK_FORCE_REDUCED_BLANKING for ASUS VW222S"
+73c0d75 Merge branch 'stable' of git://git.kernel.org/pub/scm/linux/kernel/git/cmetcalf/linux-tile into akpm
+85a7ce6 drm: make frame duration time calculation more precise
+03f6509 drm: Allow vblank support without DRIVER_HAVE_IRQ
+8917764 drm: add prime helpers
+4cfe762 drm: fix compile failure by including <linux/swiotlb.h>
+d5f21e4 drm/i915: don't run hsw power well code on !hsw
+e620096 staging/omapdrm: Use kmemdup rather than duplicating its implementation
+67c9640 drm/i915: fixup per-crtc locking in intel_release_load_detect_pipe
+d4ed602 drm: Convert to devm_ioremap_resource()
+05523d5 drm/exynos: don't include plat/gpio-cfg.h
+735dc0d Merge branch 'drm-kms-locking' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+7b24056 drm: don't hold crtc mutexes for connector ->detect callbacks
+b4d5e7d drm: only grab the crtc lock for pageflips
+b62584e drm: optimize drm_framebuffer_remove
+b0d1232 drm: refcounting for crtc framebuffers
+6c2a753 drm: refcounting for sprite framebuffers
+4ccf097 drm: fb refcounting for dirtyfb_ioctl
+58c0dca drm: don't take modeset locks in getfb ioctl
+468174f drm: push modeset_lock_all into ->fb_create driver callbacks
+7d33159 drm: nest modeset locks within fpriv->fbs_lock
+2b677e8 drm: reference framebuffers which are on the idr
+3620636 drm: revamp framebuffer cleanup interfaces
+786b99e drm: create drm_framebuffer_lookup
+4b096ac drm: revamp locking around fb creation/destruction
+dac3566 drm: only take the crtc lock for ->cursor_move
+bfb8992 drm: only take the crtc lock for ->cursor_set
+29494c1 drm: add per-crtc locks
+d5d2636 omapdrm: use modeset_lock_all
+8484990 drm: add drm_modeset_lock|unlock_all
+2d13b67 drm: encapsulate crtc->set_config calls
+8faf6b1 drm: review locking rules in drm_crtc.c
+bac4b7c drm: Load EDID: Explain better how to write your own EDID firmware
+4ee723a staging: imx-drm: ipu-common: Remove unused variable
+52b820d Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+901593f drm: Only evict the blocks required to create the requested hole
+2566014 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+57cdf82 drm: nouveau: Fix build warning seen if HWMON is undefined
+4a490b7 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+d5757db Revert "drm: tegra: protect DC register access with mutex"
+500df2e drm: tegra: program only one window during modeset
+e39250a drm: tegra: clean out old gem prototypes
+fa416dd drm: tegra: remove redundant tegra2_tmds_config entry
+83c0bcb drm: tegra: protect DC register access with mutex
+4026bfb drm: tegra: don't leave clients host1x member uninitialized
+4049508 drm: tegra: fix front_porch <-> back_porch mixup
+8be0e5c Merge branch 'drm-intel-fixes' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+b810345 drm: Export routines for inserting preallocated nodes into the mm manager
+2f3f240 Merge branch 'exynos-drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-next
+ae9dace drm: exynos: moved exynos drm hdmi device registration to drm driver
+422bd00 drm: exynos: moved exynos drm device registration to drm driver
+8de9e41 Merge branch 'connector-to-object-prop' of git://github.com/robclark/kernel-omap4 into drm-next
+00f09af Merge branch 'exynos-drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-next
+a3f9bca drm: exynos: fix for loosing display mode header during mode adjustment
+4ddc404 drm: exynos: fix for mapping of dma buffers
+9e8944a drm: Introduce an iterator over holes in the drm_mm range manager
+5973c7e drm: Introduce drm_mm_create_block()
+5849556 drm: remove legacy drm_connector_property fxns
+e7783ba drm: hold event_lock while accessing vblank_event_list
+374a868 drm: add drm_mode_cea_vic
+bd3b49f drm: tegra: Add maintainers entry
+dff98e5 drm: only build ati_pcigart if PCI enabled
+219e815 drm: tegra: Add Tegra30 support
+ac8f7c4 drm: tegra: Use framebuffer pitch as line stride
+384cc2f drm: Add a hash-tab rcu-safe API
+8aa1be4 staging: imx-drm: remove use of __devexit
+c4aabf8 staging: imx-drm: remove use of __devinit
+d714455 drm: Make hashtab rcu-safe
+a4f968d drm: don't unnecessarily enable the polling work
+6311803 drm: use memchr_inv()
+c61eef7 drm: add support for monotonic vblank timestamps
+e62f2f5 drm: use monotonic time in drm_calc_vbltimestamp_from_scanoutpos
+11e6868 drm: don't poll forced connectors
+905bc9f drm: don't start the poll engine in probe_single_connector
+5e2cb2f drm: properly init/reset connector status
+69787f7 drm: run the hpd irq event code directly
+816da85 drm: handle HPD and polled connectors separately
+3d3683f drm: extract drm_kms_helper_hotplug_event
+c6eefa1 drm: add drm_send_vblank_event() helper (v5)
+edec4af drm: tegra: Add HDMI support
+d8f4a9e drm: Add NVIDIA Tegra20 support
+e3cc352 drm: Reject addfb2 with undefined flag bits set
+4c9287c drm: fix documentation for drm_crtc_set_mode()
+a479903 drm: get cea video id code for a given display mode
+08bec5b drm: fix returning -EINVAL on setmaster if another master is active
+c17d37d staging/omapdrm: Fix spacing coding style in omap_plane.c
+373de7f staging/omapdrm: Fix spacing coding style in omap_plane.c
+4a19313 staging/omapdrm: Fix spacing coding style in omap_gem_helper.c
+b1ca079 staging/omapdrm: Fix spacing coding style in omap_gem_helper.c
+11d3d27 staging/omapdrm: Fix spacing coding style in omap_gem_dmabuf.c
+696e3ca staging/omapdrm: Fix spacing coding style in omap_gem.c
+ae05303 staging/omapdrm: Fix spacing coding style in omap_gem.c
+801d5bc staging/omapdrm: Fix spacing coding style in omap_gem.c
+ddcd49e staging/omapdrm: Fix spacing coding style in omap_fb.c
+582bc28 staging/omapdrm: Fix spacing coding style in omap_encoder.c
+bc1e1581 staging/omapdrm: Fix spacing coding style in omap_drv.h
+7ced63c staging/omapdrm: Fix spacing coding style in omap_drv.h
+c7f904b staging/omapdrm: Fix spacing coding style in omap_drv.c
+d21a9d3 staging/omapdrm: Fix spacing coding style in omap_crtc.c
+bd690de staging/omapdrm: remove the unnecessary initialization of a local variable in omap_crtc.c
+fdbf20b staging/omapdrm: Fix spacing coding style in omap_connector.c
+cfc1a06 drm: add helper to sort panels to the head of the connector list
+69a8ebf Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+fdb40a0 drm: set dev_mapping before calling drm_open_helper
+0f1cb1b drm: restore open_count if drm_setup fails
+c4a5675 drm: Ignore blob propertys in drm_property_change_is_valid()
+0b3904a drm: Constify some function arguments
+b180b5d drm: Be more paranoid with integer overflows
+53f9313 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+a2e4919 Merge branch 'exynos-drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
+2cdc53b drm: exynos: removed warning due to missing typecast for mixer driver data
+490916d Merge tag 'staging-3.7-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+2d1f4c8 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+a16d4f8 drm: platform: Don't initialize driver-private data
+08bce0a drm/debugfs: remove redundant info from gem_names
+0281324 drm: fb: cma: Fail gracefully on allocation failure
+e0d78d0 drm: fb: cma: Fix typo in debug message
+23d84ed staging: omapdrm: fix allocation size for page addresses array
+397fe15 drm: extract drm_dp_max_lane_count helper
+3b5c662 drm: extract dp link bw helpers
+1a644cd drm: extract dp link train delay functions from radeon
+0f037bd drm: extract helpers to compute new training values from sink request
+0191627 drm: dp helper: extract drm_dp_clock_recovery_ok
+1ffdff1 drm: dp helper: extract drm_dp_channel_eq_ok
+00ae9a4 drm: rename drm_dp_i2c_helper.c to drm_dp_helper.c
+75fa29c Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+7b85053 drm: fix warning on 32-bit.
+bd6126b drm: radeon: fix printk format warning
+1929041 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+1f31c69 Merge branch 'drm-intel-fixes' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+a5a0fc6 Merge branch 'exynos-drm-next' of git://git.infradead.org/users/kmpark/linux-samsung into drm-next
+768c305 drm: exynos: hdmi: remove drm common hdmi platform data struct
+22c4f42 drm: exynos: hdmi: add support for exynos5 hdmi
+5a32507 drm: exynos: hdmi: replace is_v13 with version check in hdmi
+aaf8b49 drm: exynos: hdmi: add support for exynos5 mixer
+1b8e574 drm: exynos: hdmi: add support to disable video processor in mixer
+1e12344 drm: exynos: hdmi: add support for platform variants for mixer
+93c645e drm: exynos: hdmi: add support for exynos5 hdmiphy
+9ff1594 drm: exynos: hdmi: add support for exynos5 ddc
+07e0e74 drm: exynos: remove drm hdmi platform data struct
+5295e53 drm: exynos: hdmi: turn off HPD interrupt in HDMI chip
+fca5712 drm: exynos: hdmi: use s5p-hdmi platform data
+07c8bdd drm: exynos: hdmi: fix interrupt handling
+c119ed0 drm: exynos: hdmi: support for platform variants
+fbff469 drm: Export drm_probe_ddc()
+2216c9e drm: change ioctl permissions
+7c80e12 drm: support for rotated scanout
+f7eff60 drm: refcnt drm_framebuffer (v4.1)
+3184009 drm: Destroy the planes prior to destroying the associated CRTC
+015b85a drm: Export drm_probe_ddc()
+3cce574 drm/i915: HDMI - Clear Audio Enable bit for Hot Plug unconditionally
+87229ad drm: micro optimise cache flushing
+f2032d4 Merge branch 'drm-lcdc' of git://linuxtv.org/pinchartl/fbdev into drm-next
+51c1327 drm: Renesas SH Mobile DRM driver
+ba623f6 drm: Add NV24 and NV42 pixel formats
+b98b601 drm/i915: HDMI - Clear Audio Enable bit for Hot Plug
+dd383af Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+b655232 Merge branch 'exynos-drm-fixes' of git://git.infradead.org/users/kmpark/linux-samsung into drm-fixes
+d9dd85d drm: Drop the NV12M and YUV420M formats
+cd004b3 drm: edid: add support for E-DDC
+93eb58d drm: Remove unnecessary test for ARM.
+9a6a4b4 drm: use %*ph to dump small buffers
+14f77fd drm: edid: Refactor HDMI VSDB detection
+8504072 drm: edid: Add bounds checking to HDMI VSDB parsing
+9e50b9d drm: edid: Add some bounds checking
+4a1897d drm: consistently name interlaced modes
+fb30edf5 drm: make buffer management work without DRM_MASTER
+5d67f2e Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+ba1c28c drm/i915: remove crtc disabling special case
+804d74a drm: use drm_compat_ioctl for 32-bit apps
+4619cdb staging: omapdrm: use alloc_ordered_workqueue() instead of UNBOUND w/ max_active = 1
+95ca19c drm: udl: usb: Fix recursive Kconfig dependency
+155e36d Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+6f33814 drm: Add EDID_QUIRK_FORCE_REDUCED_BLANKING for ASUS VW222S
+78b9c35 drm: Add misssing static storage class specifier in drm_fb_helper.c file
+ea7f7ab drm: Add missing static storage class specifier in drm_irq.c file
+fc7b812 drm: Define SAREA_MAX for Loongson (PageSize = 16KB).
+04cf55e drm: Handle io prot correctly for MIPS.
+7c4eaca drm: Check for invalid cursor flags
+22f5d11 drm: Initialize object type when using DRM_MODE() macro
+451023d drm: remove the raw_edid field from struct drm_display_info
+4d46259 drm: gma500: Kill the GEM glue layer
+4ff63e4 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+27fc4f1 drm: Add missing static storage class specifiers in drm_proc.c file
+04ccfe7 drm: Remove two unused fields from struct drm_display_mode
+f5869a8 drm: stop vmgfx driver explosion
+8451b5a staging: omapdrm: Expose the OMAP Z-Order property through DRM
+d7de993 staging: omapdrm: Fix DMM sparse warnings
+fd025b8 staging: drm/omap: remove reclaim_buffers callback
+35313cd drm/i915: constify mode in crtc_mode_fixup
+949c4a3 drm: track dev_mapping in more robust and flexible way
+26587e6 drm: kill i915/i830 ids from drm_pciids.h
+67cb4b4 drm: unconditionally clean up dma buffers of closing clients
+a344a7e drm: kill dma queue support
+4c37379 drm: ditch strange DRIVER_DMA_QUEUE only error bail-out
+b0071ef drm: kill reclaim_buffers callback
+923d1fe drm: kill reclaim_buffers_locked
+3ae6b64 drm: kill reclaim_buffers_idlelocked functions
+e811f5a drm: Make the .mode_fixup() operations mode argument a const pointer
+59fd415 drm: remove the list_head from drm_mode_set
+2993555 drm: Disallow DRM_IOCTL_MODESET_CTL for KMS drivers
+6b9d89b drm: Add colouring to the range allocator
+49099c4 drm: fail gracefully when proc isn't setup.
+73e6080 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+7b668eb drm: edid: Don't add inferred modes with higher resolution
+2ecedc4 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+59bbe27 drm: drop comment about this header being autogenerated.
+4ef7fe7 drm: use format %d to print error code
+b375de0 drm: Add missing static storage class specifier
+bc259ad Merge tag 'staging-3.5-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+94fa83c Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+fe45616 drm: increase DRM_OBJECT_MAX_PROPERTY to 24
+ef44593 staging: omapdrm: Fix error paths during dmm init
+afb6a6a staging: omapdrm: fix crash when freeing bad fb
+6bb340c Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+592c20e drm: Use stdint types for consistency
+cff91b6 drm: Constify params to format_check() and framebuffer_checks()
+5288b7b drm: update ast/cirrus/mgag200 for change in TTM api
+4d93914 drm: add plane properties
+49e2754 drm: add bitmask property type
+ebe0f24 drm: Make the CRTC gamma_set operation optional
+e6ecefa drm: Constify drm_mode_config_funcs pointer
+78b6855 drm: Constify gem_vm_ops pointer
+3b02ab8 drm: Miscellaneous typo fixes and documentation updates
+4a1b071 drm: Don't initialize local ret variable when not needed
+7eb3b2c drm: Delete the vblank timer synchronously at cleanup time
+10f5ab0 drm: checking the wrong variable in savage_do_init_bci()
+bffd9de0 drm: add CRTC properties
+7f88a9b drm: add 'count' to struct drm_object_properties
+0057d8d drm: make the connector properties code use the object properties code
+c543188 drm: add generic ioctls to get/set properties on any object
+7e3bdf4 drm: create struct drm_object_properties and use it
+afea2ad drm: WARN() when drm_connector_attach_property fails
+26a3481 drm: add drm_property_change_is_valid
+312fec1 drm: Initial KMS driver for AST (ASpeed Technologies) 2000 series (v2)
+b06d66b drm: pass dev to drm_vm_{open,close}_locked()
+4ad35b2 gma500: fix -Wmissing-include-dirs warnings
+f7f6c34 drm: fixed: Add dfixed_frac
+c51a3fd6 drm: Store vendor IDs directly in the EDID quirk structure
+f1ae126 drm: Unify and fix idr error handling
+0280917 drm: replace open-coded ARRAY_SIZE with macro
+a31546e drm: add DRM_MODE_FLAG_DBLCLK to CEA modes requiring it
+099e014 drm: add the VIC number to the CEA EDID modes
+a988bc7 drm: Parse color format information in CEA blocks
+ee58808 drm: Fix EDID color format parsing
+d1b45d5 drm: Add sanity checks to framebuffer creation
+01b68b0 drm: Add drm_format_{horz, vert}_chroma_subsampling() utility functions
+5a86bd5 drm: Add drm_format_plane_cpp() utility function
+141670e drm: Move drm_format_num_planes() to drm_crtc.c
+1985330 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+4e47e02 drm: Releasing FBs before releasing GEM objects during drm_release
+5edaad8 drivers: gpu: drm: gma500: mdfld_dsi_output.h: Remove not unneeded include of version.h
+aef6a7e drm: fix page_flip error handling
+1c3a4dc staging: omap/drm: dmm should return proper errors
+e1a7eb08 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+62fb376 drm: Validate requested virtual size against allocated fb size
+7d6e1cb Merge branch 'drm-prime-dmabuf-initial' of git://people.freedesktop.org/~airlied/linux
+3248877 drm: base prime/dma-buf support (v5)
+6d5cd9c drm: add helper to clflush a virtual address range
+be53bfd Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+ef61d3d drm: remove unneeded redefinition of DDC_ADDR
+1c9c20f drm: remove the second argument of k[un]map_atomic()
+da0df92 drm: allow loading an EDID as firmware to override broken monitor
+2de6d4a drm: fix build with UDL if USB is a module
+2c07a21 drm: add core support for unplugging a device (v2)
+8229c88 drm: Merge tag 'v3.3-rc7' into drm-core-next
+c3c50e8 drm: Add drm_mode_copy()
+d63f5e6 drm: Use a flexible array member for blob property data
+6bfc56a drm: Handle drm_object_get() failures
+93bbf6d drm: Make drm_crtc_convert_{umode, to_umode} static and constify their params
+ac235da drm: Fix drm_mode_attachmode_crtc()
+5f61bb4 drm: Check CRTC viewport against framebuffer size
+90367bf drm: Check user mode against overflows
+ee34ab5 drm: Fix memory leak in drm_mode_setcrtc()
+1dd6c8b drm: Make drm_mode_attachmode() void
+1d97e91 drm: Check crtc x and y coordinates
+e36fae3 drm: Warn if mode to umode conversion overflows the destination types
+2fcfc75 drm: Change drm_display_mode::type to unsigned
+6653cc8 drm: Reject mode set with current fb if no current fb is bound
+b19c19a drm: cope with platformdev->id == -1
+966e0cd drm: drop setting vm_file to filp
+884a53e drm: remove unused code
+019d96c drm: add some caps for userspace to discover more info for dumb KMS driver (v2)
+466e69b drm: move pci bus master enable into driver.
+51a59ac drm: Fix kcalloc parameters swapped
+fb2a99e drm: do not set fb_info->pixmap fields
+d9bc3c0 drm: add convenience function to create an range property
+4a67d39 drm: add convenience function to create an enum property
+ae43d7c staging: drm/omap: drm API update: addfb2
+481e628 drm: Fix typo in rv515.c
+4962590 drm: Fix typo in vmwgfx_drv.c
+4cae5b8 drm: add proper return value for drm_mode_crtc_set_gamma_size
+9292f37 drm: give up on edid retries when i2c bus is not responding
+a14b1b4 drm: remove master fd restriction on mode setting getters
+dfd07ec Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+dd8bc93 drm: Pass the real error code back during GEM bo initialisation
+74a7f6a Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+598781d drm: Fix authentication kernel crash
+0b8ecdd drm/i915: Silence _DSM errors
+2145199 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+afe887d drm: bump DRM_CONNECTOR_MAX_ENCODER from 2 to 3
+0e11331 ttm/dma: Remove the WARN() which is not useful.
+1a464cb Merge branch 'drm-core-next' of git://people.freedesktop.org/~airlied/linux
+cc1f719 drm: introduce drm_can_sleep and use in intel/radeon drivers. (v2)
+09b4ea4 drm: make DRM_UNLOCKED ioctls with their own mutex
+53fead9 drm: no need to hold global mutex for static data
+0a7eb24 drm: add support for private planes
+a997115 drm: disconnect plane from fb/crtc when disabled
+863f78b Merge branch 'exynos-drm-next' of git://git.infradead.org/users/kmpark/linux-samsung into drm-core-next
+83052d4 drm: Add multi buffer plane pixel formats
+5c2a5ce drm: add missing exports for i810 driver.
+5c72765 Merge branch 'for-airlied' of git://people.freedesktop.org/~danvet/drm into drm-core-next
+7a6e0da drm: kill drm_sman
+a794d57 drm/exynos: Use struct drm_mode_fb_cmd2
+cb85f12 Merge commit 'v3.2-rc3' into stable/for-linus-3.3
+d0d110e drm: Add drm_format_num_planes() utility function
+c754883 drm: call connector dpms fxn, when setting config
+01f2c77 drm: Replace pitch with pitches[] in drm_framebuffer
+935b597 drm: Check that the requested pixel format is valid
+62443be drm: plane: Check that the fb pixel format is supported by the plane
+22cd7c6 drm: plane: Make 'formats' parameter to drm_plane_init() const
+687a040 drm: plane: Check crtc coordinates against integer overflows in setplane ioctl
+42ef878 drm: plane: Check source coordinates
+e5e3b44 drm: plane: Clear plane.crtc and plane.fb after disable_plane()
+81f6c7f drm: Fix __user sparse warnings
+10bf573 drm: plane: mutex_unlock() was missing
+64760a4 drm: fourcc: Use __u32 instead of u32
+b03166a drm: Install drm_fourcc.h
+cc5b6f0 drm: Add a missing ')'
+54ac76f drm/edid: support CEA video modes.
+bcdd6b2 drm: Merge branch 'drm-cleanups-jbarnes' into drm-core-next
+acb4b99 drm: remove some potentially dangerous DRM_ERRORs
+a62c93d drm: document the drm_mode_config structure
+c1aaca2 drm: document the drm_mode_group structure
+550cebc drm: document and cleanup drm_mode_config_funcs
+ef27351 drm: document drm_mode_set structure
+7225254 drm: remove unused fields in drm_connector and document the rest
+db3e449 drm: add drm_encoder comments
+6c3db92 drm: add comments for drm_encoder_funcs
+7749163 drm: fix comments for drm_crtc struct
+6f215f9 drm: remove unused connector_count field from drm_display_mode
+cee5ec4 drm: Merge branch 'drm-gma500-alancox' into drm-core-next
+c2b5adb Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+6eebd6b drm: Fix lack of CRTC disable for drm_crtc_helper_set_config(.fb=NULL)
+04b3924 drm: Redefine pixel formats
+248dbc2 drm: move the fb bpp/depth helper into the core.
+435ddd9 drm/radeon/kms: fix up for BIG ENDIAN breakage
+2d0f240 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+a5cd335 drm: integer overflow in drm_mode_dirtyfb_ioctl()
+b1914cb2 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+08aa3fe Merge branch 'drm-plane-jbarnes' into drm-core-next
+308e5bc drm: add an fb creation ioctl that takes a pixel format v5
+8cf5c91 drm: add plane support v3
+d53dab3 drm: Remove utterly bogus preempt_disable() sections
+f28ad3b Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+44a1dab drm: fix kconfig unmet dependency warning
+0007fa2 Merge branch 'drm-nouveau-fixes' of git://git.freedesktop.org/git/nouveau/linux-2.6 into drm-fixes
+a6778e9 drm: add some comments to drm_wait_vblank and drm_queue_vblank_event
+e08e96d drm: Make the per-driver file_operations struct const
+8f4ff2b drm: do not sleep on vblank while holding a mutex
+c5006cfe drm: try to restore previous CRTC config if mode set fails
+87cb73d drm: drop select of SLOW_WORK
+b3e067c drm: serialize access to list of debugfs files
+471dd2e drm: Ensure string is null terminated.
+d68752c drm: avoid switching to text console if there is no panic timeout
+bde4889 drm: make sure drm_vblank_init() has been called before touching vbl_lock
+c8c27c9 Merge branch 'docs-move' of git://git.kernel.org/pub/scm/linux/kernel/git/rdunlap/linux-docs
+a7331e5 drm: Introduce "Virtual" connectors and encoders
+b73fe58 drm: Add Panel Self Refresh DP addresses
+dd2351d drm: drm_ioctl() should zero-init extra data
+bd8315c drm: simplify error printing in drm_debugfs_create_files
+a0f9219 drm: fix error message about failed procfs file registration
+836e53d drm: Add KMS debug printk's for encoder and crtc fixup failure
+62addcb Merge branch 'drm-intel-next' of git://people.freedesktop.org/~keithp/linux into drm-core-next
+76adaa3 drm: support routines for HDMI/DP ELD
+8cb3ed17 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+55a01f6 drm: Remove duplicate "return" statement
+ebde8b0 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+bcd3cfc DocBook/drm: Clean up a todo-note
+7f0925a DocBook/drm: `device aware' -> `device-aware'
+a5294e0 DocBook/drm: `(device|driver) specific' -> `(device|driver)-specific'
+5a462d5 DocBook/drm: Clean up the paragraph on framebuffer objects
+964d32d DocBook/drm: Use `; otherwise,'
+e355b20 DocBook/drm: Better flow with `, and then'
+b8c6e0f DocBook/drm: Refer to the domain-setting function as a device-specific ioctl
+2d43f5d DocBook/drm: Improve flow of GPU/CPU coherence sentence
+0c2d91a DocBook/drm: Use an <itemizelist> for fundamental GEM operations
+f877bd4 DocBook/drm: Insert a comma
+51b9500 DocBook/drm: Use a <variablelist> for vblank ioctls
+65ffef5 DocBook/drm: Use an itemizedlist for what an encoder needs to provide
+4dc0152 DocBook/drm: Insert `the' for readability, and change `set' to `setting'
+896ee65 DocBook/drm: Remove extraneous commas
+8a9ba91 DocBook/drm: Use a colon
+327d6fb DocBook/drm: Clarify `final initialization' via better formatting
+3bf7df6 DocBook/drm: Remove redundancy
+1dbd39c DocBook/drm: Insert `it' for smooth reading
+9029bd7 DocBook/drm: The word `so-called'; I do not think it connotes what you think it connotes
+54f2cb8 DocBook/drm: Use a singular subject for grammatical cleanliness
+482b2ad DocBook/drm: basic -> core
+049cc90 DocBook/drm: Streamline wording of GEM initialization
+ae63d79 DocBook/drm: Insert `()' after function name
+1c86de2 DocBook/drm: Remove parentheses and unnecessary repetition
+005d7f4 DocBook/drm: Insert missing comma
+eb2b8d4 DocBook/drm: , -> :
+8d36ffa DocBook/drm: can -> could
+118bdd7 DocBook/drm: Offset modifiers with commas
+9c2416a DocBook/drm: Use the passive voice
+bb49a6a DocBook/drm: `at driver load time' -> `when the driver is loaded'
+5b658bf DocBook/drm: `setup' is the noun; `to set up' is the verb
+f07faf6 DocBook/drm: Insert missing `an'
+8814630 DocBook/drm: Insert missing `that'
+57a15fd DocBook/drm: Clearer wording with `for consumption by'
+06fa7b8 DocBook/drm: Better wording
+6e375f4 DocBook/drm: Replace the paragraph's first sentence with its last sentence
+75aa9df DocBook/drm: Rearrange wording to make more sense
+58f1d65 DocBook/drm: Clean up `pre-memory management aware'
+80c84e6 DocBook/drm: Move `should be set' to the beginning of the sentence
+b1f95bd DocBook/drm: , -> .
+02391f1 DocBook/drm: a -> an
+2c267e9 DocBook/drm: Use a semicolon
+0c54781 DocBook/drm: Clean up code comment
+6380c50 drm: Fix the number of connector and encoder to cleanup functions
+f11aca0 DocBook/drm: can -> may
+a78f678 DocBook/drm: Eradicate inappropriate uses of the future tense
+de96355 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+e384fab drm/radeon: Extended DDC Probing for Connectors with Improperly Wired DDC Lines (here: Asus M2A-VM HDMI)
+051963d drm: Separate EDID Header Check from EDID Block Check
+5037f8a drm: Add NULL check about irq functions
+e1c44ac drm: Fix irq install error handling
+0b57637 Merge branch 'drm-intel-next' of ssh://master.kernel.org/pub/scm/linux/kernel/git/keithp/linux-2.6 into drm-fixes
+ebec9a7 drm: track CEA version number if present
+757c26b Merge branch 'drm-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+0aff47f drm: really make debug levels match in edid failure code
+28a4a16 drm: platform multi-device support
+a94919e drm/i915/ringbuffer: Idling requires waiting for the ring to be empty
+46e4845 drm: bpp and depth changes require full mode sets
+43dd61c ftrace: Fix regression of :mod:module function enabling
+498e720 drm/i915: Fix gen6 (SNB) missed BLT ring interrupts.
+eb96c92 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+cafe8d8 drivers/gpu/drm: use printk_ratelimited instead of printk_ratelimit
+f49dadb drm: make debug levels match in edid failure code.
+45e97ab drm: populate irq_by_busid-member for pci
+f39e8409 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+66aa696 drm: Compare only lower 32 bits of framebuffer map offsets
+83533c1 alpha, drm: Remove obsolete Alpha support in MGA DRM code
+82ba3fe alpha/drm: Cleanup Alpha support in DRM generic code
+618c75e drm: fix fbs in DRM_IOCTL_MODE_GETRESOURCES ioctl
+ef23980 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+de52bca Merge remote branch 'keithp/drm-intel-fixes' of /ssd/git/drm-next into drm-fixes
+5cbba41 drm: i915: correct return status in intel_hdmi_mode_valid()
+7c21738 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+752d263 drm: Take lock around probes for drm_fb_helper_hotplug_event
+fb0b760 drm: fix nouveau_acpi build
+fd98a5d Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+2bbd449 drm: mm: fix debug output
+d2af676 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+498548e drm: Send pending vblank events before disabling vblank.
+fafc992 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+1794d25 drm: Export the command-line mode parser
+bbb0aef drm: Verify debug message arguments
+5ad3d88 drm: Create and use drm_err
+7394371 drm: Take lock around probes for drm_fb_helper_hotplug_event
+da05a5a7 drm: parse color format support for digital displays
+3b11228 drm: add bit depth parsing
+bf5192e drm: select FRAMEBUFFER_CONSOLE_PRIMARY if we have FRAMEBUFFER_CONSOLE
+205a44a drm: radeon: Fix printk typo 'ib poll'
+cdb650a drm: minor kref_put() nits
+b2a8b4b Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+5df2397 drm: fix "persistant" typo
+eccaca2 drm: export drm_find_cea_extension to drivers
+e285c17 Merge branch 'drm-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+fb3b06c drm: check for modesetting on modeset ioctls
+b74ad5a drm: Fix use-after-free in drm_gem_vm_close()
+e16b396 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/trivial
+40c7f21 Merge branch 'drm-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+a3a88a6 drm: radeon: *_cs_packet_parse_vline() cleanup
+4819d2e drm: Retry i2c transfer of EDID block after failure
+007c80a drm: Hold the mode mutex whilst probing for sysfs status
+b44a53d Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+062ac62 drm: index i shadowed in 2nd loop
+e73f88a drm: add cap bit to denote if dumb ioctl is available or not.
+62f288c drm: fix printk typo 'sracth'
+dbc39ec Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+1922756 drm: fix unsigned vs signed comparison issue in modeset ctl ioctl.
+b5f7376 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+63871f8 Merge branch 'drm-mm-cleanup' into drm-next
+7811bdd drm: Remove unused members from struct drm_open_hash
+4cb81ac drm: Trim the GEM mmap offset hashtab
+b1f559e drm: Mark constant arrays of drm_display_mode const
+9da12b6 drm: psuedocolor support for ARGB modes
+ae0cec2 drm: mm: add helper to unwind scan state
+b0b7af1 drm: mm: add api for embedding struct drm_mm_node
+9fc935d drm: mm: extract node insert helper functions
+ea7b1dd drm: mm: track free areas implicitly
+40f2a2f drm: drop commented out code and preceding comment
+ec4f2ac drm: Fix printk typo 'failled'
+b90be86 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+bd91572 drm: fix wrong usages of drm_device in DRM Developer's Guide
+01e2f53 drm: do not leak kernel addresses via /proc/dri/*/vma
+a250b9f drm: add usb framework
+8410ea3 drm: rework PCI/platform driver interface.
+ff72145b drm: dumb scanout create/mmap for intel/radeon (v3)
+7f50684 drm: remove i830 driver
+bb5b583 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+811aaa5 drm: Only set DPMS ON when actually configuring a mode
+a55205e Merge remote branch 'intel/drm-intel-fixes' of /ssd/git/drm-next into drm-fixes
+021a845 drm: Avoid leak of adjusted mode along quick set_mode paths
+ede3ff5 drm: Simplify and defend later checks when disabling a crtc
+9334ef7 drm: Don't switch fb when disabling an output
+eb03355 drm: Add an interface to reset the device
+3632ef8 Revert "drm: Update fbdev fb_fix_screeninfo"
+5b2eef9 Merge branch 'drm-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+0ba41e4 drm: Restore the old_fb upon modeset failure
+dfe63bb drm: Update fbdev fb_fix_screeninfo
+e819eb8 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+0f16830 drm: Include the connector name in the output_poll_execute() debug message
+9297102 Revert "drm: Don't try and disable an encoder that was never enabled"
+c3606c6 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+6f33162 drm: use after free in drm_queue_vblank_event()
+8316f33 drm/i915/dp: Fix I2C/EDID handling with active DisplayPort to DVI converter
+6dde39b Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+541cc96 drm: Don't try and disable an encoder that was never enabled
+ea5d552 drm: Add missing drm_vblank_put() along queue vblank error path
+fb82155 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+c5027de drm: record monitor status in output_poll_execute
+bf9dc10 drm: Set connector DPMS status to ON in drm_crtc_helper_set_config
+4af72e2 drm: kill drm_agp_chipset_flush
+973d168 Merge branch 'drm-intel-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ickle/drm-intel
+764bc56 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+21e2eae drm: radeon: fix error value sign
+a41c73e drm: radeon: fix error value sign
+99efb93 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+dccb2a95 drm: vmwgfx: fix information leak to userland
+fce7d61 drivers/gpu/drm: Update WARN uses
+7e318e1 drm/i915: Move object to GPU domains after dispatching execbuffer
+e3ce8a0 Merge remote branch 'intel/drm-intel-next' of ../drm-next into drm-core-next
+229aebb Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/trivial
+092e0e7 Merge branch 'llseek' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/bkl
+139d363 drivers: gpu: drm: i915: Fix a typo.
+dda9cd9 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+dab8dcf drm: don't drop handle reference on unload
+e6b46ee Merge branch 'drm-vmware-next' into drm-core-next
+02b0016 drm: vmwgfx: Add a struct drm_file parameter to the dirty framebuffer callback
+9a170ca Merge remote branch 'intel/drm-intel-next' of ../drm-next into drm-core-next
+18ffe4b Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+73aa808 drm: Move the GTT accounting to i915
+2854eed drm/vmwgfx: Fix breakage introduced by commit "drm: block userspace under allocating buffer and having drivers overwrite it (v2)"
+39b4d07 drm: Hold the mutex when dropping the last GEM reference (v2)
+130b985 drm: i810/i830: fix locked ioctl variant
+31dfbc9 drm: Prune GEM vma entries
+45ff46c drm: readd drm_lock_free in drm_unlock
+cbff1e9 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+4417d7f drm: radeon cleanup fixes...
+d3147e8 drm: fix trivial coding errors
+0e57a3c drm: ttm sparse fixes.
+40b3be3 drivers/gpu/drm: Remove unnecessary casts of private_data
+2c35cd0 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+dc880ab drm: use noop_llseek
+b64c115 drm: fix race between driver loading and userspace open.
+930a9e2 drm: Use a nondestructive mode for output detect when polling (v2)
+7b334fc drm: Use a nondestructive mode for output detect when polling
+356ad3c drm: Only decouple the old_fb from the crtc is we call mode_set*
+551402a drm: Fix regression in disable polling e58f637
+6300d6d Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+c7ef35a drm: Do not force 1024x768 modes on unknown connectors
+cbc60ca drm: kill get_reg_ofs callback
+df8fcb0 drm: kill dev->timer
+89c3726 drm: kill agp indirection mess
+8f87919 drm: replace drawable ioctl by noops
+4ac5ec4 drm: don't export dri1 locking functions
+793a97e drm: kill drm_map_ofs callbacks
+690bb51 drm: drop return value of drm_free_agp
+a2a273c drm: don't export drm_get_drawable_info
+b3da8f7 drm: kill context_ctor callback
+fd2e793 drm: kill gem_free_object_unlocked driver callback
+23ddc02 drm: kill dma_ready callbacks
+be72ae2 drm: kill procfs callbacks
+1da3f87 drm: kill kernel_context_switch callbacks
+5950619 drm: don't export drm_sg_alloc
+06f01e7 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+08f2e66 drm: fix regression in drm locking since BKL removal.
+7521473 drm: mm: fix range restricted allocations
+5afda9e Merge remote branch 'nouveau/for-airlied' of /ssd/git/drm-nouveau-next into drm-fixes
+e3461a2 drm: export drm_global_mutex for drivers to use
+ee00557 Merge branch 'drm-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+09f0c48 drm: move dereference below check
+161c481 drm: fix end of loop test
+1b2f148 drm: block userspace under allocating buffer and having drivers overwrite it (v2)
+b9f0aee drm: stop information leak of old kernel stack.
+aa9f56b Merge branch 'drm-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+1a72d65 drm: Remove count_lock for calling lastclose() after 58474713 (v2)
+e5149cc Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+7203425 drm: expand gamma_set
+fb43964 drm: Remove unused fields from drm_display_info
+bf79cb9 drm: Use ENOENT consistently for the error return for an unmatched handle.
+817e631 drm: Only set DPMS once on the CRTC not after every encoder.
+cce13ff drm: Propagate error code from fb_create()
+c17c2f8 drm: Fix support for PCI domains
+9a919c4 drm: fix fallouts from slow-work -> wq conversion
+3b7433b Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+fc1caf6 Merge branch 'drm-core-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+9779714 Merge branch 'kms-merge' of git://git.kernel.org/pub/scm/linux/kernel/git/jwessel/linux-2.6-kgdb
+1a7aba7 drm: add KGDB/KDB support
+5837471 drm: kill BKL from common code
+3fb688f drm: Cleanup after failing to create master->unique and dev->name
+3cfc2c4 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/jikos/trivial
+ba4420c drm: move ttm global code to core drm
+7827627 Merge branch 'drm-radeon-next' of ../drm-radeon-next into drm-core-next
+e190bfe drm: Import driver for the sil164 I2C TMDS transmitter.
+6e35023 drm: Free devname along with master->unique
+ddd3d06 drm: Free the idr layers before calling idr_destroy()
+167ffc4 drm: radeon: fix sign bug
+991ea75 drm: use workqueue instead of slow-work
+f4b23cc Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+90c1efd drm: Return EBUSY if the framebuffer is unbound when flipping.
+92897b5 drm: add "auto" dithering method
+04ad327 drm: i915: use ARRAY_SIZE
+3c58141 drm: drm_edid: use ARRAY_SIZE
+bbb642f drm: radeon: check kzalloc() result
+9440106 drm: unify crtc,connector,encoder,fb debug printing
+86a1b9d drm: disable encoder rather than dpms off in drm_crtc_prepare_encoders()
+f5f05c8 drm: add PCI requirements to low-level drivers.
+78178c7 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+a907a2e Merge branch 'drm-intel-lru' into drm-testing
+db8cc27 Merge branch 'drm-platform' into drm-testing
+023eb57 drm: correctly update connector DPMS status in drm_fb_helper
+709ea97 drm: implement helper functions for scanning lru list
+d1024ce drm: sane naming for drm_mm.c
+ca31efa drm: kill dead code in drm_mm.c
+db3307a drm: kill drm_mm_node->private
+26f3751 drm: use list_for_each_entry in drm_mm.c
+b9c2c9a drm: add per-event vblank event trace points
+ac2874b drm: add vblank event trace point
+5a79395 drm: Propagate error from drm_fb_helper_init().
+1067b6c Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+ce04cc0 drm: fix typos in Linux DRM Developer's Guide
+05269a3 drm: Make sure the DRM offset matches the CPU
+4b7fb9b drm: Add __arm defines to DRM
+dcdb167 drm: Add support for platform devices to register as DRM devices
+01d73a6 drm: Remove drm_resource wrappers
+79a78dd drm/i915: Fail to load driver if KMS request without GEM
+31f4671 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+f49d273 drm: Fixes linux-next & linux-2.6 checkstack warnings:
+68adac5 drm: move radeon_fixed.h to shared drm_fixed.h header
+0ddfa7d drm: off by one in drm_edid.c
+3b9676e vga16fb, drm: vga16fb->drm handoff
+3da1f33 drm: Prefix info printk about registering panic notifier with 'drm'
+6ebc22e drivers/gpu/drm: Use kzalloc
+f405a1a drivers/gpu/drm: Use kmemdup
+0bfb824 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+88b0450 drm/radeon: Fix sparc regression in r300_scratch()
+e32ee7f drm: make sure vblank interrupts are disabled at DPMS time
+2d2ef82 drm: add initial DRM developer documentation
+186837c Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+b78315f drm: delay vblank cleanup until after driver unload
+fd632aa drm: free core gem object from driver callbacks
+1d39704 drm: extract drm_gem_object_init
+42be79e Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+b8c40d6 drm: fix build error when SYSRQ is disabled
+da58405 drm: Return ENODEV if the inode mapping changes
+7253983 drm: remove the EDID blob stored in the EDID property when it is disconnected
+b642ed0 drm: "kobject_init/kobject_add" -> "kobject_init_and_add".
+79fa9eb Merge remote branch 'korg/drm-core-next' into drm-next-stage
+eb6b6d7 Merge remote branch 'korg/drm-radeon-testing' into drm-next-stage
+de19322 Merge remote branch 'korg/drm-core-next' into drm-next-stage
+7a9f0dd drm: Add generic multipart buffer.
+76212a8 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+775c670 drm: Fix a bug in the range manager.
+9a1420d drm: switch all GEM/KMS ioctls to unlocked ioctl status.
+c3ae90c drm: introduce drm_gem_object_[handle_]unreference_unlocked
+abefedd Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+0ce907f drm/i915: Prevent use of uninitialized pointers along error path.
+5fd4df4 drm: fix regression in fb blank handling
+79b7dcb drm: EDID accept separate sync video mode
+004b350 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+ef14587 drm: change drm set mode messages as DRM_DEBUG
+70a94d6 drm: fix crtc no modes printf + typo
+0c9d2c4 Merge remote branch 'korg/drm-radeon-next' into drm-linus
+94fd163 drm: reduce WARN_ON to a printk.
+89347bb drm: Keep disabled outputs disabled after suspend / resume
+992dc9a drm: Keep disabled outputs disabled after suspend / resume
+e77cef9 drm: Avoid calling vblank function is vblank wasn't initialized
+7970e67 drm: Add eDP connector type
+2c1f189 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+90520b7 Merge branch 'drm-core-next' into drm-linus
+e6be8d9 drm: remove address mask param for drm_pci_alloc()
+e3d8aff drm/i915: Permit pinning whilst the device is 'suspended'
+9ea8d05 drm/i915: Hold struct mutex whilst pinning power context bo.
+ed8b670 drm: convert drm_ioctl to unlocked_ioctl
+3ef884b Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+99d7e48 drm: Add memory manager debug function
+a2e68e9 drm: Add search/get functions to get a block in a specific range
+b16d9ac drm: disable all the possible outputs/crtcs before entering KMS mode
+85bb0c3 drm: Export symbols needed for the vmwgfx driver.
+884840a drm: Add dirty ioctl and property
+1a95916 drm: Add compatibility #ifdefs for *BSD
+862302f drm: Add support for drm master_[set|drop] callbacks.
+7bd4d7b drm: use page flip event to signal flip completion
+23e041d Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+79cc304 drm: make sure page protections are updated after changing vm_flags
+a698cf3 drm: mm always protect change to unused_nodes with unused_lock spinlock
+7064fef drm: work around EDIDs with bad htotal/vtotal values
+7a65415 drm: set the type of the drm_framebuffer::fbdev field
+dad07ca drm: check return values in drm_version
+140a45f drm: replace DRM_COPY macro w/ a function
+156822f drm: kill more unused DRM macros
+420a457 drm: kill some unused DRM_PROC macros from drmP.h
+4a92164 drm: when queuing an event with NEXTONMISS, return queued sequence to userspace
+c9a9c5e drm: Add async event synchronization for drmWaitVblank
+cb20c28 Merge branch 'hostprogs-wmissing-prototypes' of git://git.kernel.org/pub/scm/linux/kernel/git/josh/linux-misc
+0592e4c drm: radeon: Mark several functions static in mkregtable
+4efc50d drm: when queuing an event with NEXTONMISS, return queued sequence to userspace
+7a9c906 drm: make drm_mode_object_find typesafe
+d4f452f Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+fcb4561 drm: Add the basic check for the detailed timing in EDID
+c182be3 drm: Add async event synchronization for drmWaitVblank
+f059d2a drm: Add the basic check for the detailed timing in EDID
+1c6e6d9 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+185974d drm: Delete the DRM_DEBUG_KMS in drm_mode_cursor_ioctl
+e15daf6 Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+f4e45d0 drm: fix radeon DRM warnings when !CONFIG_DEBUG_FS
+bea1d35 drm: fix drm_fb_helper warning when !CONFIG_MAGIC_SYSRQ
+31edd48 drm: create gitignore file for radeon
+44040f1 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+812c369 drm: fix _DRM_GEM addmap error message
+9b1596a drm: update crtc x/y when only fb changes
+e87b2c4 drm: fix drm_fb_helper handling of kernel crtcs
+620f378 drm: prune modes when output is disconnected.
+1ecff1e drm: shut the EDID warnings up.
+f1938cd drm: include seq_file.h for debugfs builds.
+13a8195 drm: split crtc/fb helpers into a separate module
+ed017d9 drm: fix drm_cache.c for arch with no support.
+3420e74 drm: fix two issues with fb consolidation.
+3b51096 drm: use proc_create_data()
+1ae7007 drm: dereference of tmp in drm_proc_create_files()
+a1a2d1d drm: GEM handles are u32, not int
+4dfd79e Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+08e4d53 drm: Fix sysfs device confusion.
+327c225 drm: Enable drm drivers to add drm sysfs devices.
+53bd838 drm: clarify scaling property names
+776f336 drm: fixup includes in encoder slave header files.
+453a7d4 drm: remove root requirement from DRM_IOCTL_SET_VERSION (+ DRM_IOCTL_AUTH_MAGIC)
+cfcf473 drm: fixup include file in drm_encoder_slave
+a75f023 drm: Add more standard TV properties.
+841b411 drm: Fix drm_cvt_mode() for interlaced modes.
+fb1ee45 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+8d3457e drm: silence pointless vblank warning.
+38d5487 drm: When adding probed modes, preserve duplicate mode types
+78ec75c Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+b6b7902 drm: Define some new standard TV properties.
+aeaa1ad drm: Define DRM_MODE_SUBCONNECTOR_SCART
+74bd3c2 drm: Define DRM_MODE_CONNECTOR_TV
+58367ed drm: Add the debug info in generic drm mode by using DRM_DEBUG_KMS
+f940f37 drm: Remove the macro defintion of DRM_DEBUG_MODE
+8a4c47f drm: Remove the unused prefix in DRM_DEBUG_KMS/DRIVER/MODE
+4cb72b1 drm: Catch stop possible NULL pointer reference
+7781de7 drm: Small logic fix in drm_mode_setcrtc
+78af08d Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+ecca068 drm: Move a dereference below a NULL test
+845792d drm: drm_gem, check kzalloc retval
+d25e3a6 drm: drm_debugfs, check kmalloc retval
+bb8ad28 Merge branch 'drm-intel-next' of git://git.kernel.org/pub/scm/linux/kernel/git/anholt/drm-intel
+af4fcb5 drm: Disable the unused connectors explicitly when resuming with KMS.
+987fed3 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+8b169b5 drm: remove unused #include <linux/version.h>'s
+e14cbee drm: Fix shifts which were miscalculated when converting from bitfields.
+43813f3 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+0454bea drm: EDID endianness fixes.
+89579f7 drm: Apply "Memory fragmentation from lost alignment blocks"
+9a298b2 drm: Remove memory debugging infrastructure.
+8d15b0e Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+02200d0 Driver Core: drm: add nodename for drm devices
+ba4e7d9 drm: Add the TTM GPU memory manager subsystem.
+e6c03c5 drm: Memory fragmentation from lost alignment blocks
+6b70246 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+3c24475 drm: include kernel list header file in hashtab header
+f2cb5d8 drm: Export hash table functionality.
+249d604 drm: Split out the mm declarations in a separate header. Add atomic operations.
+61f1169 drm: Eliminate magic I2C frobbing when reading EDID
+be25ed9 drm: Replace DRM_DEBUG with DRM_DEBUG_DRIVER in i915 driver
+f053185 drm: Replace DRM_DEBUG with DRM_DEBUG_MODE in drm_mode
+4fefcb2 drm: add separate drm debugging levels
+2ff2e8a drm: don't associate _DRM_DRIVER maps with a master
+b798b1f drm: simplify kcalloc() call to kzalloc().
+dcae362 drm: fix LOCK_TEST_WITH_RETURN macro
+83d6079 drm/i915: Sanity check execbuffer arguments before touching state.
+27704a1 Revert "drm: don't associate _DRM_DRIVER maps with a master"
+b63254c Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+fc43896 drm: ignore EDID with really tiny modes.
+6c51d1c drm: don't associate _DRM_DRIVER maps with a master
+c9fb15f drm: Hook up DPMS property handling in drm_crtc.c. Add drm_helper_connector_dpms.
+e36ebaf drm: set permissions on edid file to 0444
+75185c9 drm: add newlines to text sysfs files
+b8da7de drm: fix irq naming for kms drivers.
+5805977 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/jbarnes/drm-2.6
+9b6fe31 drm: Copy back ioctl data to userspace regardless of return code.
+b674137 drm: Round size of SHM maps to PAGE_SIZE
+413f81e Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+3788f48 drm: cleanup properly in drm_get_dev() failure paths
+30ddbd9 drm: clean the map list before destroying the hash table
+400138b drm: remove unreachable code in drm_sysfs.c
+59738d5 drm: add control node checks missing from kms merge
+5cab385 Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+07f1c7a drm: check for minor master before allowing drop master.
+6b00842 drm: set/clear is_master when master changed
+77d26dc drm: clean dirty memory after device release
+d9c6f54 drm: count reaches -1
+c2eb2fa Merge branch 'drm-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+7a1fb5d drm: remove unused "can_grow" parameter from drm_crtc_helper_initial_config
+b94ee65 drm: fix EDID backward compat check
+6714977 drm: sync the mode validation for INTERLACE/DBLSCAN
+16456c8 drm: fix typo in edid vendor parsing.
+522b5cc drm: fix missing inline function on 32-bit powerpc.
+1055f9d drm: Use pgprot_writecombine in GEM GTT mapping to get the right bits for !PAT.
+dfbbe89 Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+f23c20c drm: detect hdmi monitor by hdmi identifier (v3)
+dba5ed0 drm: drm_fops.c unlock missing on error path
+c972d75 drm: reorder struct drm_ioctl_desc to save space on 64 bit builds
+167f3a0 drm: read EDID extensions from monitor
+955a23eb drm: Use a little stash on the stack to avoid kmalloc in most DRM ioctls.
+90f959b drm: merge Linux master into HEAD
+db93681 Merge branch 'drm-intel-next' of git://git.kernel.org/pub/scm/linux/kernel/git/anholt/drm-intel
+ad086c8 i915/drm: Remove two redundant agp_chipset_flushes
+28a6227 drm: Convert proc files to seq_file and introduce debugfs
+2ead054 drm: struct device - replace bus_id with dev_name(), dev_set_name()
+1847a54 drm: fix warnings about new mappings in info code.
+87f0da5 drm: add DRM_READ/WRITE64 wrappers around readq/writeq.
+995e37c i915/drm: Remove two redundant agp_chipset_flushes
+955b12d drm: Convert proc files to seq_file and introduce debugfs
+09e40d6 drm: Only use DRM_IOCTL_UPDATE_DRAW compat wrapper for compat X86.
+958a6f8 drm: radeon: Fix unaligned access in r300_scratch().
+f1a2a9b drm: Preserve SHMLBA bits in hash key for _DRM_SHM mappings.
+d30333b drm: ati_pcigart: Fix limit check in drm_ati_pcigart_init().
+6abf6bb drm: radeon: Use surface for PCI GART table.
+e8a8943 drm: radeon: Fix calculation of RB_RPTR_ADDR in non-AGP case.
+b266503 drm: radeon: Fix RADEON_*_EMITED defines.
+b07fa02 drm: radeon: Fix ring_rptr accesses.
+296c6ae drm: ati_pcigart: Need to use PCI_DMA_BIDIRECTIONAL.
+5a7aad9 drm: ati_pcigart: Do not access I/O MEM space using pointer derefs.
+8e10045 drm: Drop unused and broken dri_library_name sysfs attribute.
+112b715 drm: claim PCI device when running in modesetting mode.
+41c2e75 drm: Make drm_local_map use a resource_size_t offset
+f77d390 drm: Split drm_map and drm_local_map
+d883f7f drm: Use resource_size_t for drm_get_resource_{start, len}
+ebdcc81 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+932088b Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/anholt/drm-intel
+260cf8a drm: fix EDID parser problem with positive/negative hsync/vsync
+0fce81e i915: add newline to i915_gem_object_pin failure msg
+b70d11d drm: Return EINVAL on duplicate objects in execbuffer object list
+5ad8b7d drm: fix double lock typo
+43e4070 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+fda714c drm: Avoid client deadlocks when the master disappears.
+171901d drm: Wake up all lock waiters when the master disappears.
+4d77c88 drm: Don't return ERESTARTSYS to user-space.
+c15d8a6 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+d61e738 drm: edid revision 0 is valid
+b3f5e73 drm: Correct unbalanced drm_vblank_put() during mode setting.
+7bec756 drm: disable encoders before re-routing them
+fe56cf4 drm: Fix ordering of bit fields in EDID structure leading huge vsync values.
+c8766ac drm: Fix shifts of EDID vsync offset/width fields.
+2ec77fc Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+43565a0 drm: Use spread spectrum when the bios tells us it's ok.
+a29f5ca drm: Collapse identical i8xx_clock() and i9xx_clock().
+f3cade5 drm: Bring PLL limits in sync with DDX values.
+7f9872e drm: Add locking around cursor gem operations.
+5c3b82e drm: Propagate failure from setting crtc base.
+e62fb64 drm: Check for a NULL encoder when reverting on error path
+ea39f83 drm: Release user fbs in drm_release
+8d59bae drm: Do not leak a new reference for flink() on an existing name
+3e49c4f drm: Free the object ref on error.
+ad45aa9 drm: Potential use-after-free on error path.
+a1a5c3b fbdev/drm: fix Kconfig submenu mess in "Graphics support"
+30b2363 drm: Rip out the racy, unused vblank signal code.
+832fb4a Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+1bb88ed drm: stash AGP include under the do-we-have-AGP ifdef
+4942f8b drm: don't whine about not reading EDID data
+ad2563c drm: create mode_config idr lock
+c1ff85d drm: fix leak of device mappings since multi-master changes.
+4c44323 Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+712531b drm: handle depth & bpp changes correctly
+40a518d drm: initial KMS config fixes
+c89a9f5 Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+a75f284 drm: fix ordering of driver unload vs agp unload.
+3f4b5c5 Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+fede5c9 drm: Add a debug node for vblank state.
+f51c5b6 drm: Avoid use-before-null-test on dev in drm_cleanup().
+3c4fdcf drm: pin new and unpin old buffer when setting a mode.
+dfef245 i915/drm: provide compat defines for userspace for certain struct members.
+0c7c266 drm: drop DRM_IOCTL_MODE_REPLACEFB, add+remove works just as well.
+e0c8463 drm: sanitise drm modesetting API + remove unused hotplug
+df98937 drm: fix allowing master ioctls on non-master fds.
+f890607 drm: fix useless gcc unused variable warning
+57a6297 drm: kconfig have drm core select i2c for kms
+ae14dc0 drm: PAGE_CACHE_WC is x86 only so far
+aa91c66 drm: pick an 800x600@60HZ mode by default for unknown CRT.
+a2c0a97 drm: GEM mmap support
+a9d51a5 drm: reorganise start and load.
+1147c9c drm: fix leak of uninitialized data to userspace
+7c1c287 drm: move to kref per-master structures.
+e7f7ab4 drm: cleanup exit path for module unload
+8639dad Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+5244021 drm: move drm vblank initialization/cleanup to driver load/unload
+eda1be6 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+5d8e6bb drm: Remove infrastructure for supporting i915's vblank swapping.
+70740d6 Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+7e78f72 drm: Avoid oops in DRM_IOCTL_RM_DRAW if a bad handle is supplied.
+4956887 drm: Add 32-bit compatibility for DRM_IOCTL_UPDATE_DRAW.
+35ad68c drm: Remove two leaks of vblank reference count in error paths.
+786225e drm: fix leak of cliprects in drm_rmdraw()
+8638427 drm: Set cliprects to NULL when changing drawable to having 0 cliprects.
+f7ea4a4 Merge branch 'drm-next' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+9e0b97e drm: make CONFIG_DRM depend on CONFIG_SHMEM.
+630681d drm: Increment dev_priv->irq_received so i915_gem_interrupts count works.
+9bfbd5c drm: kill drm_device->irq
+e0f0754 drm: wbinvd is cache coherent.
+3043c60 drm: Clean up many sparse warnings in i915.
+bd88ee4 drm: Use ioremap_wc in i915_driver instead of ioremap, since we always want WC.
+28af0a2 drm: G33-class hardware has a newer 965-style MCH (no DCC register).
+4f481ed drm: Avoid oops in GEM execbuffers with bad arguments.
+673a394 drm: Add GEM ("graphics execution manager") to i915 driver.
+0a3e67a drm: Rework vblank-wait handling to allow interrupt reduction.
+38eda21 drm: fix sysfs error path.
+ddb7f4c drm: remove #define's for non-linux systems
+2caf959 Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+3e5fc80 drm: don't set the signal blocker on the master process.
+e5b4f19 drm: don't call the vblank tasklet with irqs disabled.
+0e1451d drm: make drm_minors_cleanup() static
+c142bda Merge branch 'drm-reorg' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+c0e0920 drm: reorganise drm tree to be more future proof.
+70ffa16 drm: cdev lock_kernel() pushdown
+9aef85c Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+858a368 drm: only trust core drm ioctls - driver ioctls are a mess.
+7ec700f drm: pcigart use proper pci map interfaces.
+b554305 drm: the sg alloc ioctl should write back the handle to userspace
+41ee2ff drm: use drms ioctl cmd not what we get passed from userspace.
+860da5e Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+f116cc5 drm: disable tasklets not IRQs when taking the drm lock spinlock
+4d9c55e Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+b74e208 drm: _end is shadowing real _end, just rename it.
+2c14f28 drm: reorganise minor number handling using backported modesetting code.
+f1c3e67 drm: Remove unneeded dma sync in ATI pcigart alloc
+5ff6461 drm: Fix mismerge of non-coherent DMA patch
+f698f1f Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+6876b3b drm: fix for non-coherent DMA PowerPC
+2b46278 drm: radeon: fix sparse integer as NULL pointer warnings in radeon_mem.c
+ff69c00 Merge branch 'drm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+9df5808 drm: Fix race that can lockup the kernel
+3a93dc4 Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+f9e9716 drm: add new rv380 pciid
+b932ccb drm: add support for passing state into the suspend hooks.
+ca0b07d drm: convert drm from nopage to fault.
+d31d295 Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+3d5e2c1 drm: add initial r500 drm support
+9d5b3ff drm: fixup some of the ioctl function exit paths
+19a8f59a drm: the drm really should call pci_set_master..
+3e684ea drm: cleanup DRM_DEBUG() parameters
+d5b0d1b drm: don't cast a pointer to pointer of list_head
+e3236a1 drm: add _DRM_DRIVER flag, and re-order unload.
+77e27e9 drm: enable udev node creation
+b018fcd drm: Make DRM_IOCTL_GET_CLIENT return EINVAL when it can't find client #idx.
+3260f9f drm: move drm_mem_init to proper place in startup sequence
+2716a02 drm: call driver load function after initialising AGP
+7ffa05e drm: Fix ioc32 compat layer
+47a184a drm: fd.o bug #11895: Only add the AGP base to map offset if the caller didn't.
+e8b962b drm: update DRM sysfs support
+8b40958 drm: Initialize the AGP structure's base address at init rather than enable.
+ded2335 drm: move two function extern into the correct block
+bc5f452 drm: run cleanfile across drm tree
+8562b3f drm: some minor cleanups and changes to make memory manager merging easier.
+2658770 Merge branch 'drm-patches' of master.kernel.org:/pub/scm/linux/kernel/git/airlied/drm-2.6
+246a3d1 drm: DRM: fix memset size error
+747824c drm: remove remnants of DRM_COPY_FROM/TO_USER_IOCTL
+f9618ac drm: remove second forward decleration of drm device struct.
+13626cb Merge branch 'drm-patches' of ssh://master.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+c153f45 drm: Replace DRM_IOCTL_ARGS with (dev, data, file_priv) and remove DRM_DEVICE.
+b589ee5 drm: remove XFREE86_VERSION macros.
+6c340ea drm: Replace filp in ioctl arguments with drm_file *file_priv.
+20caafa drm: Remove DRM_ERR OS macro.
+6869ce1 Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+0769d39 drm: ioremap return value checks
+ae6f4a8 Merge branch 'drm-patches' of ssh://master.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+45ea5dcd drm: add idr_init to drm_stub.c
+cca5307 drm: fix problem with SiS typedef with sisfb enabled.
+a5fcaa2 Merge branch 'drm-patches' of ssh://master.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+d4e2cbe drm: convert drawable code to using idr
+6296814 drm: convert drm context code to use Linux idr
+c2dc1ad Merge branch 'drm-patches' of ssh://master.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+ff4135a drm: remove core typedefs from the ioc32 wrappers
+bd63cb5 drm: remove sarea typedefs
+e0be428 drm: detypedef the hashtab and more of sman
+9698b4d drm: de-typedef sman
+5591051 drm: detypedeffing continues...
+cdd55a2 drm: detypef waitlist/freelist/buf_entry/device_dma/drm_queue structs
+8fc2fdf drm: drop drm_vma_entry_t, drm_magic_entry_t
+056219e drm: drop drm_buf_t typedef
+eddca55 drm: fixup other drivers for typedef removals
+84b1fd1 drm: remove drm_file_t, drm_device_t and drm_head_t typedefs
+c60ce62 drm: remove a bunch of typedefs on the userspace interface
+7c158ac drm: cleanup list initialisation
+6f71010 drm: fix typo on code drm getsarea
+da509d7 drm: remove DRM_GETSAREA and replace with drm_getsarea function
+bd1b331 drm: cleanup use of Linux list handling macros
+21c562e Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+9b01bd5 drm: fix radeon setparam on 32/64 bit systems.
+ad360bb Merge branch 'drm-patches' of ssh://master.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+c4814f9 drm: make sure the drawable code doesn't call malloc(0).
+a6399bd drm: Spinlock initializer cleanup
+5335a40 Merge branch 'drm-patches' of master.kernel.org:/pub/scm/linux/kernel/git/airlied/drm-2.6
+bc07dc7 drm: remove old taskqueue remnant
+0515b93 drm: rename badly named define and cleanup ioctl code spacing
+5f757f9 Merge branch 'drm-patches' of master.kernel.org:/pub/scm/linux/kernel/git/airlied/drm-2.6
+9e9c132 drm: just use io_remap_pfn_range on all archs..
+3831587 drm: fix DRM_CONSISTENT mapping
+d7d8aac drm: fix up mmap locking in preparation for ttm changes
+040ac32 drm: fix driver deadlock with AIGLX and reclaim_buffers_locked
+4b560fd drm: fix warning in drm_fops.c
+99da6d8 drm: allow for more generic drm ioctls
+6244270 drm: fix alpha domain handling
+0bead7c drm: make drm_io_prot static.
+5379397 drm: remove via_mm.h
+c1185cc drm: add missing NULL assignment
+cd839d0 drm: port over use_vmalloc code from git hashtab
+11d9c2f drm: fix crash with fops lock and fixup sarea/page size locking
+54ba2f7 drm: bring bufs code from git tree.
+5cc7f9a drm: move protection stuff into separate function
+8311d57 drm: Use ARRAY_SIZE macro when appropriate
+f54d1e4 drm: update README.drm (bugzilla #7933)
+41ed5de drm: remove unused exports
+0c0e8ca Merge branch 'drm-patches' of master.kernel.org:/pub/scm/linux/kernel/git/airlied/drm-2.6
+1545085 drm: Allow for 44 bit user-tokens (or drm_file offsets)
+1d58420 drm: update core memory manager from git drm tree
+004a772 drm: remove drm_ioremap and drm_ioremapfree
+f239b7b drm: use vmalloc_user instead of vmalloc_32 for DRM_SHM
+ee2fae0 Merge branch 'drm-patches' of master.kernel.org:/pub/scm/linux/kernel/git/airlied/drm-2.6
+f9841a8 drm: Stop defining pci_pretty_name
+83a9e29 drm: r128: comment aligment with drm git
+0c4dd90 drm: make kernel context switch same as for drm git tree.
+94bb598 drm: fixup comment header style
+183b4ae drm: savage: compat fix from drm git.
+1d6bb8e drm: Unify radeon offset checking.
+94f060b drm: fix return value check
+9b3a89f Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+3417f33 drm: add flag for mapping PCI DMA buffers read-only.
+5c2df2b drm: fix up irqflags in drm_lock.c
+2228ed6 drm: i915 updates
+a0b136b drm: i915: fix up irqflags arg
+21fa60e drm: i915: Only return EBUSY after we've established we need to schedule a new swap.
+2dbb232 drm: i915: Fix 'sequence has passed' condition in i915_vblank_swap().
+376642c drm: i915: Add SAREA fileds for determining which pipe to sync window buffer swaps to.
+5b51694 drm: Make handling of dev_priv->vblank_pipe more robust.
+541f29a drm: DRM_I915_VBLANK_SWAP ioctl: Take drm_vblank_seq_type_t instead
+a6b54f3 drm: i915: Add ioctl for scheduling buffer swaps at vertical blanks.
+049b323 drm: Core vsync: Don't clobber target sequence number when scheduling signal.
+ab285d7 drm: Core vsync: Add flag DRM_VBLANK_NEXTONMISS.
+8163e41 drm: Make locked tasklet handling more robust.
+507c018 drm: drm_rmdraw: Declare id and idx as signed so testing for < 0 works as intended.
+cdec2f8 drm: Change first valid DRM drawable ID to be 1 instead of 0.
+b03ed6f drm: drawable locking + memory management fixes + copyright
+2e54a00 drm: Add support for interrupt triggered driver callback with lock held to DRM core.
+bea5679 drm: Add support for tracking drawable information to core
+68815ba drm: add support for secondary vertical blank interrupt to i915
+776c944 drm: add support for secondary vertical blank interrupt to DRM core
+82b6c3a Merge branch 'drm-patches' of master.kernel.org:/pub/scm/linux/kernel/git/airlied/drm-2.6
+85abb3f drm: ioremap balanced with iounmap for drivers/char/drm
+24f73c9 drm: fix error returns, sysfs error handling
+958de71 drm: mga: set dev_priv_size
+10eee0f drm: savage: dev->agp_buffer_map is not initialized for AGP DMA on savages
+a1aa289 drm: radeon: only allow specific type-3 packetss through verifier
+e823aff Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+3e14a28 drm: Use register writes instead of BITBLT_MULTI packets for buffer swap blits
+54a56ac drm: use radeon specific names for radeon flags
+2f02cc3 drm: add device/vendor id to drm_device_t for compat with FreeBSD drivers
+e08870c drm: allow multiple addMaps with the same 32-bit map offsset.
+214ff13 drm: fd.o Bug #7595: Avoid u32 overflows in radeon_check_and_fixup_offset().
+47cc140 drm: Fix hashtab implementation leaking illegal error codes to user space.
+9b1a51b drm: domain changes broke ppc r200
+1f27ce6 drm: fixup setversion return codes..
+46acbf1 drm: fixup i915 error codes
+b15ec36 drm: realign sosme radeon code with drm git tree
+d40c853 drm: realign via driver with drm git tree
+1f4eccf drm: remove hash tables on drm exit
+fb41e54 drm: cleanups
+c7aed17 drm: i810_dma.c: fix pointer arithmetic for 64-bit target
+0a0c721 drm: avoid kernel oops in some error paths calling drm_lastclose
+bd5af07 drm: allow detection of new VIA chipsets
+78eca43 drm: fix i965 build bug
+a1d0fcf drm: remove FALSE/TRUE that snuck in with simple memory manager changes.
+c29b669 drm: Add support for Intel i965G chipsets.
+d000b48 drm: add better explanation for i830/i915
+c2604ce drm: remove a tab that snuck in
+572225b drm: fix return value in auth function
+7981bf7 drm: SiS 315 Awareness.
+8d153f7 drm: update user token hashing and map handles
+8669cbc drm: move drm authentication to new generic hash table.
+3d45dbd drm: Add the P4VM800PRO (?) PCI ID.
+ce65a44 drm: add drm simple memory manager support for SiS and VIA drivers
+3a1bd92 drm: add simple DRM memory manager, and hash table
+b9b603d drm: radeon: Use RADEON_RB3D_DSTCACHE_CTLSTAT instead of RADEON_RB2D_DSTCACHE_CTLSTAT.
+ae1b1a48 drm: radeon: fix up bus mastering when writeback is disabled
+8624ecb drm: radeon: implement RADEON_PARAM_SCRATCH_OFFSET getparam
+9ca9416 drm: radeon: add some debug output when getparam is called with unknown
+7a3f1f2 drm: missing mutex unlock
+33229601 drm: remove the DRM pci domain
+242ef0e drm: remove local copies of pci bus/slot/func
+3d77461 drm: cleanup old compat code and DRM fns from Linux only code
+18f2905 [PATCH] drm: radeon flush TCL VAP for vertex program enable/disable
+935f6e3 [PATCH] irq-flags: drivers/drm: Use the new IRQF_ constants
+abb1cf3 Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+c499aeb drm: radeon constify radeon microcode
+d6fece0 drm: update radeon to 1.25 add r200 vertex program support
+f2a2279 drm: radeon add a tcl state flush before accessing tcl vector space
+950709a Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+5d23faf drm: possible cleanups
+caa98c4 drm: fixup r300 scratch on BE machines
+ac69e97 Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+d253258 drm: Fix further issues in drivers/char/drm/via_irq.c
+31f64bd drm: deline a few large inlines in DRM code
+11bab7d drm: remove master setting from add/remove context
+195b3a2 drm: drm_pci needs dma-mapping.h
+86678df [PATCH] drm: Fix issue reported by Coverity in drivers/char/drm/via_irq.c
+63e8d91 Merge branch 'drm-patches' of git://git.kernel.org/pub/scm/linux/kernel/git/airlied/drm-2.6
+55eb061 drm: remove drm_{alloc,free}_pages
+d2b58b5 drm: sis fix compile warning
+f3dd5c3 drm: add new radeon PCI ids..
+6e5fca5 drm: read breadcrumb in IRQ handler
+e7f947b drm: fixup i915 breadcrumb read/write
+2fab58d drm:  remove pointless checks in radeon_state
+f15e92d drm: fixup improper cast.
+dfab115 drm: rationalise some pci ids
+ee4621f drm: Add general-purpose packet for manipulating scratch registers (r300)
+d5ea702 drm: rework radeon memory map (radeon 1.23)
+45f1710 drm: update r300 register names
+ddf19b9 drm: fixup PCI DMA support
+73d72cf drm: fix brace placement
+4e5e2e2 drm: radeon add r300 TX_CNTL and verify bitblt packets
+91e3738 drm: fixup i915 interrupt on X server exit
+ce60fe0 drm: drivers/char/drm/: make some functions static
+339363c drm: Fixes sparse warnings in via_dmablit.c
+de227f5 drm: i915 patches from Tungsten Graphics
+507d256 drm: ati_pcigart: simplify page_count manipulations
+f1e5c03 drm: use NULL instead of 0 From: Randy Dunlap <rdunlap@xenotime.net>
+2fed3bd drm: add X600 PCI IDs
+5457f38 drm: add i945GM PCI ID
+d59cc22 drm: Fix sparce warning in radeon driver
+9c7d462 drm: fix issues with systems with no MTRR
+aab8df1 drm: cleanup properly on drm module unload
+8d2ea62 drm: fixup drm bufs being just under the EOM
+f8e0f29 drm: fix radeon warnings on 64-bit
+2185200 drm: fix warning on alpha
+4e4c62b drm: remove is_pci flag completely...
+97f2aab drm: merge in Linus mainline
+d985c10 drm: major update from CVS for radeon and core
+b0cae66 drm: update drm pci ids list
+fe34765 drm: drm_ioctl.c sync with fixes from CVS
+b3a80a2 drm: update lock flags from userspace
+0d6aa60 drm: update to i915 1.3.0
+f0c408b drm: update drm_memory_debug.h
+1e7d519 drm: proper fix for drm_context
+b5e9fc1 drm: fix issue with contexts running out of RAM
+f26c473 drm: update PCIGART support from CVS
+0a40687 drm: remove old reclaim_buffers from ix0 drivers
+269dc51 drm: bring savage inline with latest CVS
+3528af1 drm: fix a LOR issue on FreeBSD for savage driver
+952d751 drm: bring sis + tdfx up to latest CVS
+443448d drm: via driver update to CVS version
+a7a2cc3 drm: move ioctl flags to a bit field of flags
+ee219e5 [PATCH] radeon drm: fix compilation breakage with gcc 2.95.3
+281ab03 [PATCH] radeon drm: fix agp aperture map offset
+cf65f16 drm: fix quiescent locking
+7655f49 drm: move is_pci to the end of the structure
+c41f471 drm: add __GFP_COMP to the drm_alloc_pages
+9251424 drm: update VIA driver to 2.7.2
+792d2b9 drm: drop mtrr from i915
+7ccf800 drm: update mga driver for new bootstrap code
+c0be4d2 drm: remove exports that modules shouldn't use.
+efa5839 drm: add in-kernel entry points for rest of AGP ioctls
+732052e drm: simplify sysfs code for drm
+e96e33e drm: fixup drm_proc.c struct table
+61d0416 drm: remove old backwards compatibilty stuff
+8f5f39f drm: remove drm_flush
+7052cff drm: cleanup via_ds.c includes
+9d61601 drm: remove remnamt of old DRM code from tdfx
+3f9df54 drm: remove drm_init.c it is no longer needed
+22eae94 drm: rename driver hooks more understandably
+a4e62fa drm: remove unused components of drm structures
+67e1a01 drm: fix warning on 64-bit platforms..
+e29971f [PATCH] drm: another mga bug
+3d5efad drm: fix drm PCIGART
+b3a8363 drm: fix all sparse warning on 32-bit x86
+689b9d7 drm: add option to force writeback off.
+b6ce156 drm: fix some lindent damage
+13e4a9c drm: cast handle to a pointer to avoid warning
+b5e89ed drm: lindent the drm directory.
+99a2657 drm: use kernel macros
+ea98a92 drm: add radeon PCI express support
+9d17601 drm: update radeon driver to 1.18
+70dfcfe drm: missing drm_vm.c changes for consistent maps
+908f9c4 drm: fix MGA on non AGP systems
+f210973 drm: small cleanups
+89625eb drm: fix issue with handle lookup for a 0 handle
+7a9aff3 drm: fix a bad VERSION check.
+88f399c drm: fixes for powerpc
+ffbbf7a drm: add new texture upload code from r300 project
+c8b432d drm: update pci ids for savage and via
+414ed53 drm: add initial r300 3D support.
+282a167 drm: add savage driver
+d27c9b5 drm: remove version.h and any version checks..
+aa0ca6b drm: fix warning in drm_pci.c
+1fad994 drm: remove the gamma driver
+db21532 drm: switch drm_handle_t to unsigned int
+d1f2b55 drm: updated DRM map patch for 32/64 bit systems
+c73681e drm: copy the right data back to userspace for getreserved contexts ioctl
+24d1094 drm: fix ioctl direction in r128 getparam
+bbaf364 [PATCH] drm: via: fix sparse warnings
+836cf04 drm: cleanup buffer/map code
+d01cff4 drm: add mga driver callbacks
+b5d499c drm: make drm_alloc_agp take a dev arg.
+93f453f drm: add new mga ids and types
+cda1738 drm: add test for AGP devices and driver override for it.
+ceb9c27 drm: destatic exported function.
+d84f76d drm: export symbols for use by drivers
+aff138a drm: fix minor function header issue
+7ab9840 drm: update some function so a driver can call them
+9c8da5e drm: update support for drm pci buffers
+b84397d6 drm: add framebuffer maps
+2d0f9ea drm: add _DRM_CONSISTENT map type
+f179bc7 drm: fix stupid missing semicolon.
+8ca7c1d drm: add 32/64 support for MGA/R128/i915
+850eb83 drm: wrap config.h include in a ifdef KERNEL
+c94f702 drm: misc cleanup
+b952324 drm: use kcalloc now that it is available..
+f650130 drm: ctx release can happen before dev->ctxlist is allocated
+0c7b525 drm: fix minor issues caused by core conversion
+22f579c drm: Add via unichrome support
+6921e33 drm: fix radeon irq properly
+9a18664 drm: 32/64-bit DRM ioctl compatibility patch
+41aac24 [PATCH] r128_state.c: break missing in switch statement

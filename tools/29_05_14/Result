@@ -1,0 +1,81 @@
+ Commit  == aceb365 drm/i915/vlv: Update the DSI ULPS entry/exit sequence and Commit lenght is 31 
+ Commit  == 1860268 drm: fix permissions on drm_drv.c and Commit lenght is 0 
+ Commit  == 1539fb9 drm: fix NULL pointer access by wrong ioctl and Commit lenght is 5 
+ Commit  == e6934ab Merge tag 'staging-3.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging and Commit lenght is 0 
+ Commit  == c026a3f imx-drm: parallel-display: Fix DPMS default state. and Commit lenght is 9 
+ Commit  == fb54918 drm: fix uninitialized acquire_ctx fields (v2) and Commit lenght is 3 
+ Commit  == f95aeb1 drm: Remove DRM_ARRAY_SIZE() for ARRAY_SIZE() and Commit lenght is 80 
+ Commit  == 10d9b4e drm: Remove spurious ';' and Commit lenght is 30 
+ Commit  == 6c8a02b Merge tag 'drm/tegra/for-3.16-rc1' of git://anongit.freedesktop.org/tegra/linux into drm-next and Commit lenght is 0 
+ Commit  == ecb889e Merge tag 'drm-intel-fixes-2014-06-06' of git://anongit.freedesktop.org/drm-intel into drm-next and Commit lenght is 0 
+ Commit  == b528ae7 drm: Document how to register devices without struct drm_bus and Commit lenght is 28 
+ Commit  == c6a1af8a drm: Add device registration documentation and Commit lenght is 157 
+ Commit  == ca8e2ad drm: Introduce drm_dev_set_unique() and Commit lenght is 58 
+ Commit  == c7560f1 drm: Fix getconnector connection_mutex locking and Commit lenght is 6 
+ Commit  == 832fd39 drm: Fix getconnector connection_mutex locking and Commit lenght is 6 
+ Commit  == 7f994f3 drm: Check CRTC compatibility in setplane and Commit lenght is 17 
+ Commit  == 5ea1f75 drm: add drm_fb_helper_restore_fbdev_mode_unlocked() and Commit lenght is 117 
+ Commit  == 51fd371 drm: convert crtc and connection_mutex to ww_mutex (v5) and Commit lenght is 660 
+ Commit  == 885ae1c Merge tag 'topic/core-stuff-2014-06-02' of git://anongit.freedesktop.org/drm-intel into drm-next and Commit lenght is 0 
+ Commit  == 04381b9 drm: Move plane helpers into drm_kms_helper.ko and Commit lenght is 17 
+ Commit  == 6e9f798 drm: Split connection_mutex out of mode_config.mutex (v3) and Commit lenght is 107 
+ Commit  == 8291272 drm: spiff out FB refcnting traces and Commit lenght is 8 
+ Commit  == ebc44cf drm: add signed-range property type and Commit lenght is 64 
+ Commit  == 98f75de drm: add object property type and Commit lenght is 73 
+ Commit  == 5ea22f2 drm: add extended property types and Commit lenght is 62 
+ Commit  == a2b34e2 drm: helpers to find mode objects and Commit lenght is 127 
+ Commit  == d5ab2b4 drm: drop drm_get_connector_name() and drm_get_encoder_name() and Commit lenght is 26 
+ Commit  == 83a8cfd drm: replace drm_get_encoder_name() with direct name field use and Commit lenght is 8 
+ Commit  == 2593382 drm: replace drm_get_connector_name() with direct name field use and Commit lenght is 70 
+ Commit  == 4634064 imx-drm: imx-tve: remove unused variable and Commit lenght is 3 
+ Commit  == 7927096 drm: Missed clflushopt in drm_clflush_virt_range and Commit lenght is 4 
+ Commit  == 182407a drm: add DP MST encoder type and Commit lenght is 6 
+ Commit  == e574894 drm: store encoder name in encoder struct and Commit lenght is 37 
+ Commit  == 2abdd31 drm: store connector name in connector struct (v2) and Commit lenght is 42 
+ Commit  == 6c6a399 Documentation: drm: describing drm properties exposed by various drivers and Commit lenght is 851 
+ Commit  == 4cbe1bfa drm: Add 800x600 (SVGA) screen resolution to the built-in EDIDs and Commit lenght is 109 
+ Commit  == b5e6c1d drm: fix typo and Commit lenght is 4 
+ Commit  == 8edffbb drm/doc: Discourage usage of MODESET_CTL ioctl and Commit lenght is 14 
+ Commit  == f275228 drm: Add drm_vblank_on() and Commit lenght is 87 
+ Commit  == 3212a22 drm: Make blocking vblank wait return when the vblank interrupts get disabled and Commit lenght is 3 
+ Commit  == e69595c drm: Make the vblank disable timer per-crtc and Commit lenght is 48 
+ Commit  == 97cbc88 drm: Use correct spinlock flavor in drm_vblank_get() and Commit lenght is 8 
+ Commit  == 425a9a3 Merge tag 'topic/core-stuff-2014-05-05' of git://anongit.freedesktop.org/drm-intel into drm-next and Commit lenght is 0 
+ Commit  == ad22279 drm: fix memory leak around mode_group (v2) and Commit lenght is 14 
+ Commit  == 444c9a0 Merge branch 'drm-init-cleanup' of git://people.freedesktop.org/~danvet/drm into drm-next and Commit lenght is 0 
+ Commit  == 7e9ab40 Merge branch 'drm-coverity-fixes' of git://people.freedesktop.org/~danvet/drm into drm-next and Commit lenght is 0 
+ Commit  == 2c9b25c drm: qxl: Remove unused device pointer and Commit lenght is 8 
+ Commit  == b87577b drm: try harder to avoid regression when merging mode bits and Commit lenght is 95 
+ Commit  == a74591d drm: Make drm_crtc_helper_disable() return void and Commit lenght is 9 
+ Commit  == afe0f69 drm: Fix indentation of closing brace and Commit lenght is 4 
+ Commit  == 73dbd77 drm: Fixup flip-work kerneldoc and Commit lenght is 3 
+ Commit  == b77f076 drm: Try to acquire modeset lock on panic or sysrq and Commit lenght is 13 
+ Commit  == 1dcc0ce drm: remove unused argument from drm_open_helper and Commit lenght is 11 
+ Commit  == 1e6d486 imx-drm: ipu-dc: disable DC module when not in use and Commit lenght is 30 
+ Commit  == c115edb imx-drm: ipuv3-crtc: change display enable/disable order and Commit lenght is 12 
+ Commit  == 285bbb0 imx-drm: ipu-dp: split disabling the DP foreground channel from disabling the DP module and Commit lenght is 80 
+ Commit  == 1dee9a9 imx-drm: ipu-dc: wait for DC_FC_1 / DP_SF_END interrupt and Commit lenght is 73 
+ Commit  == 4734866 imx-drm: ipu-dmfc: wait for FIFOs to run empty before disabling and Commit lenght is 27 
+ Commit  == 1707550 imx-drm: ipu-common: add helpers to check for a busy IDMAC channel and to busywait for an interrupt and Commit lenght is 29 
+ Commit  == 861a50c imx-drm: ipu-common: add ipu_map_irq to request non-IDMAC interrupts and Commit lenght is 24 
+ Commit  == 85de9d1 imx-drm: match ipu_di_signal_cfg's clk_pol with its description. and Commit lenght is 8 
+ Commit  == 838201a Staging: imx-drm: Fix some lines over 80 characters and Commit lenght is 13 
+ Commit  == 98dbead imx-drm: fix hdmi hotplug detection initial state and Commit lenght is 11 
+ Commit  == 60d857b imx-drm: imx-drm-core: Fix imx_drm_encoder_get_mux_id and Commit lenght is 4 
+ Commit  == 0e6bcf3 staging: imx-drm: imx-hdmi: clean up hdmi_phy_wait_i2c_done and Commit lenght is 9 
+ Commit  == 9e74d29 staging: imx-drm: add LVDS666 support for parallel display and Commit lenght is 18 
+ Commit  == 731cce4 drm: Handle ->disable_plane failures correctly and Commit lenght is 16 
+ Commit  == 0fe27f0 drm: Simplify fb refcounting rules around ->update_plane and Commit lenght is 27 
+ Commit  == f932277 drm: Remove dev->kdriver and Commit lenght is 16 
+ Commit  == 9de1b51f drm: remove drm_bus->get_name and Commit lenght is 36 
+ Commit  == 5829d18 drm: rip out dev->devname and Commit lenght is 77 
+ Commit  == 53bf2a2 drm: inline drm_pci_set_unique and Commit lenght is 35 
+ Commit  == b2a21aa drm: remove bus->get_irq implementations and Commit lenght is 27 
+ Commit  == bb0f1b5 drm: pass the irq explicitly to drm_irq_install and Commit lenght is 77 
+ Commit  == 2177a21 drm: rename dev->count_lock to dev->buf_lock and Commit lenght is 42 
+ Commit  == fc8fd40 drm: Rip out totally bogus vga_switcheroo->can_switch locking and Commit lenght is 43 
+ Commit  == 10e6856 drm: Fix error handling in drm_master_create and Commit lenght is 7 
+ Commit  == 42b2104 drm: kill drm_bus->bus_type and Commit lenght is 20 
+ Commit  == ebfa432 drm: remove drm_dev_to_irq from drivers and Commit lenght is 26 
+ Commit  == f9b0e25 drm: make mode_valid callback optional and Commit lenght is 126 
+ Commit  == c2d1535 drm: Make drm_clflush_virt_range() void* and Commit lenght is 10 

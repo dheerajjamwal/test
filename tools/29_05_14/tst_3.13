@@ -1,0 +1,3 @@
+120ecfe drm/i915: Undo gtt scratch pte unmapping again
+2d111d8 drm/i915: Disable stolen memory when DMAR is active
+b52bcdd drm/i915: Don't enable display error interrupts from the start

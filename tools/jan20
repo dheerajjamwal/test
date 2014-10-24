@@ -1,0 +1,62 @@
+1fac1fa Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+8ee661b drm/i915: Undo gtt scratch pte unmapping again
+08edb33 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+55ae26b Merge tag 'drm-intel-fixes-2014-03-19' of git://anongit.freedesktop.org/drm-intel into drm-fixes
+0f4706d drm/i915: Disable stolen memory when DMAR is active
+8259383 Revert "drm/i915: don't touch the VDD when disabling the panel"
+2182127 Merge tag 'drm-intel-fixes-2014-03-17' of git://anongit.freedesktop.org/drm-intel into drm-fixes
+5c673b6 drm/i915: Don't enable display error interrupts from the start
+2430262 drm/i915: Fix scanline counter fixup on BDW
+fcb8182 drm/i915: Add a workaround for HSW scanline counter weirdness
+3bf7706 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+24bd9bf drm/i915: Fix PSR programming
+6d7c2a6 Merge tag 'drm-intel-fixes-2014-03-04' of ssh://git.freedesktop.org/git/drm-intel into drm-fixes
+6375b76 drm/i915: Reject >165MHz modes w/ DVI monitors
+d9d8208 drm/i915: fix assert_cursor on BDW
+17b0c1f drm/i915: vlv: reserve GT power context early
+bcdb72a drm/i915: fix pch pci device enumeration
+3617dc9 drm/i915: Resolving the memory region conflict for Stolen area
+b6ab66a drm/i915: use backlight legacy combination mode also for i915gm/i945gm
+42738c2 Merge tag 'drm-intel-fixes-2014-02-14' of ssh://git.freedesktop.org/git/drm-intel into drm-fixes
+f51a44b drm/i915/dp: add native aux defer retry limit
+04eada2 drm/i915/dp: increase native aux defer retry timeout
+641f832 Merge branch 'drm-fixes' of git://people.freedesktop.org/~airlied/linux
+da89486 Merge tag 'drm-intel-fixes-2014-02-11' of ssh://git.freedesktop.org/git/drm-intel into drm-next
+f66fab8 drm/i915: Prevent MI_DISPLAY_FLIP straddling two cachelines on IVB
+753b1ad drm/i915: Add intel_ring_cachline_align()
+1d2cb9a drm/i915: Pair va_copy with va_end in i915_error_vprintf
+a2d213d drm/i915: Fix intel_pipe_to_cpu_transcoder for UMS
+379dd27 Merge tag 'drm-intel-fixes-2014-02-06' of ssh://git.freedesktop.org/git/drm-intel into drm-next
+4e6b788 drm/i915: Disable dp aux irq on g4x
+bdde5c6 drm/i915: demote opregion excessive timeout WARN_ONCE to DRM_INFO_ONCE
+89258a9 MAINTAINERS: Update drm/i915 git repo
+2cac613 drm/i915: vlv: fix DP PHY lockup due to invalid PP sequencer setup
+9b0cd30 Merge branch 'drm-next' of git://people.freedesktop.org/~airlied/linux
+9f03740 Btrfs: fix infinite path build loops in incremental send
+45ab1e0 Merge tag 'drm/for-3.14-rc1-20140123' of git://anongit.freedesktop.org/tegra/linux into drm-next
+821b4db Merge tag 'drm-intel-fixes-2014-01-28' of git://people.freedesktop.org/~danvet/drm-intel into drm-next
+ec14ba4 drm/i915: Fix the offset issue for the stolen GEM objects
+372fbb8 drm/i915: Decouple GPU error reporting from ring initialisation
+22accca i915: remove pm_qos request on error
+85ba7b7 Revert "drm/i915: Mask reserved bits in display/sprite address registers"
+232a6ee drm/i915: VLV2 - Fix hotplug detect bits
+4318101 drm/i915: Allow reading the TIMESTAMP register on Gen8.
+74e21ac drm/i915: Repeat evictions whilst pageflip completions are outstanding
+5dce5b93 drm/i915: Wait for completion of pending flips when starved of fences
+2e82a72 drm/i915: don't disable DP port after a failed link training
+5d6a111 drm/i915: don't disable the DP port if the link is lost
+dc5a436 drm/i915: Eliminate lots of WARNs when there's no backlight present
+bfbdb42 drm/i915: g4x/vlv: fix dp aux interrupt mask
+1d62bee drm/i915/ppgtt: Defer request freeing on reset
+1fb2362 i915: send D1 opregion notification
+babb190 drm/i915/bdw: remove preliminary_hw_support flag from BDW
+8664850 drm/i915: Tune down reset_stat output from ERROR to debug
+fae0ce1 drm/i915: Make semaphore modparam RO
+f0a9f74 drm/i915: Fix disabled semaphores
+8b78f0e drm/i915: Clarify relocation errnos
+c3d19d3 drm/i915: Spelling s/auxilliary/auxiliary/
+f5395ba Merge branch 'drm-vbl-timestamp' of git://gitorious.org/vsyrjala/linux into drm-next
+6ab11a2 drm/gem: Always initialize the gem object in object_init
+095163b drm/i915: Add a kludge for DSL incrementing too late and ISR not working
+8072bfa drm/radeon: Move the early vblank IRQ fixup to radeon_get_crtc_scanoutpos()
+c0ae24c drm: Fix vblank timestamping constants for interlaced modes

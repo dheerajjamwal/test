@@ -1,0 +1,8 @@
+#!/bin/bash
+while read line
+do
+#echo -e "$line \n"; 
+str="ls $line";
+echo $str
+
+done < file
